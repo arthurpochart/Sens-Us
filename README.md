@@ -1,3 +1,4 @@
 # Sens-Us
 
-Contributeurs: Alban de Bentzeman, Arthur Pochart, Gauthier Itart, Juilen Doffre
+Contributeurs: Alban de Bentzmann, Arthur Pochart, Gauthier Itart-Longueville, Julien Dorffer, Antoine Monteil
+

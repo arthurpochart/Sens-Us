@@ -1,0 +1,34 @@
+.bandeau {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+  justify-content: center;
+}
+
+.bandeau-container-texte {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  text-align: center;
+}
+
+.bandeau-container-img {
+  width: 20%;
+}
+
+#img-SensUs {
+  width: 70%;
+}
+
+#img-question {
+  width: 70%;
+}
+#img-SensCert,
+#img-ecologie {
+  width: 100%;
+  height: auto;
+}
+
+.titre-bandeau {
+  color: #355fd2;
+}

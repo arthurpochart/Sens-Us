@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(7, 116, 105);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(190,30,83);
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#lienurlqui...">Qui sommes-nous</a></li>
+  <li><a href="#lienurlsens'cert">La Sens'cert</a></li>
+  <li><a href="#lienurlcontact">Contact'Us</a></li>
+  <li><a href="#lienurlFAQ">FAQ</a></li>
+  <li><a href="#lienurlleaderboard">LeaderBoard</a></li>
+  <li><a href="#lienurlnosréseaux">Nos réseaux</a></li>
+</ul>
+
+</body>
+</html>

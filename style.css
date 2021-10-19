@@ -44,11 +44,15 @@
   padding: 60px;
   font-size: 30px;
   color: aliceblue;
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
+<<<<<<< HEAD
 
 header h1 {
+=======
+h1 {
+>>>>>>> fdbdd3ff1cdbe0183dee5dbebf7c8b98e0b9c1d2
   color: aliceblue;
   font-family: "Roboto", sans-serif;
   letter-spacing: 2px;
@@ -70,8 +74,7 @@ header p {
   cursor: pointer;
   border: none;
 }
+
 .boutonHeader:hover {
   background-color: #077469ff;
 }
-
-

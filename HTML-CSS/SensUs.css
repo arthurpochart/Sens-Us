@@ -1,0 +1,15 @@
+#container-all-person {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-one-person img {
+  width: 20%;
+}
+
+.container-one-person {
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

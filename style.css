@@ -33,3 +33,42 @@
   color: #355fd2;
 }
 
+.background {
+  background-color: #15181f;
+}
+
+.header {
+  background-color: #15181fe7;
+  text-align: center;
+  border-radius: 4px;
+  padding: 60px;
+  font-size: 30px;
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+header p {
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+}
+
+.boutonHeader {
+  border-radius: 8px;
+  background-color: #be1e53ff;
+  display: inline-block;
+  font-size: 24px;
+  color: aliceblue;
+  padding: 15px;
+  cursor: pointer;
+  border: none;
+}
+.boutonHeader:hover {
+  background-color: #077469ff;
+}

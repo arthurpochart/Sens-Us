@@ -1,0 +1,18 @@
+.carte-contenu{
+    background-color: azure;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    height: 80%;
+    padding: 10px 10px;;
+  }
+
+.registerbtn{
+    background-color: #be1e53ff;
+    display: inline-block;
+    font-size: 15px;
+    color: aliceblue;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}

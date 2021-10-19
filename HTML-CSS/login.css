@@ -4,8 +4,14 @@
 
 .header{
     text-align: center;
-    padding: 60px;
-    font-size:30px;
+    padding: 40px;
+    font-size:20px;
+}
+
+.header2{
+    text-align: center;
+    padding: 30px;
+    font-size:15px;
 }
 
 h1{
@@ -21,6 +27,12 @@ b{
     font-family: 'Roboto', sans-serif;
 }
 
+b1{
+    color: #077459;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+}
+
 p{
     color: #077459;
     font-family: 'Roboto', sans-serif;
@@ -31,7 +43,7 @@ p{
 
 /* Bordered form */
 form {
-    border: 3px solid #f1f1f1;
+    border: 3px solid #077459;
   }
   
 /* Full-width inputs */
@@ -40,7 +52,7 @@ input[type=text], input[type=password] {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #077459;
     box-sizing: border-box;
 }
   
@@ -64,7 +76,7 @@ button:hover {
 .cancelbtn {
     width: auto;
     padding: 10px 18px;
-    background-color: #f44336;
+    background-color: #cf635b;
 }
   
 /* Center the avatar image inside this container */
@@ -81,7 +93,7 @@ img.avatar {
   
 /* Add padding to containers */
 .container {
-    padding: 16px;
+    padding: 8px;
 }
   
 /* The "Forgot password" text */

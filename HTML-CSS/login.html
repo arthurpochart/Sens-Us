@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="styles.css">
     <title>Sens'Us</title>
 </head>
-<body>
-    <h1>Bienvenue sur le site de Sens'Us</h1>
-    <p>Veuillez vous connecter, ou vous inscrire </p>
-    <picture>
-        <img src="logo Sens'Us(1).png" alt="logo" style="width:400px;height:550px;">
-    </picture> 
+
+<body class="background">
+    <header class="header">
+        <body>
+            <h1>Connectez-vous ou inscrivez-vous sur Sens'Us!</h1>
+            <picture>
+                <img src="../Assets/Images/logoSens'Us.png" alt="logo" style="width:400px;height:550px;">
+            </picture> 
+        </body>
+
+            <div>
+                <label for="username"><p>Utilisateur:</p></label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div>
+                <label for="pass"><p>Mot de Passe (8 characters minimum):</p></label>
+                <input type="password" id="pass" name="password"
+                    minlength="8" required>
+            </div>
+
+        <br>
+        <br>
+        <a href="../index.html">
+            <input type="submit" value="Se connecter">
+        </a>
+        <hr>
+        <a href="SignIn.html">
+            <input type="submit" value="s'inscrire">
+        </a> 
+    </header>
+
 </body>
-<div>
-    <label for="username">Utilisateur :</label>
-    <input type="text" id="username" name="username">
-</div>
-
-<div>
-    <label for="pass">Mot de Passe (8 characters minimum):</label>
-    <input type="password" id="pass" name="password"
-           minlength="8" required>
-</div>
-
 
 <a href="index.html">
     <input type="submit" value="Se connecter">

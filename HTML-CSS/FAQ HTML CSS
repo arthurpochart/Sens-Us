@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Espacement entre les questions */
+.faq-section{
+        margin: 45px 0;
+}
+
+/* Masquer les checkbox et les paragraphes */
+.faq-section input,
+.faq-section p{
+        display: none;
+}
+
+
+/* Si le checkbox est coché, montrer tous les paragraphes */
+.faq-section input[type=checkbox]:checked~p{
+        display: block;
+        color: rgb(17,20,25);
+        font-size: 1em;
+        /* Restaurer le texte entier */
+        text-overflow: clip;
+        white-space: normal;
+        overflow: visible;
+}
+
+/* Style des label */
+.faq-section label{
+        font-size: 1.2em;
+        cursor: pointer;
+        background: #eee;
+        display: block;
+        position: relative;
+        padding: 7px 10px;
+        font-weight: bold;
+        border: 1px solid #ddd;
+        border-left: 3px solid rgb(190,30,83);
+        transition: all .15s ease-out;
+}
+
+/* Éviter de sélectionner le texte en cliquant plusieurs fois */
+.faq-section label::selection{
+        background: none;
+}
+
+.faq-section label:hover{
+        background: #e6caca;
+}
+
+
+
+/* Flèche du label par défaut */
+.faq-section label::before{
+        content: '';
+        position: absolute;
+        right: 4px;
+        top: 50%;
+        margin-top: -6px;
+        border: 6px solid transparent;
+        border-left-color: inherit;
+}
+
+/* Flèche du label sélectionné */
+.faq-section input[type=checkbox]:checked~label::before{
+        border: 6px solid transparent;
+        border-top-color: inherit;
+        margin-top: -3px;
+        right: 10px;
+}
+.faq-section label {
+  display: block;
+  color: rgb(7, 116, 105);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+section p {
+  text-align: center;
+}
+
+
+</style>
+</head>
+<body>
+
+<section class="faq-section">
+    <input type="checkbox" id="q1">
+    <label for="q1">Comment obtenir la Sens'Cert ?</label>
+    <p>Contactez-nous à l'adresse Sens'Cert@gmail.com, nous vous donnerons de plus ample informations.</p>
+</section>
+
+<section class="faq-section">
+    <input type="checkbox" id="q2">
+    <label for="q2">Pourquoi la Sens'Cert?</label>
+    <p>La Sens'Cert est un gage de bien être et de qualité d'environnement.</p>
+</section>
+
+<section class="faq-section">
+    <input type="checkbox" id="q3">
+    <label for="q3">Quelle information mettre en avant sur mon espace Gestionnaire?</label>
+    <p>Nous vous conseillons de mettre en avant le niveau de micro-particules.</p>
+</section>
+
+<section class="faq-section">
+    <input type="checkbox" id="q4">
+    <label for="q4">Comment changer le statut d'une personne?</label>
+    <p>Rendez-vous sur votre espace gestionnaire, vous pouvez modifier le statut d'un membre.</p>
+</section>
+
+<section class="faq-section">
+    <input type="checkbox" id="q5">
+    <label for="q5">Etes-vous une association?</label>
+    <p>Non, nous sommes là pour l'argent avant tout.</p>
+</section>
+
+<section class="faq-section">
+    <input type="checkbox" id="q6">
+    <label for="q6">Mon capteur est inactif comment contacter un technicien?</label>
+    <p>Vous pouvez joindre un de nos responsables techniques au 11 712.</p>
+</section>
+
+<section class="faq-section">
+    <input type="checkbox" id="q7">
+    <label for="q7">Qui est Aymen?</label>
+    <p>La légende raconte qu'il/elle vogue sur les 7 mers en compagnie de son fidèles dodo gabonais.</p>
+</section>
+
+</body>
+</html>

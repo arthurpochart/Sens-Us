@@ -43,7 +43,10 @@
   border-radius: 4px;
   padding: 60px;
   font-size: 30px;
+  color: aliceblue;
+  font-family: 'Roboto',sans-serif;
 }
+
 
 h1 {
   color: aliceblue;
@@ -69,4 +72,10 @@ header p {
 }
 .boutonHeader:hover {
   background-color: #077469ff;
+}
+.carte-contenu{
+  background-color: azure;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+  height: 80%;
 }

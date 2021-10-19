@@ -17,7 +17,7 @@ h1{
     
 }
 
-p{
+.header p{
     color: aliceblue;
     font-family: 'Roboto', sans-serif;
 
@@ -36,3 +36,15 @@ p{
 .boutonHeader:hover{
     background-color:#077469ff;
 }
+
+.carte-contenu{
+    background-color: azure;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formulaire-membre{
+    
+
+}
+

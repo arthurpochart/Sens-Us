@@ -19,12 +19,32 @@
  <p>Si votre entreprise a deja un compte, devenez membre de groupe</p>
 </div>
 
-<div class="carte-contenu">
-    <form class="formulaire-membre">
+<form>
+    <div class="carte-contenu">
         <h2>Compte Membre</h2>
         <p>Beneficiez de toutes les fonctionnalités SensCert</p>
-    </form>
-</div>
+        <hr>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Votre adresse mail" name="email" id="email" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+        <hr>
+
+        <p>En creant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>
+        <button type="submit" class="registerbtn">Register</button>
+
+    </div>
+  
+    <div class="carte-contenu login">
+    <p>Vous possedez un compte?? <a href="#">Login</a>.</p>
+
+    </div>
+</form>
 
 
 </body>

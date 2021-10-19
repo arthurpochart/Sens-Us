@@ -69,6 +69,7 @@ header p {
   cursor: pointer;
   border: none;
 }
+
 .boutonHeader:hover {
   background-color: #077469ff;
 }

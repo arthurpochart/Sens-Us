@@ -5,6 +5,9 @@
     height: 80%;
     padding: 10px 10px;
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
   }
 
 .registerbtn{

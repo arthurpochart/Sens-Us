@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="nav.css">
     <style>
     </style>
     <script src=""></script>
@@ -15,7 +16,16 @@
 </head>
 <body class="background">
 
-
+<div class="nav">
+    <ul>
+        <li><a class="active" href="#lienurlqui...">Qui sommes-nous</a></li>
+        <li><a href="#lienurlsens'cert">La Sens'cert</a></li>
+        <li><a href="#lienurlcontact">Contact'Us</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+        <li><a href="#lienurlleaderboard">LeaderBoard</a></li>
+        <li><a href="#lienurlnosréseaux">Nos réseaux</a></li>
+    </ul>
+</div>
 <div class="header">
  <h1>Creation de compte</h1>
  <p>Veuillez suivre les etapes suviant votre profil</p>
@@ -29,16 +39,21 @@
             <p>Beneficiez de toutes les fonctionnalités SensCert</p>
             <hr>
         </div>
-        <--M.email pour les membre C.email pour les chefs-->
         <div id="dropMembre" class="dropContent">
+            <label for="M.nom"><b>Nom</b></label>
+            <input type="text" placeholder="Votre Nom" name="email" id="M.nom" required>
+
+            <label for="M.prenom"><b>Prénom</b></label>
+            <input type="text" placeholder="Votre Prénom" name="email" id="M.prenom" required>
+
             <label for="M.email"><b>Email</b></label>
             <input type="text" placeholder="Votre adresse mail" name="email" id="M.email" required>
 
-            <label for="M.psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" id="M.psw" required>
+            <label for="M.mdp"><b>Mot de passe</b></label>
+            <input type="password" placeholder="Enter Password" name="mdp" id="M.mdp" required>
 
-            <label for="M.psw-repeat"><b>Repeat Password</b></label>
-            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="M.psw-repeat" required>
+            <label for="M.mdp-confirm"><b>Confirmez mot de passe</b></label>
+            <input type="password" placeholder="Confirmez" name="mdp-confirm" id="M.mdp-confirm" required>
             <hr>
 
             <p>En creant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>
@@ -61,11 +76,11 @@
             <label for="email"><b>Email</b></label>
             <input type="text" placeholder="Votre adresse mail" name="email" id="email" required>
 
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+            <label for="C.mdp"><b>Mot de passe</b></label>
+            <input type="password" placeholder="Enter Password" name="mdp" id="C.mdp" required>
 
-            <label for="psw-repeat"><b>Repeat Password</b></label>
-            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+            <label for="C.mdp-confirm"><b>Confirmez mot de passe</b></label>
+            <input type="password" placeholder="Confirmez" name="mdp-confirm" id="C.mdp-confirm" required>
             <hr>
 
             <p>En creant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>

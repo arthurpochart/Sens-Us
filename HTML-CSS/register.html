@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <head>
-    <html lang="en">
     <meta charset="UTF-8">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -12,8 +11,8 @@
     <style>
     </style>
     <script src=""></script>
+    <title>Register</title>
 </head>
-    
 <body class="background">
 
 
@@ -25,32 +24,70 @@
 
 <form>
     <div class="carte-contenu">
-        <h2>Compte Membre</h2>
-        <p>Beneficiez de toutes les fonctionnalités SensCert</p>
-        <hr>
+        <div class="dropBtn" onclick="showMembre()">
+            <h2>Compte Membre</h2>
+            <p>Beneficiez de toutes les fonctionnalités SensCert</p>
+            <hr>
+        </div>
+        <--M.email pour les membre C.email pour les chefs-->
+        <div id="dropMembre" class="dropContent">
+            <label for="M.email"><b>Email</b></label>
+            <input type="text" placeholder="Votre adresse mail" name="email" id="M.email" required>
 
-        <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Votre adresse mail" name="email" id="email" required>
+            <label for="M.psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="M.psw" required>
 
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+            <label for="M.psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="M.psw-repeat" required>
+            <hr>
 
-        <label for="psw-repeat"><b>Repeat Password</b></label>
-        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-        <hr>
-
-        <p>En creant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>
-        <button type="submit" class="registerbtn">Register</button>
-
-    </div>
-  
-    <div class="carte-contenu login">
-    <p>Vous possedez un compte?? <a href="login.html">Login</a>.</p>
-
+            <p>En creant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>
+            <button type="submit" class="registerbtn">Register</button>
+            <div class="login">
+                <p>Vous possedez un compte?? <a href="login.html">Login</a>.</p>
+            </div>
+        </div>
     </div>
 </form>
 
+<form>
+    <div class="carte-contenu">
+        <div class="dropBtn" onclick="showChef()">
+            <h2>Compte Chef de Groupe</h2>
+            <p>Enregistrez votre espace de travail dans le projet SensCert</p>
+            <hr>
+        </div>
+        <div id="dropChef" class="dropContent">
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Votre adresse mail" name="email" id="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+            <hr>
+
+            <p>En creant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>
+            <button type="submit" class="registerbtn">Register</button>
+            <div class="login">
+                <p>Vous possedez un compte?? <a href="login.html">Login</a>.</p>
+            </div>
+        </div>
+
+
+    </div>
+</form>
+<script>
+    //Quand l'utulisateur clique sur la carte membre, le contenue est affiché
+    function showMembre() {
+        document.getElementById("dropMembre").classList.toggle("show");
+    }
+    function showChef() {
+        document.getElementById("dropChef").classList.toggle("show");
+    }
+</script>
 
 </body>
-</html>
+
 

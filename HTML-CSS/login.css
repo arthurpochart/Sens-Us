@@ -1,5 +1,8 @@
 .background{
     background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 .header{
@@ -70,7 +73,7 @@ button {
   
 /* Add a hover effect for buttons */
 button:hover {
-    opacity: 0.8;
+    background-color: #BE1E53FF;
 }
   
 /* Extra style for the cancel button (red) */

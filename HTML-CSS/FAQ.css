@@ -1,3 +1,12 @@
+/*class pour avoir la bonne police et sans l'ecartement en haut à gauche de la page*/
+.background{
+        background: #ffffff;
+        font-family: 'Roboto', sans-serif;
+      padding: 0;
+      margin: 0;
+    }
+
+
 /* Espacement entre les questions */
 .faq-section{
         margin: 45px 0;

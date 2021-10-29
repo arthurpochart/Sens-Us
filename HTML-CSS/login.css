@@ -1,3 +1,37 @@
+/* Barred de navigation */
+
+.nav{
+    margin-bottom: 40px;
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(7, 116, 105);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: rgb(190, 30, 83);
+}
+
+/* body and font */
+
 .background{
     background: #ffffff;
     font-family: 'Roboto', sans-serif;
@@ -27,19 +61,11 @@ h1{
 
 b{
     color: #077459;
-    font-family: 'Roboto', sans-serif;
 }
 
 b1{
     color: #077459;
-    font-family: 'Roboto', sans-serif;
     font-size: 10pt;
-}
-
-p{
-    color: #077459;
-    font-family: 'Roboto', sans-serif;
-
 }
 
 
@@ -81,7 +107,7 @@ button:hover {
     width: auto;
     padding: 10px 18px;
     border-radius: 10px;
-    background-color: #cf635b;
+    background-color: #BE1E53FF;
 }
   
 /* Center the avatar image inside this container */
@@ -119,3 +145,4 @@ span.psw {
       width: 100%;
     }
 } 
+

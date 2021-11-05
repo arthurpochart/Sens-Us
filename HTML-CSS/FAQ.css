@@ -8,70 +8,71 @@
 
 
 /* Espacement entre les questions */
-.faq-section{
-        margin: 45px 0;
+.faq-section {
+  margin: 45px 0;
 }
 
 /* Masquer les checkbox et les paragraphes */
 .faq-section input,
-.faq-section p{
-        display: none;
+.faq-section p {
+  display: none;
 }
 
-
 /* Si le checkbox est coché, montrer tous les paragraphes */
-.faq-section input[type=checkbox]:checked~p{
-        display: block;
-        color: rgb(17,20,25);
-        font-size: 1em;
-        /* Restaurer le texte entier */
-        text-overflow: clip;
-        white-space: normal;
-        overflow: visible;
+.faq-section input[type="checkbox"]:checked ~ p {
+  display: block;
+  color: rgb(17, 20, 25);
+  font-size: 1em;
+  /* Restaurer le texte entier */
+  text-overflow: clip;
+  white-space: normal;
+  overflow: visible;
 }
 
 /* Style des label */
-.faq-section label{
-        font-size: 1.2em;
-        cursor: pointer;
-        background: #eee;
-        display: block;
-        position: relative;
-        padding: 7px 10px;
-        font-weight: bold;
-        border: 1px solid #ddd;
-        border-left: 3px solid rgb(190,30,83);
-        transition: all .15s ease-out;
+.faq-section label {
+  font-size: 1.2em;
+  cursor: pointer;
+  background: #eee;
+  display: block;
+  position: relative;
+  padding: 7px 10px;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  border-left: 3px solid rgb(190, 30, 83);
+  transition: all 0.15s ease-out;
 }
 
 /* Éviter de sélectionner le texte en cliquant plusieurs fois */
-.faq-section label::selection{
-        background: none;
+.faq-section label::selection {
+  background: none;
 }
 
-.faq-section label:hover{
-        background: #e6caca;
+.faq-section label:hover {
+  background: #e6caca;
 }
 
-.space{margin-bottom: 20px;}
+.space {
+  margin-bottom: 20px;
+}
 
 /* Flèche du label par défaut */
-.faq-section label::before{
-        content: '';
-        position: absolute;
-        right: 4px;
-        top: 50%;
-        margin-top: -6px;
-        border: 6px solid transparent;
-        border-left-color: inherit;
+.faq-section label::before {
+  content: "";
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  margin-top: -6px;
+  border: 6px solid transparent;
+  border-left-color: inherit;
 }
 
 /* Flèche du label sélectionné */
-.faq-section input[type=checkbox]:checked~label::before{
-        border: 6px solid transparent;
-        border-top-color: inherit;
-        margin-top: -3px;
-        right: 10px;
+.faq-section input[type="checkbox"]:checked ~ label::before {
+  border: 6px solid transparent;
+  border-top-color: inherit;
+  margin-top: -3px;
+  right: 10px;
 }
 .faq-section label {
   display: block;

@@ -38,3 +38,17 @@
   padding: 0;
   margin: 0;
 }
+
+.header{
+    text-align: center;
+    padding: 40px;
+    font-size:20px;
+}
+
+h1{
+    color:#077459;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    
+}

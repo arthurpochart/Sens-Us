@@ -4,20 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="nav.css">
-    <title>Document</title>
+    <title>Nous contacter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
 </head>
 <body>
-    <div class="nav">
-        <ul>
-            <li><a class="active" href="SensUs.html">Qui sommes-nous</a></li>
-            <li><a href="SensCert.html">La Sens'cert</a></li>
-            <li><a href="contact.html">Contact'Us</a></li>
-            <li><a href="FAQ.html">FAQ</a></li>
-            <li><a href="leaderBoard.html">LeaderBoard</a></li>
-            <li><a href="NosReseaux.html">Nos réseaux</a></li>
-        </ul>
-    </div>
+    
+<h3>Contact'Us</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Votre prénom</label>
+    <input type="text" id="fname" name="firstname" placeholder="Votre prénom...">
+
+    <label for="lname">Votre nom</label>
+    <input type="text" id="lname" name="lastname" placeholder="Votre nom...">
+
+    <label for="country">Pays</label>
+    <select id="country" name="country">
+      <option value="australia">France</option>
+      <option value="canada">Espagne</option>
+      <option value="usa">Belgique</option>
+      <option value="usa">Luxembourg</option>
+      <option value="usa">Italie</option>
+      <option value="usa">Suisse</option>
+    </select>
+
+    <label for="subject">Sujet de votre demande</label>
+    <textarea id="subject" name="subject" placeholder="Quelle est votre question ?" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
 </body>
 </html>

@@ -1,5 +1,8 @@
-h1 { text-align: center }
-h3 { text-align: center }
+h1,h3 { 
+    text-align: center;
+    color: white
+}
+
 button {
 
     background-color: #be1e53ff;
@@ -16,4 +19,11 @@ button {
 
 button:hover {
     background-color: #077469ff
+}
+.background {
+    background-color: #112941;
+    opacity: 0.9;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
 }

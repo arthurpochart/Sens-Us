@@ -1,8 +1,22 @@
-h1,h3 { 
+h1 { 
     text-align: center;
-    color: white
+    font-family: "Roboto", sans-serif;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
+h3 { 
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 button {
   background-color: #be1e53ff;
   border: none;
@@ -25,4 +39,11 @@ button:hover {
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
+}
+
+.bouton {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

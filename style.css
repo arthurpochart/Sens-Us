@@ -34,13 +34,6 @@
   color: #355fd2;
 }
 
-.background {
-  background-color: #15181f;
-  font-family: 'Roboto', sans-serif;
-  padding: 0;
-  margin: 0;
-}
-
 .header {
   background-color: #15181fe7;
   text-align: center;
@@ -50,7 +43,7 @@
   font-size: 30px;
   color: aliceblue;
   font-family: "Roboto", sans-serif;
-  width:100%;
+  width: 100%;
 }
 
 h1 {

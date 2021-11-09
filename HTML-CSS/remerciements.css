@@ -4,18 +4,17 @@ h1,h3 {
 }
 
 button {
-
-    background-color: #be1e53ff;
-    border: none;
-    color: white;
-    padding: 20px 34px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
-    }
+  background-color: #be1e53ff;
+  border: none;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
 button:hover {
     background-color: #077469ff

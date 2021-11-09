@@ -1,10 +1,20 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 #all-page {
   font-family: "Trebuchet MS", sans-serif;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
 }
 
 #presentation-generale {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 #presentation-generale-img {
@@ -16,6 +26,7 @@
 
 #presentation-generale-img img {
   border: 2px solid black;
+  border-radius: 3%;
 }
 
 #mains {

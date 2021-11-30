@@ -11,10 +11,11 @@
 
 <body class="background">
     <h1> Merci de nous avoir contacté !</h1>
-    <h3> Nous nous assurons que votre demande soit prise en charge rapidement,
+    <h3> Nous nous assurons que votre demande soit prise en charge rapidement, </br>
         et nous revenons vers vous dans les plus brefs délais.</h3>
-
-    <button onclick="window.location.href = '../index.html';">Retourner vers l'accueil</button>
+    <div class="bouton">
+        <button onclick="window.location.href = '../index.html';">Retourner vers l'accueil</button>
+    </div>
 </body>
 
 </html>

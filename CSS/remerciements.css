@@ -1,8 +1,22 @@
-h1,h3 { 
-    text-align: center;
-    color: white
+h1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
+h3 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 button {
   background-color: #be1e53ff;
   border: none;
@@ -17,12 +31,19 @@ button {
 }
 
 button:hover {
-    background-color: #077469ff
+  background-color: #077469ff;
 }
 .background {
-    background-color: #112941;
-    opacity: 0.9;
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-    margin: 0;
+  background-color: #173858;
+  opacity: 0.9;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.bouton {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

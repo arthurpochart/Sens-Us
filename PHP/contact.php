@@ -17,7 +17,7 @@
 
   <div class="container">
     <h3>Contact'Us</h3>
-    <form action="remerciements.html">
+    <form action="remerciements.php">
       <label for="fname">Votre prénom</label>
       <input type="text" id="fname" name="firstname" placeholder="Votre prénom...">
       <label for="lname">Votre nom</label>

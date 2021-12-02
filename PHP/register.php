@@ -48,7 +48,7 @@
                 <p>En creant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>
                 <button type="submit" class="registerbtn">Register</button>
                 <div class="login">
-                    <p>Vous possedez un compte?? <a href="login.html">Login</a>.</p>
+                    <p>Vous possedez un compte?? <a href="login.php">Login</a>.</p>
                 </div>
             </div>
         </div>
@@ -75,7 +75,7 @@
                 <p>En creant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>
                 <button type="submit" class="registerbtn">Register</button>
                 <div class="login">
-                    <p>Vous possedez un compte?? <a href="login.html">Login</a>.</p>
+                    <p>Vous possedez un compte?? <a href="login.php">Login</a>.</p>
                 </div>
             </div>
 

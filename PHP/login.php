@@ -35,7 +35,7 @@
                 <br>
                 <input type="password" placeholder="Entrer le mot de passe" name="psw" required>
 
-                <a href="../index.html">
+                <a href="../index.php">
                     <button type="button">se connecter</button>
                     <!--pensez à changer "button" pour un "submit" vers le php-->
                 </a>
@@ -47,7 +47,7 @@
 
             <div class="container" style="background-color:#f1f1f1">
                 <header class="header1">
-                    <a href="../index.html" a>
+                    <a href="../index.php">
                         <button type="button" class="cancelbtn">Cancel</button>
                     </a>
                 </header>
@@ -59,7 +59,7 @@
         <div>
             <b>Vous n'avez pas de compte?</b>
             <br>
-            <a href="register.html">
+            <a href="register.php">
                 <button type="button">se créer un compte</button>
             </a>
         </div>

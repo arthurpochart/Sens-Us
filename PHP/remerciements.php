@@ -14,7 +14,7 @@
     <h3> Nous nous assurons que votre demande soit prise en charge rapidement, </br>
         et nous revenons vers vous dans les plus brefs délais.</h3>
     <div class="bouton">
-        <button onclick="window.location.href = '../index.html';">Retourner vers l'accueil</button>
+        <button onclick="window.location.href = '../index.php';">Retourner vers l'accueil</button>
     </div>
 </body>
 

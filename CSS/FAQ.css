@@ -24,12 +24,12 @@
 .faq-section label {
   font-size: 1.2em;
   cursor: pointer;
-  background: #eee;
+  background: white;
   display: block;
   position: relative;
   padding: 7px 10px;
   font-weight: bold;
-  border: 1px solid #ddd;
+  border: 1px solid white;
   border-left: 3px solid rgb(190, 30, 83);
   transition: all 0.15s ease-out;
 }
@@ -40,7 +40,7 @@
 }
 
 .faq-section label:hover {
-  background: #e6caca;
+  background: white;
 }
 
 .space {

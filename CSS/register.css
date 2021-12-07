@@ -1,5 +1,5 @@
 .carte-contenu{
-    background-color: azure;
+    background-color: white;
     border-radius: 8px;
     font-family: 'Roboto', sans-serif;
     height: 80%;
@@ -14,7 +14,7 @@
     background-color: #be1e53ff;
     display: inline-block;
     font-size: 15px;
-    color: aliceblue;
+    color: white;
     padding: 15px;
     cursor: pointer;
     border: none;

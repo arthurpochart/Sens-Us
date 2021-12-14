@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../CSS/SensUs.css">
     <link rel="stylesheet" href="../CSS/nav.css">
     <link rel="stylesheet" href="../CSS/background.css">
-    <title>Sens'US</title>
+    <title>Sens'Us</title>
 </head>
 
 <body class="background">

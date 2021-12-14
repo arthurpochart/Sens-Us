@@ -1,58 +1,62 @@
-.carte-contenu{
-    background-color: white;
-    border-radius: 8px;
-    font-family: 'Roboto', sans-serif;
-    height: 80%;
-    padding: 10px 10px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    overflow: hidden;
-  }
-
-.registerbtn{
-    background-color: #be1e53ff;
-    display: inline-block;
-    font-size: 15px;
-    color: white;
-    padding: 15px;
-    cursor: pointer;
-    border: none;
-    border-radius: 8px;
+.carte-contenu {
+  background-color: white;
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  height: 80%;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  overflow: hidden;
 }
-.registerbtn:hover{
-    background-color: #077469FF;
-}
-input[type=text], input[type=password] {
-    width: 95%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: white;
-  }
 
-input[type=text]:focus, input[type=password]:focus {
-    background-color: white;
-    outline: none;
+.registerbtn {
+  background-color: #be1e53ff;
+  display: inline-block;
+  font-size: 15px;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+}
+.registerbtn:hover {
+  background-color: #077469ff;
+}
+input[type="text"],
+input[type="password"] {
+  width: 95%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: white;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: white;
+  outline: none;
 }
 hr {
-    border: 1px solid white;
+  border: 1px solid white;
 }
 
 a {
-    color: dodgerblue;
-  }
-.dropContent{
-    display: none;
-    margin-top: 10px;
+  color: dodgerblue;
 }
-.dropBtn{
-    padding:10px;
-    border-radius:8px;
-    cursor: pointer;
+.dropContent {
+  display: none;
+  margin-top: 10px;
 }
-.dropBtn:hover{
-    background-color: rgba(7, 116, 105, 0.2);
+.dropBtn {
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
 }
-.show {display: block;}
+.dropBtn:hover {
+  background-color: rgba(7, 116, 105, 0.2);
+}
+.show {
+  display: block;
+}

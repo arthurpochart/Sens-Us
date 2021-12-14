@@ -1,7 +1,7 @@
 <header class="nav">
   <ul>
     <li><a class="active" href="/Sens-Us/index.php">Accueil</a></li>
-    <li><a href="/Sens-Us/PHP/SensUs.php">Qui sommes-nous</a></li>
+    <li><a href="/Sens-Us/PHP/SensUs.php">Qui sommes-nous ?</a></li>
     <li><a href="/Sens-Us/PHP/SensCert.php">La Sens'cert</a></li>
     <li><a href="/Sens-Us/PHP/contact.php">Contact'Us</a></li>
     <li><a href="/Sens-Us/PHP/FAQ.php">FAQ</a></li>

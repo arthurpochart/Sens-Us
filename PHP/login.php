@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../CSS/login.css">
     <link rel="stylesheet" href="../CSS/nav.css">
     <link rel="stylesheet" href="../CSS/background.css">
-    <title>Sens'Us</title>
+    <title>Page de connexion</title>
 </head>
 
 <body class="background">
@@ -36,19 +36,19 @@
                 <input type="password" placeholder="Entrer le mot de passe" name="psw" required>
 
                 <a href="../index.php">
-                    <button type="button">se connecter</button>
+                    <button type="button">Se connecter</button>
                     <!--pensez à changer "button" pour un "submit" vers le php-->
                 </a>
                 <label>
                     <input type="checkbox" checked="checked" name="remember">
-                    <b1>se souvenir de moi</b1>
+                    <b1>Se souvenir de moi</b1>
                 </label>
             </div>
 
             <div class="container" style="background-color:#f1f1f1">
                 <header class="header1">
                     <a href="../index.php">
-                        <button type="button" class="cancelbtn">Cancel</button>
+                        <button type="button" class="cancelbtn">Annuler</button>
                     </a>
                 </header>
 
@@ -57,10 +57,10 @@
         <br>
         <br>
         <div>
-            <b>Vous n'avez pas de compte?</b>
+            <b>Vous n'avez pas de compte ?</b>
             <br>
             <a href="register.php">
-                <button type="button">se créer un compte</button>
+                <button type="button">Se créer un compte</button>
             </a>
         </div>
 

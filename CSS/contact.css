@@ -1,7 +1,14 @@
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
 
-input[type=text], select, textarea, input[type=email]{
+input[type="text"],
+select,
+textarea,
+input[type="email"] {
   width: 100%;
   padding: 12px;
   border: 1px solid white;
@@ -12,8 +19,8 @@ input[type=text], select, textarea, input[type=email]{
   resize: vertical;
 }
 
-input[type=submit] {
-  background-color: #04AA6D;
+input[type="submit"] {
+  background-color: #04aa6d;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -21,7 +28,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #45a049;
 }
 

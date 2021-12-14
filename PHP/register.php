@@ -78,8 +78,6 @@
                     <p>Vous possedez un compte?? <a href="login.php">Login</a>.</p>
                 </div>
             </div>
-
-
         </div>
     </form>
     <script>

@@ -16,16 +16,16 @@
 <body class="background">
     <?php include "nav.php" ?>
     <div class="header">
-        <h1>Creation de compte</h1>
-        <p>Veuillez suivre les etapes suviant votre profil</p>
-        <p>Si votre entreprise a deja un compte, devenez membre de groupe</p>
+        <h1>Création de compte</h1>
+        <p>Veuillez suivre les étapes suviant votre profil</p>
+        <p>Si votre entreprise a déjà un compte, devenez membre de groupe</p>
     </div>
 
     <form>
         <div class="carte-contenu">
             <div class="dropBtn" onclick="showMembre()">
                 <h2>Compte Membre</h2>
-                <p>Beneficiez de toutes les fonctionnalités SensCert</p>
+                <p>Bénéficier de toutes les fonctionnalités Sens'Cert</p>
                 <hr>
             </div>
             <div id="dropMembre" class="dropContent">
@@ -45,10 +45,10 @@
                 <input type="password" placeholder="Confirmez" name="mdp-confirm" id="M.mdp-confirm" required>
                 <hr>
 
-                <p>En creant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>
-                <button type="submit" class="registerbtn">Register</button>
+                <p>En créant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>
+                <button type="submit" class="registerbtn">Se connecter</button>
                 <div class="login">
-                    <p>Vous possedez un compte?? <a href="login.php">Login</a>.</p>
+                    <p>Vous possédez un compte ? <a href="login.php">Se connecter</a>.</p>
                 </div>
             </div>
         </div>
@@ -58,7 +58,7 @@
         <div class="carte-contenu">
             <div class="dropBtn" onclick="showChef()">
                 <h2>Compte Chef de Groupe</h2>
-                <p>Enregistrez votre espace de travail dans le projet SensCert</p>
+                <p>Enregistrer votre espace de travail dans le projet Sens'Cert</p>
                 <hr>
             </div>
             <div id="dropChef" class="dropContent">
@@ -72,10 +72,10 @@
                 <input type="password" placeholder="Confirmez" name="mdp-confirm" id="C.mdp-confirm" required>
                 <hr>
 
-                <p>En creant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>
-                <button type="submit" class="registerbtn">Register</button>
+                <p>En créant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>
+                <button type="submit" class="registerbtn">Se connecter</button>
                 <div class="login">
-                    <p>Vous possedez un compte?? <a href="login.php">Login</a>.</p>
+                    <p>Vous possédez un compte ? <a href="login.php">Se connecter</a>.</p>
                 </div>
             </div>
         </div>

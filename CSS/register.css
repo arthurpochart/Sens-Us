@@ -11,7 +11,7 @@
 }
 
 .registerbtn {
-  background-color: #be1e53ff;
+  background-color: #04aa6d;
   display: inline-block;
   font-size: 15px;
   color: white;
@@ -21,15 +21,17 @@
   border-radius: 8px;
 }
 .registerbtn:hover {
-  background-color: #077469ff;
+  background-color: rgb(7, 116, 105);
 }
+
 input[type="text"],
 input[type="password"] {
   width: 95%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
-  border: none;
+  border: 1px solid black;
+  border-radius: 6px;
   background: white;
 }
 
@@ -38,6 +40,7 @@ input[type="password"]:focus {
   background-color: white;
   outline: none;
 }
+
 hr {
   border: 1px solid white;
 }
@@ -45,18 +48,22 @@ hr {
 a {
   color: dodgerblue;
 }
+
 .dropContent {
   display: none;
   margin-top: 10px;
 }
+
 .dropBtn {
   padding: 10px;
   border-radius: 8px;
   cursor: pointer;
 }
+
 .dropBtn:hover {
   background-color: rgba(7, 116, 105, 0.2);
 }
+
 .show {
   display: block;
 }

@@ -7,7 +7,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(7, 116, 105);
+  background-color: #04aa6d;
   position: fixed;
   top: 0;
   width: 100%;
@@ -26,5 +26,6 @@
 }
 
 .nav li a:hover {
-  background-color: rgb(190, 30, 83);
+  background-color: rgb(7, 116, 105);
+  font-weight: 600;
 }

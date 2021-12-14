@@ -16,17 +16,19 @@
   <?php include "nav.php" ?>
 
   <div class="container">
-    <h3>Contact'Us</h3>
+    <div id="title">
+      <h1>Contact'Us</h1>
+    </div>
     <form action="remerciements.php">
-      <label for="fname">Votre prénom</label>
+      <label for="fname">Votre prénom :</label>
       <input type="text" id="fname" name="firstname" placeholder="Votre prénom...">
-      <label for="lname">Votre nom</label>
+      <label for="lname">Votre nom :</label>
       <input type="text" id="lname" name="lastname" placeholder="Votre nom...">
 
-      <label for="mail">Votre email</label>
+      <label for="mail">Votre email :</label>
       <input type="email" id="mail" name="mail" placeholder="jean.dupont@exemple.com">
 
-      <label for="country">Pays</label>
+      <label for="country">Pays :</label>
       <select id="country" name="country">
         <option value="australia">France</option>
         <option value="canada">Espagne</option>
@@ -36,10 +38,10 @@
         <option value="usa">Suisse</option>
       </select>
 
-      <label for="subject">Sujet de votre demande</label>
+      <label for="subject">Sujet de votre demande :</label>
       <textarea id="subject" name="subject" placeholder="Quelle est votre question ?" style="height:200px"></textarea>
 
-      <input type="submit" value="Submit">
+      <input type="submit" value="Envoyer">
     </form>
   </div>
 </body>

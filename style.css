@@ -3,7 +3,19 @@
   flex-direction: row;
   border-bottom: 1px solid black;
   justify-content: center;
-  background-color: #f1f1f1;
+  align-items: center;
+  background-color: #ffffff;
+  height: 300px;
+}
+
+#bandeau1,
+#bandeau3 {
+  background-color: rgb(206, 245, 205);
+}
+
+#bandeau2,
+#bandeau4 {
+  background-color: rgb(205, 205, 255);
 }
 
 .bandeau-container-texte {
@@ -31,7 +43,7 @@
 }
 
 .titre-bandeau {
-  color: #355fd2;
+  color: #077459;
 }
 
 .header {
@@ -60,7 +72,7 @@ header p {
 
 .boutonHeader {
   border-radius: 8px;
-  background-color: #be1e53ff;
+  background-color: #04aa6d;
   display: inline-block;
   font-size: 24px;
   color: aliceblue;
@@ -70,5 +82,5 @@ header p {
 }
 
 .boutonHeader:hover {
-  background-color: #077469ff;
+  background-color: rgb(7, 116, 105);
 }

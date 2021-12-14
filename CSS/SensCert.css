@@ -1,10 +1,12 @@
 body {
   display: flex;
   flex-direction: column;
+  font-family: "Roboto", sans-serif;
 }
 
 #all-page {
   font-family: "Trebuchet MS", sans-serif;
+  margin-top: 15px;
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -18,6 +20,7 @@ body {
 }
 
 #presentation-generale-img {
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -40,7 +43,7 @@ body {
 }
 
 #presentation-generale h1 {
-  color: rgb(10, 10, 170);
+  color: #077459;
   text-align: center;
 }
 
@@ -75,5 +78,5 @@ body {
 
 h3 {
   font-size: 170%;
-  color: rgb(10, 10, 170);
+  color: #077459;
 }

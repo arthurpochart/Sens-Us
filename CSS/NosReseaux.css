@@ -1,14 +1,26 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   text-align: center;
-  padding: 40px;
-  font-size: 20px;
+  padding: 15px;
+  font-size: 17px;
 }
 
 h1 {
   color: #077459;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
-  text-transform: capitalize;
+}
+
+#all-page {
+  font-family: "Trebuchet MS", sans-serif;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
 }
 
 #container-all-person {

@@ -25,7 +25,6 @@
         </div>
 
         <form action="action_page.php" method="post">
-
             <div class="container">
                 <label for="uname"><b>Utilisateur</b></label>
                 <br>

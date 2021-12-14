@@ -20,7 +20,7 @@
 
     <header class="header">
         <h1>SensCert</h1>
-        <p>Soyez en controle de vos émissions</p>
+        <p>Soyez en contrôle de vos émissions</p>
         <a href="PHP/register.php">
             <button class="boutonHeader">Créer un compte</button>
         </a>
@@ -28,7 +28,7 @@
     </header>
 
     <div>
-        <div class="bandeau">
+        <div class="bandeau" id="bandeau1">
             <div class="bandeau-container-img">
                 <img src="Assets/Images/logoSens'Us.png" alt="Logo Sens'Us" id="img-SensUs" />
             </div>
@@ -39,7 +39,7 @@
                 </p>
             </div>
         </div>
-        <div class="bandeau">
+        <div class="bandeau" id="bandeau2">
             <div class="bandeau-container-texte">
                 <h2 class="titre-bandeau">Les enjeux écologiques</h2>
                 <p>
@@ -50,7 +50,7 @@
                 <img src="Assets/Images/ecologie.jpg" alt="Ecologie" id="img-ecologie" />
             </div>
         </div>
-        <div class="bandeau">
+        <div class="bandeau" id="bandeau3">
             <div class="bandeau-container-img">
                 <img src="Assets/Images/logoSens'Cert.png" alt="Logo Sens'Cert" id="img-SensCert" />
             </div>
@@ -61,7 +61,7 @@
                 </p>
             </div>
         </div>
-        <div class="bandeau">
+        <div class="bandeau" id="bandeau4">
             <div class="bandeau-container-texte">
                 <h2 class="titre-bandeau">Des questions ?</h2>
                 <p>

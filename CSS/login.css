@@ -1,35 +1,3 @@
-/* Barre de navigation */
-
-.nav {
-  margin-bottom: 40px;
-}
-.nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(7, 116, 105);
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.nav li {
-  float: left;
-}
-
-.nav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.nav li a:hover {
-  background-color: rgb(190, 30, 83);
-}
-
 /* body and font */
 
 .background {
@@ -41,13 +9,7 @@
 
 .header {
   text-align: center;
-  padding: 40px;
-  font-size: 20px;
-}
-
-.header2 {
-  text-align: center;
-  padding: 30px;
+  padding: 10px;
   font-size: 15px;
 }
 
@@ -70,6 +32,9 @@ b1 {
 form {
   border: 3px solid #077459;
   border-radius: 15px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Full-width inputs */
@@ -79,24 +44,28 @@ input[type="password"] {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #077459;
+  border: 1px solid #04aa6d;
   box-sizing: border-box;
+  border-radius: 5px;
 }
 
 /* Set a style for all buttons */
 button {
-  background-color: #077459;
+  background-color: #04aa6d;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
+  border-radius: 10px;
   cursor: pointer;
-  width: 100%;
+  width: 40%;
+  height: 60px;
+  font-size: 18px;
 }
 
 /* Add a hover effect for buttons */
 button:hover {
-  background-color: #be1e53ff;
+  background-color: rgb(7, 116, 105);
 }
 
 /* Extra style for the cancel button (red) */
@@ -124,6 +93,8 @@ img.avatar {
   padding: 8px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* The "Forgot password" text */

@@ -19,35 +19,35 @@
     <header class="header">
         <h1>Nous contacter !</h1>
     </header>
-    <div>
-        <h1>Nos Réseaux</h1>
-        <div id="container-all-person">
-            <div class="container-one-person">
-                <a href="https://www.facebook.com/" target="_blank">
-                    <img src="../Assets/Images/logo-facebook.png" width="200" alt="Facebook" />
-                </a>
-                <p>
-                    Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
-                </p>
-            </div>
-            <div class="container-one-person">
-                <a href="https://linkedin.com/" target="_blank">
-                    <img src="../Assets/Images/logo-linkedin.png" width="200" alt="Linkedin" />
-                </a>
-                <p>
-                    Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
-                </p>
-            </div>
-            <div class="container-one-person">
-                <a href="https://www.Instagram.com/" target="_blank">
-                    <img src="../Assets/Images/Instagram-Logo-PNG-Image.png" width="200" alt="Instagram" />
-                </a>
-                <p>
-                    Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
-                </p>
+    <div id="all-page">
+        <div>
+            <h1>Nos réseaux</h1>
+            <div id="container-all-person">
+                <div class="container-one-person">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="../Assets/Images/logo-facebook.png" width="200" alt="Facebook" />
+                    </a>
+                    <p>
+                        Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
+                    </p>
+                </div>
+                <div class="container-one-person">
+                    <a href="https://linkedin.com/" target="_blank">
+                        <img src="../Assets/Images/logo-linkedin.png" width="200" alt="Linkedin" />
+                    </a>
+                    <p>
+                        Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
+                    </p>
+                </div>
+                <div class="container-one-person">
+                    <a href="https://www.Instagram.com/" target="_blank">
+                        <img src="../Assets/Images/Instagram-Logo-PNG-Image.png" width="200" alt="Instagram" />
+                    </a>
+                    <p>
+                        Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
     </div>
 </body>

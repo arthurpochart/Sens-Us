@@ -29,7 +29,7 @@
             <div class="container">
                 <label for="uname"><b>Utilisateur</b></label>
                 <br>
-                <input type="text" placeholder="Entrer le nom d'utilisateur" name="uname" required>
+                <input type="text" placeholder="Entrer votre mail d'utilisateur" name="uname" required>
 
                 <label for="psw"><b>Mot de passe</b></label>
                 <br>

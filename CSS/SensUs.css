@@ -29,7 +29,7 @@ body {
 #container-all-person {
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items: center;
 }
 
 .container-one-person img {

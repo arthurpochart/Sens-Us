@@ -7,6 +7,6 @@
     <li><a href="/Sens-Us/PHP/FAQ.php">FAQ</a></li>
     <li><a href="/Sens-Us/PHP/leaderBoard.php">LeaderBoard</a></li>
     <li><a href="/Sens-Us/PHP/NosReseaux.php">Nos réseaux</a></li>
-    <li><a href="/Sens-Us/PHP/login.php">Se Connecter</a></li>
+    <li><a href="/Sens-Us/PHP/login.php">Se connecter</a></li>
   </ul>
 </header>

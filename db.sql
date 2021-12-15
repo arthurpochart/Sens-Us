@@ -1,7 +1,6 @@
 create table administrateur
 (
-    AdminId int         not null
-        primary key,
+    AdminId int         not null primary key AUTO_INCREMENT,
     Nom     varchar(45) not null,
     Email   varchar(45) not null,
     Tel     int         not null
@@ -9,8 +8,7 @@ create table administrateur
 
 create table gestionnaire
 (
-    GestId int(45)     not null
-        primary key,
+    GestId int(45)     not null primary key AUTO_INCREMENT,
     RIB    int         not null,
     Nom    varchar(45) not null,
     Prenom varchar(45) not null,
@@ -20,8 +18,7 @@ create table gestionnaire
 
 create table groupe
 (
-    GroupId    int(45)     not null
-        primary key,
+    GroupId    int(45)     not null primary key AUTO_INCREMENT,
     SIRET      varchar(45) not null,
     Secteur    varchar(45) not null,
     Adresse    varchar(45) not null,
@@ -34,8 +31,7 @@ create table groupe
 
 create table membre
 (
-    MembreId int         not null
-        primary key,
+    MembreId int         not null primary key AUTO_INCREMENT,
     Nom      int         not null,
     Prenom   int         not null,
     Email    int         not null,

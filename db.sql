@@ -3,17 +3,17 @@ create table administrateur
     AdminId int         not null primary key AUTO_INCREMENT,
     Nom     varchar(255) not null,
     Email   varchar(255) not null,
-    Tel     int         not null
+    Tel     varchar(255) not null
 );
 
 create table gestionnaire
 (
     GestId int(45)     not null primary key AUTO_INCREMENT,
-    RIB    int         not null,
+    RIB    varchar(255) not null,
     Nom    varchar(255) not null,
     Prenom varchar(255) not null,
     Email  varchar(255) not null,
-    Mdp   varchar(255) not null
+    Mdp    varchar(255) not null
 );
 
 create table groupe

@@ -13,7 +13,7 @@ create table gestionnaire
     Nom    varchar(255) not null,
     Prenom varchar(255) not null,
     Email  varchar(255) not null,
-    Hash   varchar(255) not null
+    Mdp   varchar(255) not null
 );
 
 create table groupe
@@ -35,7 +35,7 @@ create table membre
     Nom      varchar(255)         not null,
     Prenom   varchar(255)         not null,
     Email    varchar(255)         not null,
-    Hash     varchar(255) not null,
+    Mdp      varchar(255) not null,
     GroupId  int         not null,
     GestId   int(45)     null,
     constraint membre_groupe_Gestid_fk

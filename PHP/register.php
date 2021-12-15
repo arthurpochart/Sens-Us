@@ -46,7 +46,7 @@
                 <hr>
 
                 <p>En créant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>
-                <button type="submit" class="registerbtn">Se connecter</button>
+                <button type="submit" class="registerbtn">S'inscrire</button>
                 <div class="login">
                     <p>Vous possédez un compte ? <a href="login.php">Se connecter</a>.</p>
                 </div>
@@ -54,7 +54,7 @@
         </div>
     </form>
 
-    <form>
+    <form action="inscriptionChefGroupe_post.php" method="POST">
         <div class="carte-contenu">
             <div class="dropBtn" onclick="showChef()">
                 <h2>Compte Chef de Groupe</h2>
@@ -62,18 +62,27 @@
                 <hr>
             </div>
             <div id="dropChef" class="dropContent">
-                <label for="email"><b>Email</b></label>
-                <input type="text" placeholder="Votre adresse mail" name="email" id="email" required>
+                <label for="C.nom"><b>Nom</b></label>
+                <input type="text" placeholder="Votre Nom" name="nom" id="C.nom" required>
+
+                <label for="C.prenom"><b>Prénom</b></label>
+                <input type="text" placeholder="Votre Prénom" name="prenom" id="C.prenom" required>
+
+                <label for="C.email"><b>Email</b></label>
+                <input type="text" placeholder="Votre adresse mail" name="email" id="C.email" required>
 
                 <label for="C.mdp"><b>Mot de passe</b></label>
                 <input type="password" placeholder="Enter Password" name="mdp" id="C.mdp" required>
 
                 <label for="C.mdp-confirm"><b>Confirmez mot de passe</b></label>
                 <input type="password" placeholder="Confirmez" name="mdp-confirm" id="C.mdp-confirm" required>
+
+                <label for="C.RIB"><b>Votre RIB</b></label>
+                <input type="text" placeholder="Votre RIB" name="rib" id="C.RIB" required>
                 <hr>
 
                 <p>En créant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>
-                <button type="submit" class="registerbtn">Se connecter</button>
+                <button type="submit" class="registerbtn">S'inscrire</button>
                 <div class="login">
                     <p>Vous possédez un compte ? <a href="login.php">Se connecter</a>.</p>
                 </div>

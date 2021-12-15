@@ -38,7 +38,7 @@
                     <button type="button">Se connecter</button>
                     <!--pensez à changer "button" pour un "submit" vers le php-->
                 </a>
-                <label>
+                <label id="coche">
                     <input type="checkbox" checked="checked" name="remember">
                     <b1>Se souvenir de moi</b1>
                 </label>
@@ -62,7 +62,5 @@
                 <button type="button">Se créer un compte</button>
             </a>
         </div>
-
     </header>
-
 </body>

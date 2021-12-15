@@ -8,19 +8,14 @@ $reponses->bindParam(':email', $_POST['email']);
 $reponses->execute();
 $donnees = $reponses->fetch();
 
-echo $_POST['mdp'];
-
 if (
     !empty($_POST['nom']) && !empty($_POST['prenom']) && !empty($_POST['email']) &&
     !empty($_POST['rib']) && (!empty($_POST['mdp'])) && (!empty($_POST['mdp-confirm']))
 ) {
-    echo ("ca marche");
     if (!$donnees['GestId']) {
-        echo ("ca marche 2");
         if (preg_match('#^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$#', $_POST['email'])) {
             $email = $_POST["email"];
             $reponses->closeCursor();
-            echo ("ca marche 3");
             if ($_POST['mdp'] == $_POST['mdp-confirm']) {
                 $pass_hache = sha1($_POST['mdp']);
                 $reponses = $db->prepare('INSERT INTO gestionnaire(Nom, Prenom, RIB, Email, Mdp) VALUES(:nom, :prenom, :RIB, :email, :mdp)');
@@ -42,7 +37,7 @@ if (
 
                 $reponses->closeCursor();
 
-                header('Location: register.php');
+                header('Location: login.php');
             } else {
                 echo "Les mots de passe sont différents.";
             }

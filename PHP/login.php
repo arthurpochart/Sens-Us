@@ -24,18 +24,18 @@
             </picture>
         </div>
 
-        <form action="action_page.php" method="post">
+        <form action="connexionChefGroupe_post.php" method="post">
             <div class="container">
-                <label for="uname"><b>Utilisateur</b></label>
+                <label for="email"><b>Email</b></label>
                 <br>
-                <input type="text" placeholder="Entrer votre mail d'utilisateur" name="uname" required>
+                <input type="text" placeholder="Entrer votre email" name="email" required>
 
-                <label for="psw"><b>Mot de passe</b></label>
+                <label for="mdp"><b>Mot de passe</b></label>
                 <br>
-                <input type="password" placeholder="Entrer le mot de passe" name="psw" required>
+                <input type="password" placeholder="Entrer le mot de passe" name="mdp" required>
 
                 <a href="../index.php">
-                    <button type="button">Se connecter</button>
+                    <button type="submit">Se connecter</button>
                     <!--pensez à changer "button" pour un "submit" vers le php-->
                 </a>
                 <label id="coche">
@@ -47,7 +47,7 @@
             <div class="container" style="background-color:#f1f1f1">
                 <header class="header1">
                     <a href="../index.php">
-                        <button type="button" class="cancelbtn">Annuler</button>
+                        <button type="reset" class="cancelbtn">Annuler</button>
                     </a>
                 </header>
 

@@ -1,3 +1,8 @@
+<?php
+include "PHP/savoirsilog.php";
+$connecte = savoirsilog();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +21,13 @@
 
 <body class="background">
 
-    <?php include "PHP/nav.php" ?>
+    <?php
+    if ($connecte === true) {
+        include "PHP/navlog.php";
+    } else {
+        include "PHP/nav.php";
+    }
+    ?>
 
     <header class="header">
         <h1>SensCert</h1>

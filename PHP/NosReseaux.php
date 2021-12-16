@@ -15,7 +15,10 @@
 </head>
 
 <body class="background">
-    <?php include "nav.php" ?>
+    <?php
+    include "navaffichage.php";
+    navaffichage();
+    ?>
     <header class="header">
         <h1>Nous contacter !</h1>
     </header>

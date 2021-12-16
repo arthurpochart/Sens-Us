@@ -13,7 +13,10 @@
 </head>
 
 <body class="background">
-  <?php include "nav.php" ?>
+  <?php
+  include "navaffichage.php";
+  navaffichage();
+  ?>
 
   <div class="container">
     <div id="title">

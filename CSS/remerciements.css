@@ -18,7 +18,8 @@ h3 {
   transform: translate(-50%, -50%);
 }
 button {
-  background-color: #be1e53ff;
+  background-color: #04aa6d;
+  border-radius: 10px;
   border: none;
   color: white;
   padding: 20px 34px;
@@ -26,7 +27,6 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  margin: 4px 2px;
   cursor: pointer;
 }
 
@@ -46,4 +46,5 @@ button:hover {
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
+  margin: 10px 0px;
 }

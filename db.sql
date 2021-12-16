@@ -1,3 +1,5 @@
+use db;
+
 create table administrateur
 (
     AdminId int         not null primary key AUTO_INCREMENT,

@@ -79,6 +79,15 @@
 
                 <label for="C.RIB"><b>Votre RIB</b></label>
                 <input type="text" placeholder="Votre RIB" name="rib" id="C.RIB" required>
+
+                <label for="C.SIRET"><b>Votre SIRET</b></label>
+                <input type="text" placeholder="Votre SIRET" name="siret" id="C.SIRET" required>
+
+                <label for="C.secteur"><b>Votre secteur d'entreprise</b></label>
+                <input type="text" placeholder="Votre Secteur" name="secteur" id="C.secteur" required>
+
+                <label for="C.adresse"><b>Votre adresse d'entreprise</b></label>
+                <input type="text" placeholder="Votre Adresse" name="adresse" id="C.adresse" required>
                 <hr>
 
                 <p>En créant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>

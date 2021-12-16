@@ -2,6 +2,7 @@
 include "connect_to_db.php";
 $db = dbConnect();
 
+
 // On exécute une requête qui permettra de vérifier que l'email n'est pas déjà pris dans la bdd
 $reponses = $db->prepare('SELECT GestId FROM gestionnaire WHERE Email = :email');
 $reponses->bindParam(':email', $_POST['email']);

@@ -20,7 +20,7 @@
         <div>
             <h1>Connectez-vous ou inscrivez-vous sur Sens'Us!</h1>
             <picture>
-                <img src="../Assets/Images/logoSens'Us.png" alt="logo" style="width:200px;height:275px;">
+                <img src="../Assets/Images/logoSens'Us.png" alt="logo" style="width:140px;height:200px;">
             </picture>
         </div>
 
@@ -44,7 +44,7 @@
                 </label>
             </div>
 
-            <div class="container" style="background-color:#f1f1f1">
+            <div class="container">
                 <header class="header1">
                     <a href="../index.php">
                         <button type="reset" class="cancelbtn">Annuler</button>
@@ -59,7 +59,7 @@
             <b>Vous n'avez pas de compte ?</b>
             <br>
             <a href="register.php">
-                <button type="button">Se créer un compte</button>
+                <button type="button" id="creerUnCompte">Se créer un compte</button>
             </a>
         </div>
     </header>

@@ -15,7 +15,10 @@
 </head>
 
 <body class="background">
-    <?php include "nav.php" ?>
+    <?php
+    include "navaffichage.php";
+    navaffichage();
+    ?>
 
     <div id="all-page">
         <div id="presentation-generale">

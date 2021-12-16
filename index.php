@@ -18,7 +18,7 @@
 
     <?php
     include "PHP/navaffichage.php";
-    navaffichage();
+    navaffichage("PHP/");
     ?>
 
     <header class="header">

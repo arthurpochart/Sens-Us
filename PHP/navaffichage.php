@@ -1,13 +1,13 @@
 <?php
 
-function navaffichage()
+function navaffichage($repertoire = "")
 {
-    include "PHP/savoirsilog.php";
+    include($repertoire . "savoirsilog.php");
     $connecte = savoirsilog();
 
     if ($connecte === true) {
-        include "PHP/navlog.php";
+        include($repertoire . "navlog.php");
     } else {
-        include "PHP/nav.php";
+        include($repertoire . "nav.php");
     }
 }

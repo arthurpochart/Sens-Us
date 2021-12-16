@@ -36,6 +36,7 @@ form {
   border: 1px solid #077459;
   border-radius: 15px;
   width: 90%;
+  padding: 1%;
 }
 
 label {
@@ -82,12 +83,16 @@ button:hover {
   background-color: rgb(7, 116, 105);
 }
 
+#creerUnCompte {
+  width: 100%;
+}
+
 /* Extra style for the cancel button (red) */
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
   border-radius: 10px;
-  background-color: #be1e53ff;
+  background-color: rgb(190, 30, 83);
 }
 
 /* Center the avatar image inside this container */

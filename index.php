@@ -1,8 +1,3 @@
-<?php
-include "PHP/savoirsilog.php";
-$connecte = savoirsilog();
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,11 +17,8 @@ $connecte = savoirsilog();
 <body class="background">
 
     <?php
-    if ($connecte === true) {
-        include "PHP/navlog.php";
-    } else {
-        include "PHP/nav.php";
-    }
+    include "PHP/navaffichage.php";
+    navaffichage();
     ?>
 
     <header class="header">

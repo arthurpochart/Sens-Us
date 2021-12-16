@@ -7,7 +7,8 @@
         <li><a href="/Sens-Us/PHP/FAQ.php">FAQ</a></li>
         <li><a href="/Sens-Us/PHP/leaderBoard.php">LeaderBoard</a></li>
         <li><a href="/Sens-Us/PHP/NosReseaux.php">Nos réseaux</a></li>
-        <li><a href="/Sens-Us/PHP/login.php">Mon espace</a></li>
-        <li><a href="/Sens-Us/PHP/login.php">Mon profil</a></li>
+        <li><a href="/Sens-Us/PHP/espace.php">Mon espace</a></li>
+        <li><a href="/Sens-Us/PHP/profil.php">Mon profil</a></li>
+        <li><a href="/Sens-Us/PHP/deconnexion.php">Se déconnecter</a></li>
     </ul>
 </header>

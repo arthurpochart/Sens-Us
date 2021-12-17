@@ -27,7 +27,7 @@
     ?>
 
     <header class="header">
-        <h1>SensCert</h1>
+        <h1>Sens'Cert</h1>
         <p>Soyez en contrôle de vos émissions</p>
         <a href="PHP/register.php">
             <button class="boutonHeader">Créer un compte</button>

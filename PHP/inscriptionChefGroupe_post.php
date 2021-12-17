@@ -12,7 +12,7 @@ $donnees = $reponsesGest->fetch();
 if (
     !empty($_POST['nom']) && !empty($_POST['prenom']) && !empty($_POST['email']) &&
     !empty($_POST['rib']) && (!empty($_POST['mdp'])) && (!empty($_POST['mdp-confirm'])) && (!empty($_POST['siret']))
-    && (!empty($_POST['secteur'])) &&(!empty($_POST['adresse']))
+    && (!empty($_POST['secteur'])) && (!empty($_POST['adresse']))
 ) {
     if (!$donnees['GestId']) {
         if (preg_match('#^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$#', $_POST['email'])) {
@@ -39,26 +39,21 @@ if (
 
                 $reponsesGest->closeCursor();
 
-
-                try{
-
+                try {
                     //prepare la query pour les donées servant a creer le groupe
                     $classinit = 0;
-                    $reponsesGroupe = $db->prepare('INSERT INTO groupe(groupid, siret, secteur, adresse, classement, gestid) VALUES(:groupid, :siret, :secteur, :adresse,:classement, :gestid)');
-                    $reponsesGroupe->bindParam("siret",$_POST['siret']);
-                    $reponsesGroupe->bindParam("secteur",$_POST['secteur']);
-                    $reponsesGroupe->bindParam("adresse",$_POST['adresse']);
-                    $reponsesGroupe->bindParam("gestid",$id);
-                    $reponsesGroupe->bindParam("classement",$classinit);
+                    $reponsesGroupe = $db->prepare('INSERT INTO groupe(SIRET, Secteur, Adresse, Classement, Gestid) VALUES(:siret, :secteur, :adresse, :classement, :gestid)');
+                    $reponsesGroupe->bindParam("siret", $_POST['siret']);
+                    $reponsesGroupe->bindParam("secteur", $_POST['secteur']);
+                    $reponsesGroupe->bindParam("adresse", $_POST['adresse']);
+                    $reponsesGroupe->bindParam("classement", $classinit);
+                    $reponsesGroupe->bindParam("gestid", $id);
                     $reponsesGroupe->execute();
                     $reponsesGroupe->closeCursor();
+                    header('Location: login.php');
+                } catch (Exception $e) {
+                    echo "Erreur de creation de groupe";
                 }
-                catch(Exception $e){
-                    echo"erreur de creation de groupe";
-                }
-                header('Location: login.php');
-
-
             } else {
                 echo "Les mots de passe sont différents.";
             }
@@ -66,7 +61,7 @@ if (
             echo "L'adresse email n'est pas valide";
         }
     } else {
-        echo 'Le mail ' . $_POST['mail'] . ' est déjà pris !';
+        echo 'Le mail ' . $_POST['email'] . ' est déjà pris !';
     }
 } else {
     echo "Tous les champs ne sont pas remplis.";

@@ -20,7 +20,7 @@
         <div>
             <h1>Connectez-vous ou inscrivez-vous sur Sens'Us!</h1>
             <picture>
-                <img src="../Assets/Images/logoSens'Us.png" alt="logo" style="width:140px;height:200px;">
+                <img src="../Assets/Images/logoSens'Us.png" alt="logo" style="width:70px;height:100px;">
             </picture>
         </div>
 

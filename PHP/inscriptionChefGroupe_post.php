@@ -14,7 +14,7 @@ if (
     !empty($_POST['rib']) && (!empty($_POST['mdp'])) && (!empty($_POST['mdp-confirm'])) && (!empty($_POST['siret']))
     && (!empty($_POST['secteur'])) && (!empty($_POST['adresse']))
 ) {
-    if (!$donnees['GestId']) {
+    if (!$donnees) {
         if (preg_match('#^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$#', $_POST['email'])) {
             $email = $_POST["email"];
             $reponsesGest->closeCursor();

@@ -20,7 +20,8 @@ if (
             $reponsesGest->closeCursor();
             if ($_POST['mdp'] == $_POST['mdp-confirm']) {
                 $pass_hache = sha1($_POST['mdp']);
-                $reponsesGest = $db->prepare('INSERT INTO gestionnaire(Nom, Prenom, RIB, Email,mdp) VALUES(:nom, :prenom, :RIB, :email, :mdp)');
+
+                $reponsesGest = $db->prepare('INSERT INTO gestionnaire(Nom, Prenom, RIB, Email, Mdp) VALUES(:nom, :prenom, :RIB, :email, :mdp)');
 
                 $reponsesGest->bindParam("nom", $_POST['nom']);
                 $reponsesGest->bindParam("prenom", $_POST['prenom']);
@@ -39,14 +40,35 @@ if (
 
                 $reponsesGest->closeCursor();
 
+                // Test de gueguet non fonctionnel (NE PAS EFFACER MERCI)
+                // $destinataire = $email;
+                // $sujet = "Activer votre compte";
+                // $entete = "From: gauthier-il@hotmail.fr";
+                // $message = 'Bienvenue sur Sens\'Us,
+                // Pour activer votre compte, veuillez cliquer sur le lien ci-dessous
+                // ou copier/coller dans votre navigateur Internet.
+
+                // http://localhost/Sens-Us/PHP/activation.php?log=' . urlencode($email) . '&cle=' . urlencode($cle) . '
+
+
+                // ---------------
+                // Ceci est un mail automatique, Merci de ne pas y répondre.';
+
+                // mail($destinataire, $sujet, $message, $entete);
+
                 try {
                     //prepare la query pour les donées servant a creer le groupe
                     $classinit = 0;
-                    $reponsesGroupe = $db->prepare('INSERT INTO groupe(SIRET, Secteur, Adresse, Classement, Gestid) VALUES(:siret, :secteur, :adresse, :classement, :gestid)');
+                    $comb = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+                    $shfl = str_shuffle($comb);
+                    $code = substr($shfl, 0, 8);
+
+                    $reponsesGroupe = $db->prepare('INSERT INTO groupe(SIRET, Secteur, Adresse, Classement, Code, Gestid) VALUES(:siret, :secteur, :adresse, :classement, :code, :gestid)');
                     $reponsesGroupe->bindParam("siret", $_POST['siret']);
                     $reponsesGroupe->bindParam("secteur", $_POST['secteur']);
                     $reponsesGroupe->bindParam("adresse", $_POST['adresse']);
                     $reponsesGroupe->bindParam("classement", $classinit);
+                    $reponsesGroupe->bindParam("code", $code);
                     $reponsesGroupe->bindParam("gestid", $id);
                     $reponsesGroupe->execute();
                     $reponsesGroupe->closeCursor();

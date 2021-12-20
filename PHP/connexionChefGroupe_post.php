@@ -10,6 +10,14 @@ $reponses->bindParam(':email', $email);
 $reponses->bindParam(':mdp', $pass_hache);
 $reponses->execute();
 
+
+// TEST DE GUETGUET NE PAS EFFACER
+// Récupération de la valeur du champ actif pour le login $email
+// $stmt = $dbh->prepare("SELECT actif FROM gestionnaire WHERE Email = :email ");
+// if ($stmt->execute(array(':email' => $email))  && $row = $stmt->fetch()) {
+//     $actif = $row['actif']; // $actif contiendra alors 0 ou 1
+// }
+
 $resultats = $reponses->fetch();
 
 if (!empty($email) && !empty($_POST['mdp'])) {

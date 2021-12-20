@@ -21,7 +21,7 @@
         <p>Si votre entreprise a déjà un compte, devenez membre de groupe</p>
     </div>
 
-    <form>
+    <form action="inscriptionMembre_post.php" method="POST">
         <div class="carte-contenu">
             <div class="dropBtn" onclick="showMembre()">
                 <h2>Compte Membre</h2>
@@ -30,10 +30,10 @@
             </div>
             <div id="dropMembre" class="dropContent">
                 <label for="M.nom"><b>Nom</b></label>
-                <input type="text" placeholder="Votre Nom" name="email" id="M.nom" required>
+                <input type="text" placeholder="Votre Nom" name="nom" id="M.nom" required>
 
                 <label for="M.prenom"><b>Prénom</b></label>
-                <input type="text" placeholder="Votre Prénom" name="email" id="M.prenom" required>
+                <input type="text" placeholder="Votre Prénom" name="prenom" id="M.prenom" required>
 
                 <label for="M.email"><b>Email</b></label>
                 <input type="text" placeholder="Votre adresse mail" name="email" id="M.email" required>
@@ -43,6 +43,9 @@
 
                 <label for="M.mdp-confirm"><b>Confirmez mot de passe</b></label>
                 <input type="password" placeholder="Confirmez" name="mdp-confirm" id="M.mdp-confirm" required>
+
+                <label for="M.code"><b>Code de votre groupe</b></label>
+                <input type="text" placeholder="Entrer le code de votre groupe" name="code" id="M.code" required>
                 <hr>
 
                 <p>En créant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>

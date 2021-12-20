@@ -5,14 +5,14 @@ $db = dbConnect();
 
 // On exécute une requête qui permettra de vérifier que l'email n'est pas déjà pris dans la bdd
 $reponsesGest = $db->prepare('SELECT GestId FROM gestionnaire WHERE Email = :email');
-$reponsesGest->bindParam(':email', $_POST['email']);
+$reponsesGest->bindParam('email', $_POST['email']);
 $reponsesGest->execute();
 $donnees = $reponsesGest->fetch();
 
 if (
     !empty($_POST['nom']) && !empty($_POST['prenom']) && !empty($_POST['email']) &&
-    !empty($_POST['rib']) && (!empty($_POST['mdp'])) && (!empty($_POST['mdp-confirm'])) && (!empty($_POST['siret']))
-    && (!empty($_POST['secteur'])) && (!empty($_POST['adresse']))
+    !empty($_POST['rib']) && !empty($_POST['mdp']) && !empty($_POST['mdp-confirm']) && !empty($_POST['siret'])
+    && !empty($_POST['secteur']) && !empty($_POST['adresse'])
 ) {
     if (!$donnees) {
         if (preg_match('#^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$#', $_POST['email'])) {

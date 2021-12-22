@@ -10,12 +10,12 @@
 
 #bandeau1,
 #bandeau3 {
-  background-color: rgb(206, 245, 205);
+  background-color: #FFFFFF;
 }
 
 #bandeau2,
 #bandeau4 {
-  background-color: rgb(205, 205, 255);
+  background-color: rgb(133, 182, 121);
 }
 
 .bandeau-container-texte {
@@ -43,7 +43,7 @@
 }
 
 .titre-bandeau {
-  color: #077459;
+  color: #000000;
 }
 
 .header {

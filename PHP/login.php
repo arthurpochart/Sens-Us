@@ -14,7 +14,7 @@
     <title>Page de connexion</title>
 </head>
 
-<body class="background">
+<body class="background2">
     <?php include "nav.php" ?>
     <header class="header">
         <div>

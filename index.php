@@ -15,6 +15,10 @@
     img {
         border-radius: 10%;
     }
+    .justifier {
+        text-align: justify;
+        text-justify: inter-word;
+    }
     </style>
     <title>Page d'accueil</title>
 </head>
@@ -49,10 +53,10 @@
         </div>
         <div class="bandeau" id="bandeau2">
             <div class="bandeau-container-texte">
-                <h2 class="titre-bandeau">Les enjeux écologiques</h2>
-                <p>
+                <h2 class="titre-bandeau2">Les enjeux écologiques</h2>
+                <p2>
                     Esse non esse quis mollit esse consequat. Cillum eu ad occaecat ad nulla cupidatat enim voluptate consequat. Eiusmod dolor eu dolor Lorem et consequat occaecat excepteur adipisicing dolore magna et. Elit ipsum veniam labore dolore occaecat nisi aute occaecat minim proident Lorem. Irure in mollit dolor deserunt non excepteur sint. Sit sit exercitation nisi pariatur esse aute consequat. Aliqua veniam qui cillum et qui proident qui proident adipisicing.
-                </p>
+                </p2>
             </div>
             <div class="bandeau-container-img">
                 <img src="Assets/Images/ecologie.jpg" alt="Ecologie" id="img-ecologie" />
@@ -71,10 +75,10 @@
         </div>
         <div class="bandeau" id="bandeau4">
             <div class="bandeau-container-texte">
-                <h2 class="titre-bandeau">Des questions ?</h2>
-                <p>
+                <h2 class="titre-bandeau2">Des questions ?</h2>
+                <p2>
                     Esse non esse quis mollit esse consequat. Cillum eu ad occaecat ad nulla cupidatat enim voluptate consequat. Eiusmod dolor eu dolor Lorem et consequat occaecat excepteur adipisicing dolore magna et. Elit ipsum veniam labore dolore occaecat nisi aute occaecat minim proident Lorem. Irure in mollit dolor deserunt non excepteur sint. Sit sit exercitation nisi pariatur esse aute consequat. Aliqua veniam qui cillum et qui proident qui proident adipisicing.
-                </p>
+                </p2>
             </div>
             <div class="bandeau-container-img">
                 <img src="Assets/Images/question.jpeg" alt="Point d'interrogation" id="img-question" />

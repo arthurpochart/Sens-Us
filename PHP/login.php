@@ -14,13 +14,13 @@
     <title>Page de connexion</title>
 </head>
 
-<body class="background2">
+<body class="background">
     <?php include "nav.php" ?>
     <header class="header">
         <div>
             <h1>Connectez-vous ou inscrivez-vous sur Sens'Us!</h1>
             <picture>
-                <img src="../Assets/Images/logoSens'Us.png" alt="logo" style="width:70px;height:100px;">
+                <img src="../Assets/Images/logoSens'Us.png" alt="logo" style="width:98px;height:140px;">
             </picture>
         </div>
 
@@ -45,11 +45,10 @@
             </div>
 
             <div class="container">
-                <header class="header1">
-                    <a href="../index.php">
-                        <button type="reset" class="cancelbtn">Annuler</button>
-                    </a>
-                </header>
+            
+                <a href="../index.php">
+                    <button type="reset" class="cancelbtn">Annuler</button>
+                </a>
 
             </div>
         </form>

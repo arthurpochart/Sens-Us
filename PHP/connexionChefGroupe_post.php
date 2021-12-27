@@ -5,11 +5,15 @@ $db = dbConnect();
 $email = $_POST['email'];
 $pass_hache = sha1($_POST['mdp']);
 
-$reponses = $db->prepare('SELECT GestId FROM gestionnaire WHERE Email = :email AND Mdp = :mdp');
-$reponses->bindParam(':email', $email);
-$reponses->bindParam(':mdp', $pass_hache);
-$reponses->execute();
+$reponsesGest = $db->prepare('SELECT GestId FROM gestionnaire WHERE Email = :email AND Mdp = :mdp');
+$reponsesGest->bindParam(':email', $email);
+$reponsesGest->bindParam(':mdp', $pass_hache);
+$reponsesGest->execute();
 
+$reponsesMembre = $db->prepare('SELECT MembreId FROM membre WHERE Email = :email AND Mdp = :mdp');
+$reponsesMembre->bindParam(':email', $email);
+$reponsesMembre->bindParam(':mdp', $pass_hache);
+$reponsesMembre->execute();
 
 // TEST DE GUETGUET NE PAS EFFACER
 // Récupération de la valeur du champ actif pour le login $email
@@ -18,14 +22,17 @@ $reponses->execute();
 //     $actif = $row['actif']; // $actif contiendra alors 0 ou 1
 // }
 
-$resultats = $reponses->fetch();
+$resultatsGest = $reponsesGest->fetch();
+$resultatsMembre = $reponsesMembre->fetch();
+
 
 if (!empty($email) && !empty($_POST['mdp'])) {
-    if (!$resultats) {
+    if ($resultatsGest != false && $resultatsMembre != false) {
         echo "Votre identifiant ou votre mot de passe est incorrect !";
     } else {
         session_start();
-        $_SESSION['id'] = $resultats['GestId'];
+        $_SESSION['GestId'] = $resultatsGest['GestId'];
+        $_SESSION['MembreId'] = $resultatsMembre['MembreId'];
         $_SESSION['email'] = $email;
         header('Location: ../index.php');
     }

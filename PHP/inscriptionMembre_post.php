@@ -16,23 +16,23 @@ if (
             $email = $_POST["email"];
             $reponsesMembre->closeCursor();
             if ($_POST['mdp'] == $_POST['mdp-confirm']) {
-                $rechercheGroupe = $db->prepare('SELECT GroupId,GestId FROM groupe WHERE Code = :code');
+                $rechercheGroupe = $db->prepare('SELECT GroupeId, GestId FROM groupe WHERE Code = :code');
                 $rechercheGroupe->bindParam('code', $_POST['code']);
                 $rechercheGroupe->execute();
                 $donneesMembre = $rechercheGroupe->fetch();
                 if ($donneesMembre != false) {
-                    $groupid = intval($donneesMembre['GroupId']);
+                    $groupeid = intval($donneesMembre['GroupeId']);
                     $gestid = intval($donneesMembre['GestId']);
 
                     $pass_hache = sha1($_POST['mdp']);
 
-                    $reponsesMembre = $db->prepare('INSERT INTO membre(Nom, Prenom, Email, Mdp, GroupId, GestId) VALUES(:nom, :prenom, :email, :mdp, :groupid, :gestid)');
+                    $reponsesMembre = $db->prepare('INSERT INTO membre(Nom, Prenom, Email, Mdp, GroupeId, GestId) VALUES(:nom, :prenom, :email, :mdp, :groupeid, :gestid)');
 
                     $reponsesMembre->bindParam("nom", $_POST['nom']);
                     $reponsesMembre->bindParam("prenom", $_POST['prenom']);
                     $reponsesMembre->bindParam("email", $email);
                     $reponsesMembre->bindParam("mdp", $pass_hache);
-                    $reponsesMembre->bindParam("groupid", $groupid);
+                    $reponsesMembre->bindParam("groupeid", $groupeid);
                     $reponsesMembre->bindParam("gestid", $gestid);
                     $reponsesMembre->execute();
                     $reponsesMembre->closeCursor();

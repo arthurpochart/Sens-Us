@@ -83,7 +83,10 @@
                 <label for="C.RIB"><b>Votre RIB</b></label>
                 <input type="text" placeholder="Votre RIB" name="rib" id="C.RIB" required>
 
-                <label for="C.SIRET"><b>Votre SIRET</b></label>
+                <label for="C.nom-groupe"><b>Nom de votre groupe</b></label>
+                <input type="text" placeholder="Nom du groupe" name="nom-groupe" id="C.nom-groupe" required>
+
+                <label for="C.SIRET"><b>SIRET de votre groupe</b></label>
                 <input type="text" placeholder="Votre SIRET" name="siret" id="C.SIRET" required>
 
                 <label for="C.secteur"><b>Votre secteur d'entreprise</b></label>

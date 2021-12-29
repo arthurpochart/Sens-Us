@@ -12,7 +12,7 @@ $donnees = $reponsesGest->fetch();
 if (
     !empty($_POST['nom']) && !empty($_POST['prenom']) && !empty($_POST['email']) &&
     !empty($_POST['rib']) && !empty($_POST['mdp']) && !empty($_POST['mdp-confirm']) && !empty($_POST['siret'])
-    && !empty($_POST['secteur']) && !empty($_POST['adresse'])
+    && !empty($_POST['secteur']) && !empty($_POST['adresse'] && !empty($_POST['nom-groupe']))
 ) {
     if (!$donnees) {
         if (preg_match('#^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$#', $_POST['email'])) {
@@ -63,7 +63,8 @@ if (
                     $shfl = str_shuffle($comb);
                     $code = substr($shfl, 0, 8);
 
-                    $reponsesGroupe = $db->prepare('INSERT INTO groupe(SIRET, Secteur, Adresse, Classement, Code, Gestid) VALUES(:siret, :secteur, :adresse, :classement, :code, :gestid)');
+                    $reponsesGroupe = $db->prepare('INSERT INTO groupe(NomGroupe, SIRET, Secteur, Adresse, Classement, Code, GestId) VALUES(:nomgroupe, :siret, :secteur, :adresse, :classement, :code, :gestid)');
+                    $reponsesGroupe->bindParam("nomgroupe", $_POST['nom-groupe']);
                     $reponsesGroupe->bindParam("siret", $_POST['siret']);
                     $reponsesGroupe->bindParam("secteur", $_POST['secteur']);
                     $reponsesGroupe->bindParam("adresse", $_POST['adresse']);

@@ -5,7 +5,7 @@ $db = dbConnect();
 $reponsesGroupe = $db->prepare('SELECT * FROM groupe');
 $reponsesGroupe->execute();
 
-$donneesGroupe = $reponsesGroupe->fetch();
+
 ?>
 
 <!DOCTYPE html>
@@ -29,7 +29,6 @@ $donneesGroupe = $reponsesGroupe->fetch();
 
     <table>
         <caption>LeaderBoard</caption>
-        <?php var_dump($donneesGroupe); ?>
         <thead>
             <tr>
                 <th>Classement</th>
@@ -53,14 +52,18 @@ $donneesGroupe = $reponsesGroupe->fetch();
         </tfoot>
 
         <tbody>
-            <tr>
-                <td><?php echo $donneesGroupe['Classement'] ?></td>
-                <td><?php echo $donneesGroupe['GroupeId'] ?></td>
-                <td><?php echo $donneesGroupe['NomGroupe'] ?></td>
-                <td><?php echo $donneesGroupe['SIRET'] ?></td>
-                <td><?php echo $donneesGroupe['Secteur'] ?></td>
-                <td><?php echo $donneesGroupe['Adresse'] ?></td>
-            </tr>
+            <?php while ($donneesGroupe = $reponsesGroupe->fetch()) { ?>
+                <tr>
+                    <td><?php echo $donneesGroupe['Classement'] ?></td>
+                    <td><?php echo $donneesGroupe['GroupeId'] ?></td>
+                    <td><?php echo $donneesGroupe['NomGroupe'] ?></td>
+                    <td><?php echo $donneesGroupe['SIRET'] ?></td>
+                    <td><?php echo $donneesGroupe['Secteur'] ?></td>
+                    <td><?php echo $donneesGroupe['Adresse'] ?></td>
+                </tr>
+            <?php }
+            $reponsesGroupe->closeCursor();
+            ?>
         </tbody>
     </table>
 </body>

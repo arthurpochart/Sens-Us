@@ -37,16 +37,16 @@ $donneesGroupe = $reponsesGroupe->fetch();
 
     <h1>Profil membre</h1>
     <h2>Informations personnelles gestionnaire</h2>
-    <p><?php echo $donneesMembre['Nom'] ?></p>
-    <p><?php echo $donneesMembre['Prenom'] ?></p>
-    <p><?php echo $donneesMembre['Email'] ?></p>
+    <p>Nom : <?php echo $donneesMembre['Nom'] ?></p>
+    <p>Prénom : <?php echo $donneesMembre['Prenom'] ?></p>
+    <p>Email : <?php echo $donneesMembre['Email'] ?></p>
 
     <h2>Informations du groupe</h2>
-    <p><?php echo $donneesGroupe['NomGroupe'] ?></p>
-    <p><?php echo $donneesGroupe['SIRET'] ?></p>
-    <p><?php echo $donneesGroupe['Secteur'] ?></p>
-    <p><?php echo $donneesGroupe['Adresse'] ?></p>
-    <p><?php echo $donneesGroupe['Code'] ?></p>
+    <p>Nom du groupe : <?php echo $donneesGroupe['NomGroupe'] ?></p>
+    <p>SIRET : <?php echo $donneesGroupe['SIRET'] ?></p>
+    <p>Secteur : <?php echo $donneesGroupe['Secteur'] ?></p>
+    <p>Adresse : <?php echo $donneesGroupe['Adresse'] ?></p>
+    <p>Code entreprise : <?php echo $donneesGroupe['Code'] ?></p>
 </body>
 
 </html>

@@ -24,7 +24,7 @@
             </picture>
         </div>
 
-        <form action="connexionChefGroupe_post.php" method="post">
+        <form action="connexion_post.php" method="post">
             <div class="container">
                 <label for="email"><b>Email</b></label>
                 <br>
@@ -45,7 +45,7 @@
             </div>
 
             <div class="container">
-            
+
                 <a href="../index.php">
                     <button type="reset" class="cancelbtn">Annuler</button>
                 </a>

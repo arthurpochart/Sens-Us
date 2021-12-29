@@ -2,11 +2,15 @@
 
 function navaffichage($repertoire = "")
 {
-    include($repertoire . "savoirsilog.php");
-    $connecte = savoirsilog();
+    include($repertoire . "savoirsilogGest.php");
+    include($repertoire . "savoirsilogMembre.php");
+    $connecteGest = savoirsilogGest();
+    $connecteMembre = savoirsilogMembre();
 
-    if ($connecte === true) {
-        include($repertoire . "navlog.php");
+    if ($connecteGest === true) {
+        include($repertoire . "navlogGest.php");
+    } elseif ($connecteMembre === true) {
+        include($repertoire . "navlogMembre.php");
     } else {
         include($repertoire . "nav.php");
     }

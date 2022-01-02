@@ -29,6 +29,10 @@
   width: 20%;
 }
 
+img {
+  border-radius: 10%;
+}
+
 #img-SensUs {
   width: 70%;
 }
@@ -93,5 +97,3 @@ header p {
 .boutonHeader:hover {
   background-color: rgb(7, 116, 105);
 }
-
-

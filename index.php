@@ -11,29 +11,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <style>
-    img {
-        border-radius: 10%;
-    }
-    .justifier {
-        text-align: justify;
-        text-justify: inter-word;
-    }
-    </style>
     <title>Page d'accueil</title>
 </head>
 
 <body class="background">
 
     <?php
-    include "PHP/navaffichage.php";
-    navaffichage("PHP/");
+    include "Controleur/nav_controleur.php";
+    nav_controleur("Vue/");
     ?>
 
     <header class="header">
         <h1>Sens'Cert</h1>
         <p>Soyez en contrôle de vos émissions</p>
-        <a href="PHP/register.php">
+        <a href="Vue/register_vue.php">
             <button class="boutonHeader">Créer un compte</button>
         </a>
 

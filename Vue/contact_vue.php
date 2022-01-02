@@ -14,15 +14,15 @@
 
 <body class="background">
   <?php
-  include "navaffichage.php";
-  navaffichage();
+  include "../Controleur/nav_controleur.php";
+  nav_controleur();
   ?>
 
   <div class="container">
     <div id="title">
       <h1>Contact'Us</h1>
     </div>
-    <form action="remerciements.php">
+    <form action="remerciements_vue.php">
       <label for="fname">Votre prénom :</label>
       <input type="text" id="fname" name="firstname" placeholder="Votre prénom...">
       <label for="lname">Votre nom :</label>

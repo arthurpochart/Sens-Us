@@ -16,8 +16,8 @@
 
 <body class="background">
     <?php
-    include "navaffichage.php";
-    navaffichage();
+    include "../Controleur/nav_controleur.php";
+    nav_controleur();
     ?>
     <header class="header">
         <h1>Nous contacter !</h1>

@@ -8,57 +8,54 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../CSS/SensCert.css">
+    <link rel="stylesheet" href="../CSS/SensUs.css">
     <link rel="stylesheet" href="../CSS/nav.css">
     <link rel="stylesheet" href="../CSS/background.css">
-    <title>Document</title>
+    <title>Sens'Us</title>
 </head>
 
 <body class="background">
     <?php
-    include "navaffichage.php";
-    navaffichage();
+    include "../Controleur/nav_controleur.php";
+    nav_controleur();
     ?>
 
     <div id="all-page">
         <div id="presentation-generale">
-            <h1>Les groupes qui nous ont fait confiance !</h1>
-            <div id="presentation-generale-img">
-                <img src="../Assets/Images/poignee-mains.jpg" alt="Poignée de mains" id="mains">
-                <img src="../Assets/Images/logoSens'Cert.png" alt="Sens'Cert" id="senscert">
-            </div>
+            <h1>10 ans d'expérience pour vous accompagner</h1>
+            <img src="../Assets/Images/ekip.png" alt="Photo d'équipe">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi provident itaque, laborum enim doloremque non iste eveniet corporis debitis nostrum sunt dolorum ad et soluta praesentium quo minus? Iste, quo.</p>
         </div>
         <div>
             <div>
-                <h3>Ils ont la Sens'Cert !</h3>
+                <h3>Notre équipe</h3>
                 <div id="container-all-person">
                     <div class="container-one-person">
-                        <img src="../Assets/Images/evian.png" alt="Logo evian" />
+                        <img src="../Assets/Images/alban.jpg" alt="Alban de Bentzmann" />
                         <p>
                             Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
                         </p>
                     </div>
                     <div class="container-one-person">
-                        <img src="../Assets/Images/poujoulat.png" alt="Logo poujoulat" />
+                        <img src="../Assets/Images/julienavatar.PNG" alt="Julien Dorffer" />
                         <p>
-                            pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
+                            Julien pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
                         </p>
                     </div>
                     <div class="container-one-person">
-                        <img src="../Assets/Images/PV.png" alt="Logo PV" id="PV" />
-                        <p>
-                            Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
-                        </p>
-                    </div>
-                    <div class="container-one-person">
-                        <img src="../Assets/Images/Thales.svg.png" alt="Logo Thalès" id="thales" />
+                        <img src="../Assets/Images/gauthier.jpg" alt="Gauthier Itart-Longueville" />
                         <p>
                             Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
                         </p>
                     </div>
                     <div class="container-one-person">
-                        <img src="../Assets/Images/triballat.jpg" alt="Logo Triballat" />
+                        <img src="../Assets/Images/aymen.jpg" alt="Antoine Monteil" />
+                        <p>
+                            Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
+                        </p>
+                    </div>
+                    <div class="container-one-person">
+                        <img src="../Assets/Images/arthur.jpg" alt="Arthur Pochart" />
                         <p>
                             Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
                         </p>

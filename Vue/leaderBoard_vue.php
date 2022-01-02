@@ -1,23 +1,3 @@
-<?php
-include "connect_to_db.php";
-$db = dbConnect();
-
-$reponsesGroupe = $db->prepare('SELECT * FROM groupe');
-$reponsesGroupe->execute();
-
-$tabl = array();
-while ($donneesGroupe = $reponsesGroupe->fetch()) {
-    array_push($tabl, $donneesGroupe);
-}
-
-function classement_sort($groupe1, $groupe2)
-{
-    return $groupe1["Classement"] - $groupe2["Classement"];
-}
-
-usort($tabl, "classement_sort");
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,7 +12,10 @@ usort($tabl, "classement_sort");
 </head>
 
 <body class="background">
-
+    <?php
+    include "../Controleur/nav_controleur.php";
+    nav_controleur();
+    ?>
     <table>
         <caption>LeaderBoard</caption>
         <thead>
@@ -58,19 +41,18 @@ usort($tabl, "classement_sort");
         </tfoot>
 
         <tbody>
-            <?php for ($i = 0; $i < count($tabl); $i++) {
+            <?php for ($i = 0; $i < count($resultatsGroupe); $i++) {
 
             ?>
                 <tr>
-                    <td><?php echo $tabl[$i]['Classement'] ?></td>
-                    <td><?php echo $tabl[$i]['GroupeId'] ?></td>
-                    <td><?php echo $tabl[$i]['NomGroupe'] ?></td>
-                    <td><?php echo $tabl[$i]['SIRET'] ?></td>
-                    <td><?php echo $tabl[$i]['Secteur'] ?></td>
-                    <td><?php echo $tabl[$i]['Adresse'] ?></td>
+                    <td><?= $resultatsGroupe[$i]['Classement'] ?></td>
+                    <td><?= $resultatsGroupe[$i]['GroupeId'] ?></td>
+                    <td><?= $resultatsGroupe[$i]['NomGroupe'] ?></td>
+                    <td><?= $resultatsGroupe[$i]['SIRET'] ?></td>
+                    <td><?= $resultatsGroupe[$i]['Secteur'] ?></td>
+                    <td><?= $resultatsGroupe[$i]['Adresse'] ?></td>
                 </tr>
             <?php }
-            $reponsesGroupe->closeCursor();
             ?>
         </tbody>
     </table>

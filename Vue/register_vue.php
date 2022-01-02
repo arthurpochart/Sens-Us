@@ -14,14 +14,17 @@
 </head>
 
 <body class="background">
-    <?php include "nav.php" ?>
+    <?php
+    include "../Controleur/nav_controleur.php";
+    nav_controleur();
+    ?>
     <div class="header">
         <h1>Création de compte</h1>
         <p>Veuillez suivre les étapes suviant votre profil</p>
         <p>Si votre entreprise a déjà un compte, devenez membre de groupe</p>
     </div>
 
-    <form action="inscriptionMembre_post.php" method="POST">
+    <form action="../Controleur/inscription_Membre_post_controleur.php" method="POST">
         <div class="carte-contenu">
             <div class="dropBtn" onclick="showMembre()">
                 <h2>Compte Membre</h2>
@@ -51,13 +54,13 @@
                 <p>En créant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>
                 <button type="submit" class="registerbtn">S'inscrire</button>
                 <div class="login">
-                    <p>Vous possédez un compte ? <a href="login.php">Se connecter</a>.</p>
+                    <p>Vous possédez un compte ? <a href="login_vue.php">Se connecter</a>.</p>
                 </div>
             </div>
         </div>
     </form>
 
-    <form action="inscriptionChefGroupe_post.php" method="POST">
+    <form action="../Controleur/inscription_Gest_post_controleur.php" method="POST">
         <div class="carte-contenu">
             <div class="dropBtn" onclick="showChef()">
                 <h2>Compte Chef de Groupe</h2>
@@ -99,7 +102,7 @@
                 <p>En créant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>
                 <button type="submit" class="registerbtn">S'inscrire</button>
                 <div class="login">
-                    <p>Vous possédez un compte ? <a href="login.php">Se connecter</a>.</p>
+                    <p>Vous possédez un compte ? <a href="login_vue.php">Se connecter</a>.</p>
                 </div>
             </div>
         </div>

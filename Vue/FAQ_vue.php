@@ -13,8 +13,8 @@
 
 <body class="background">
     <?php
-    include "navaffichage.php";
-    navaffichage();
+    include "../Controleur/nav_controleur.php";
+    nav_controleur();
     ?>
     <div class="space">
         <hr>

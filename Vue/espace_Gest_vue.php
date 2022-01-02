@@ -12,10 +12,11 @@
 
 <body class="background">
     <?php
-    include "navaffichage.php";
-    navaffichage();
+    include "../Controleur/nav_controleur.php";
+    nav_controleur();
     ?>
-    <h2>Espace membre</h2>
+
+    <h1>Espace gestionnaire</h1>
 </body>
 
 </html>

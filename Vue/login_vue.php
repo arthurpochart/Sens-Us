@@ -15,7 +15,10 @@
 </head>
 
 <body class="background">
-    <?php include "nav.php" ?>
+    <?php
+    include "../Controleur/nav_controleur.php";
+    nav_controleur();
+    ?>
     <header class="header">
         <div>
             <h1>Connectez-vous ou inscrivez-vous sur Sens'Us!</h1>
@@ -24,7 +27,7 @@
             </picture>
         </div>
 
-        <form action="connexion_post.php" method="post">
+        <form action="../Controleur/connexion_post_controleur.php" method="post">
             <div class="container">
                 <label for="email"><b>Email</b></label>
                 <br>
@@ -57,7 +60,7 @@
         <div>
             <b>Vous n'avez pas de compte ?</b>
             <br>
-            <a href="register.php">
+            <a href="register_vue.php">
                 <button type="button" id="creerUnCompte">Se créer un compte</button>
             </a>
         </div>

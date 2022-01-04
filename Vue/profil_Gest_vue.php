@@ -18,18 +18,34 @@
 
     <h1>Profil gestionnaire</h1>
     <h2>Informations personnelles gestionnaire</h2>
-    <p>Nom : <?= $resultatsGest['Nom'] ?></p>
-    <p>Prénom : <?= $resultatsGest['Prenom'] ?></p>
-    <p>Email : <?= $resultatsGest['Email'] ?></p>
-    <p>RIB : <?= $resultatsGest['RIB'] ?></p>
+    <form action="#" method="post">
+        <p><label for="nom">Nom : <?= $resultatsGest['Nom'] ?></label></p>
+        <p><label for="prenom">Prénom : <?= $resultatsGest['Prenom'] ?></label></p>
+        <p><label for="email">Email : <?= $resultatsGest['Email'] ?></label></p>
+        <p><label for="rib">RIB : <?= $resultatsGest['RIB'] ?></label></p>
 
+        <div id="bouton">
+            <p><input type="button" value="Modifier vos informations" onclick="modifierInfosPerso(4)" id="modificationPerso"></p>
+            <p><input type="submit" value="Sauvegarder vos informations" id="sauvegardePerso" disabled /></p>
+        </div>
+    </form>
 
     <h2>Informations du groupe</h2>
-    <p>Nom du groupe : <?= $resultatsGroupe['NomGroupe'] ?></p>
-    <p>SIRET : <?= $resultatsGroupe['SIRET'] ?></p>
-    <p>Secteur : <?= $resultatsGroupe['Secteur'] ?></p>
-    <p>Adresse : <?= $resultatsGroupe['Adresse'] ?></p>
-    <p>Code entreprise : <?= $resultatsGroupe['Code'] ?></p>
+    <form action="#" method="post">
+        <p><label for="nomGroupe">Nom du groupe : <?= $resultatsGroupe['NomGroupe'] ?></label></p>
+        <p><label for="siret">SIRET : <?= $resultatsGroupe['SIRET'] ?></label></p>
+        <p><label for="secteur">Secteur : <?= $resultatsGroupe['Secteur'] ?></label></p>
+        <p><label for="adresse">Adresse : <?= $resultatsGroupe['Adresse'] ?></label></p>
+        <p><label for="codeGroupe">Code groupe : <?= $resultatsGroupe['Code'] ?></label></p>
+
+        <div id="bouton">
+            <p><input type="button" value="Modifier vos informations" onclick="modifierInfosGroupe(4)" id="modificationGroupe"></p>
+            <p><input type="submit" value="Sauvegarder vos informations" id="sauvegardeGroupe" disabled /></p>
+        </div>
+    </form>
+
+    <script src="../JS/profil.js"></script>
+
 </body>
 
 </html>

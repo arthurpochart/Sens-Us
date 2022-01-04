@@ -1,7 +1,9 @@
-.p {
-    border: 2px solid black;
-    outline: #175a19 solid 10px;
-    margin: auto;  
-    padding: 20px;
-    text-align: center;
-  }
+p {
+  margin: 20px;
+}
+h1 {
+  margin: 20px;
+}
+h2 {
+  margin: 20px;
+}

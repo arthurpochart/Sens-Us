@@ -31,18 +31,12 @@
     </form>
 
     <h2>Informations du groupe</h2>
-    <form action="#" method="post">
-        <p><label for="nomGroupe">Nom du groupe : <?= $resultatsGroupe['NomGroupe'] ?></label></p>
-        <p><label for="siret">SIRET : <?= $resultatsGroupe['SIRET'] ?></label></p>
-        <p><label for="secteur">Secteur : <?= $resultatsGroupe['Secteur'] ?></label></p>
-        <p><label for="adresse">Adresse : <?= $resultatsGroupe['Adresse'] ?></label></p>
-        <p><label for="codeGroupe">Code groupe : <?= $resultatsGroupe['Code'] ?></label></p>
+    <p>Nom du groupe : <?= $resultatsGroupe['NomGroupe'] ?></p>
+    <p>SIRET : <?= $resultatsGroupe['SIRET'] ?></p>
+    <p>Secteur : <?= $resultatsGroupe['Secteur'] ?></p>
+    <p>Adresse : <?= $resultatsGroupe['Adresse'] ?></p>
+    <p>Code groupe : <?= $resultatsGroupe['Code'] ?></p>
 
-        <div id="bouton">
-            <p><input type="button" value="Modifier vos informations" onclick="modifierInfosGroupe(3)" id="modificationGroupe"></p>
-            <p><input type="submit" value="Sauvegarder vos informations" id="sauvegardeGroupe" disabled /></p>
-        </div>
-    </form>
 
     <script src="../JS/profil.js"></script>
 

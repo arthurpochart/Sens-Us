@@ -1,7 +1,4 @@
-.p {
-    border: 2px solid black;
-    outline: #175a19 solid 10px;
-    margin: auto;  
-    padding: 20px;
-    text-align: center;
+p {
+    margin: 20px;
+    border: 1px solid #4CAF50;
   }

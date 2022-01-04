@@ -51,4 +51,3 @@ create table membre
 
 create index ForeignGroup
     on membre (GroupeId);
-

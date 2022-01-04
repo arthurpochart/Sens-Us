@@ -22,7 +22,7 @@
     <div id="title">
       <h1>Contact'Us</h1>
     </div>
-    <form action="remerciements_vue.php">
+    <form action="../Controleur/sendMail.php" method="post">
       <label for="fname">Votre prénom :</label>
       <input type="text" id="fname" name="firstname" placeholder="Votre prénom...">
       <label for="lname">Votre nom :</label>

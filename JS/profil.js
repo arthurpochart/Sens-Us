@@ -42,11 +42,8 @@ function modifierInfosGroupe(nbrChamps) {
     for (item of labelInfosGroupe) {
         const inputInfosGroupe = document.createElement("input");
         valeurAttribut = item[1].getAttribute("for");
-        if (i == 2) {
-        inputInfosGroupe.setAttribute("type", "email");
-        } else {
+        
         inputInfosGroupe.setAttribute("type", "text");
-        }
         inputInfosGroupe.setAttribute("id", valeurAttribut);
         inputInfosGroupe.setAttribute("name", valeurAttribut);
         valeurInput = item[1].textContent.split(": ");

@@ -36,6 +36,7 @@ function modifierInfosPerso(nbrChamps) {
 function modifierInfosGroupe(nbrChamps) {
     let labelInfosGroupe = Object.entries(label);
     labelInfosGroupe.splice(0, nbrChamps);
+    labelInfosGroupe.splice(-1, 1);
 
     i = 0;
     for (item of labelInfosGroupe) {

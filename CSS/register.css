@@ -40,6 +40,11 @@ input[type="password"] {
   background: white;
 }
 
+input[type="password"]:disabled,
+input[type="submit"]:disabled {
+  background-color: rgb(228, 224, 224);
+}
+
 input[type="text"]:focus,
 input[type="password"]:focus {
   background-color: white;
@@ -55,7 +60,6 @@ a {
 }
 
 .dropContent {
-  display: none;
   margin-top: 10px;
 }
 
@@ -71,4 +75,9 @@ a {
 
 .show {
   display: block;
+}
+
+.lienVersForm {
+  color: black;
+  text-decoration: none;
 }

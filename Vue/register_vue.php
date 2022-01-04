@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -24,98 +25,25 @@
         <p>Si votre entreprise a déjà un compte, devenez membre de groupe</p>
     </div>
 
-    <form action="../Controleur/inscription_Membre_post_controleur.php" method="POST">
-        <div class="carte-contenu">
-            <div class="dropBtn" onclick="showMembre()">
+    <div class="carte-contenu">
+        <a href="inscription_Membre_vue.php" class="lienVersForm">
+            <div class="dropBtn">
                 <h2>Compte Membre</h2>
                 <p>Bénéficier de toutes les fonctionnalités Sens'Cert</p>
                 <hr>
             </div>
-            <div id="dropMembre" class="dropContent">
-                <label for="M.nom"><b>Nom</b></label>
-                <input type="text" placeholder="Votre Nom" name="nom" id="M.nom" required>
+        </a>
+    </div>
 
-                <label for="M.prenom"><b>Prénom</b></label>
-                <input type="text" placeholder="Votre Prénom" name="prenom" id="M.prenom" required>
-
-                <label for="M.email"><b>Email</b></label>
-                <input type="text" placeholder="Votre adresse mail" name="email" id="M.email" required>
-
-                <label for="M.mdp"><b>Mot de passe</b></label>
-                <input type="password" placeholder="Enter Password" name="mdp" id="M.mdp" required>
-
-                <label for="M.mdp-confirm"><b>Confirmez mot de passe</b></label>
-                <input type="password" placeholder="Confirmez" name="mdp-confirm" id="M.mdp-confirm" required>
-
-                <label for="M.code"><b>Code de votre groupe</b></label>
-                <input type="text" placeholder="Entrer le code de votre groupe" name="code" id="M.code" required>
-                <hr>
-
-                <p>En créant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>
-                <button type="submit" class="registerbtn">S'inscrire</button>
-                <div class="login">
-                    <p>Vous possédez un compte ? <a href="login_vue.php">Se connecter</a>.</p>
-                </div>
-            </div>
-        </div>
-    </form>
-
-    <form action="../Controleur/inscription_Gest_post_controleur.php" method="POST">
-        <div class="carte-contenu">
-            <div class="dropBtn" onclick="showChef()">
+    <div class="carte-contenu">
+        <a href="inscription_Gest_vue.php" class="lienVersForm">
+            <div class="dropBtn">
                 <h2>Compte Chef de Groupe</h2>
                 <p>Enregistrer votre espace de travail dans le projet Sens'Cert</p>
                 <hr>
             </div>
-            <div id="dropChef" class="dropContent">
-                <label for="C.nom"><b>Nom</b></label>
-                <input type="text" placeholder="Votre Nom" name="nom" id="C.nom" required>
-
-                <label for="C.prenom"><b>Prénom</b></label>
-                <input type="text" placeholder="Votre Prénom" name="prenom" id="C.prenom" required>
-
-                <label for="C.email"><b>Email</b></label>
-                <input type="text" placeholder="Votre adresse mail" name="email" id="C.email" required>
-
-                <label for="C.mdp"><b>Mot de passe</b></label>
-                <input type="password" placeholder="Enter Password" name="mdp" id="C.mdp" required>
-
-                <label for="C.mdp-confirm"><b>Confirmez mot de passe</b></label>
-                <input type="password" placeholder="Confirmez" name="mdp-confirm" id="C.mdp-confirm" required>
-
-                <label for="C.RIB"><b>Votre RIB</b></label>
-                <input type="text" placeholder="Votre RIB" name="rib" id="C.RIB" required>
-
-                <label for="C.nom-groupe"><b>Nom de votre groupe</b></label>
-                <input type="text" placeholder="Nom du groupe" name="nom-groupe" id="C.nom-groupe" required>
-
-                <label for="C.SIRET"><b>SIRET de votre groupe</b></label>
-                <input type="text" placeholder="Votre SIRET" name="siret" id="C.SIRET" required>
-
-                <label for="C.secteur"><b>Votre secteur d'entreprise</b></label>
-                <input type="text" placeholder="Votre Secteur" name="secteur" id="C.secteur" required>
-
-                <label for="C.adresse"><b>Votre adresse d'entreprise</b></label>
-                <input type="text" placeholder="Votre Adresse" name="adresse" id="C.adresse" required>
-                <hr>
-
-                <p>En créant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>
-                <button type="submit" class="registerbtn">S'inscrire</button>
-                <div class="login">
-                    <p>Vous possédez un compte ? <a href="login_vue.php">Se connecter</a>.</p>
-                </div>
-            </div>
-        </div>
-    </form>
-    <script>
-        //Quand l'utulisateur clique sur la carte membre, le contenue est affiché
-        function showMembre() {
-            document.getElementById("dropMembre").classList.toggle("show");
-        }
-
-        function showChef() {
-            document.getElementById("dropChef").classList.toggle("show");
-        }
-    </script>
-
+        </a>
+    </div>
 </body>
+
+</html>

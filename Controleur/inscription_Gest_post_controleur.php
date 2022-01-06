@@ -1,4 +1,5 @@
 <?php
+include "phpAlert.php";
 
 require "../Modele/connect_to_db.php";
 $db = dbConnect();
@@ -51,17 +52,17 @@ if (
 
                     header('Location: ../Vue/login_vue.php');
                 } catch (Exception $e) {
-                    echo "Erreur de creation de groupe";
+                    phpAlert("Erreur de creation de groupe");
                 }
             } else {
-                echo "Les mots de passe sont différents.";
+                phpAlert("Les mots de passe sont différents.");
             }
         } else {
-            echo "L'adresse email n'est pas valide";
+            phpAlert("L'adresse email n'est pas valide");
         }
     } else {
-        echo 'Le mail ' . $_POST['email'] . ' est déjà pris !';
+        phpAlert('Le mail ' . $_POST['email'] . ' est déjà pris !');
     }
 } else {
-    echo "Tous les champs ne sont pas remplis.";
+    phpAlert("Tous les champs ne sont pas remplis.");
 }

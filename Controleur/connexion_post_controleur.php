@@ -1,5 +1,7 @@
 <?php
 
+include "phpAlert.php";
+
 require "../Modele/connect_to_db.php";
 $db = dbConnect();
 
@@ -11,8 +13,8 @@ $resultatsGest = $resultats[0];
 $resultatsMembre = $resultats[1];
 
 if (!empty($_POST['email']) && !empty($_POST['mdp'])) {
-    if ($resultatsGest != false && $resultatsMembre != false) {
-        echo "Votre identifiant ou votre mot de passe est incorrect !";
+    if ($resultatsGest == false && $resultatsMembre == false) {
+        phpAlert("Votre identifiant ou votre mot de passe est incorrect !");
     } else {
         session_start();
         $_SESSION['GestId'] = $resultatsGest['GestId'];

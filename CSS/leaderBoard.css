@@ -1,10 +1,12 @@
 table {
   margin-top: 50px;
   border-collapse: collapse;
+  width: 100%;
 }
 
 td, th /* Mettre une bordure sur les td ET les th */ {
   border: 1px solid black;
   text-align: center;
   width: 15%;
+  padding: 15px;
 }

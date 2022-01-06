@@ -44,7 +44,7 @@
                 </div>
                 <div class="container-one-person">
                     <a href="https://www.Instagram.com/" target="_blank">
-                        <img src="../Assets/Images/Instagram-Logo-PNG-Image.png" width="200" alt="Instagram" />
+                        <img src="../Assets/Images/Instagram-Logo-PNG-Image.png" width="195" alt="Instagram" />
                     </a>
                     <p>
                         Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.

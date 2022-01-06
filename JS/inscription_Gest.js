@@ -15,7 +15,7 @@ function longueur() {
           inscriptionGest.disabled = false;
           p.remove();
         } else {
-          inscriptionMembre.disabled = true;
+          inscriptionGest.disabled = true;
           p.textContent = "Les mots de passes sont différents";
           labelMdpConfirmGest.append(p);
           p.style.color = "red";

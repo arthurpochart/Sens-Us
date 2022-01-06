@@ -7,6 +7,14 @@ body {
   border-radius: 5px;
   background-color: white;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title,
+form {
+  width: 50%;
 }
 
 #title {
@@ -24,7 +32,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid #077459;
+  border: 1px solid #077459;
   border-radius: 10px;
   padding: 2% 0%;
 }

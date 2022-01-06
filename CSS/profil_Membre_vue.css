@@ -15,3 +15,28 @@ h2 {
   margin: 20px;
   color: #04aa6d
 }
+#modificationPerso,#sauvegardePerso {
+  background-color: alicblue; 
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#modificationPerso,#sauvegardePerso {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #c3dbc44d;
+}
+
+#modificationPerso:hover,#sauvegardePerso:hover {
+  background-color: #4CAF50;
+  color: aliceblue;
+}

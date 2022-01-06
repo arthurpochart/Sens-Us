@@ -35,16 +35,46 @@ img {
 
 #img-SensUs {
   width: 70%;
+  padding: 5%;
 }
 
 #img-question {
   width: 70%;
+  padding: 5%;
 }
 #img-SensCert,
 #img-ecologie {
   width: 100%;
   height: auto;
 }
+
+#bandeau1 .bandeau-container-texte{
+  width: 60%;
+}
+
+#bandeau2 .bandeau-container-img{
+  margin-left: 4%;
+}
+
+#bandeau2 .bandeau-container-texte{
+  width: 60%;
+}
+
+#bandeau3 .bandeau-container-img {
+margin-right: 4%;
+}
+
+#bandeau3 .bandeau-container-texte{
+  width: 60%;
+}
+
+#bandeau4 .bandeau-container-img {
+  margin-left: 4%;
+  }
+
+#bandeau4 .bandeau-container-texte{
+    width: 60%;
+  }
 
 .titre-bandeau {
   color: black;

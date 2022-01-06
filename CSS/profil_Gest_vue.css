@@ -15,27 +15,30 @@ p {
     margin: 20px;
     color: #04aa6d
   }
-  button {
-    background-color: #4CAF50; /* Green */
+
+  #modificationGroupe, #sauvegardeGroupe, #modificationPerso,#sauvegardePerso {
+    background-color: alicblue; 
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 6px 3px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
+    border-radius: 5px;
   }
   
-  button {
+  #modificationGroupe, #sauvegardeGroupe, #modificationPerso,#sauvegardePerso {
     background-color: white; 
     color: black; 
-    border: 2px solid #4CAF50;
+    border: 2px solid #c3dbc44d;
   }
   
-  button:hover {
+  #modificationGroupe:hover, #sauvegardeGroupe:hover, #modificationPerso:hover,#sauvegardePerso:hover {
     background-color: #4CAF50;
-    color: white;
+    color: aliceblue;
   }
+  

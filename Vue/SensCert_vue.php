@@ -22,12 +22,14 @@
 
     <div id="all-page">
         <div id="presentation-generale">
-            <h1>Les groupes qui nous ont fait confiance !</h1>
+            <h1>La Sens'Cert : une certification fiable !</h1>
             <div id="presentation-generale-img">
                 <img src="../Assets/Images/poignee-mains.jpg" alt="Poignée de mains" id="mains">
                 <img src="../Assets/Images/logoSens'Cert.png" alt="Sens'Cert" id="senscert">
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi provident itaque, laborum enim doloremque non iste eveniet corporis debitis nostrum sunt dolorum ad et soluta praesentium quo minus? Iste, quo.</p>
+            <p>Mais que peut cacher un tel nom ? </br>Eh bien la Sens’Cert est une certification que notre équipe délivre à nos clients ! « Mais selon quels critères ?» me direz-vous. Notre objectif est d’assurer un espace de travail sain. Pour cela, nous installons donc des capteurs dans les espaces ciblés, afin d’évaluer la qualité de l’air. Nous fixons en parallèle un taux « seuil » de microparticules, en dessous duquel nous estimons que l’air est sain. Ainsi, en fonction des données récoltées par nos capteurs nous pouvons délivrer ou non la certification à notre client. Bien évidemment, lorsque le taux est trop élevé, nous accompagnons celui-ci dans sa démarche d’assainissement afin de pouvoir lui faire bénéficier, à terme, de la Sens’Cert.
+Notre objectif est d’assurer la validité de cette certification à tout moment, en actualisant très régulièrement nos données, et en mettant à jour notre taux « seuil ». Nous voulons également développer la renommée de la Sens'Cert, afin qu’elle devienne une vraie référence, et qu’elle garantisse, aux yeux de tous, une entreprise investie dans la cause environnementale.
+</p>
         </div>
         <div>
             <div>

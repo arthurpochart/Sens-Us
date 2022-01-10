@@ -24,7 +24,10 @@
         <div id="presentation-generale">
             <h1>10 ans d'expérience pour vous accompagner</h1>
             <img src="../Assets/Images/ekip.png" alt="Photo d'équipe">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi provident itaque, laborum enim doloremque non iste eveniet corporis debitis nostrum sunt dolorum ad et soluta praesentium quo minus? Iste, quo.</p>
+            <p class="pres">Sens’Us est une équipe créée en 2021 et constituée de 5 ingénieurs qualifiés et investis. Depuis des temps immémoriaux préoccupés par la question de l’environnement, nous en avons fait notre ligne directrice, et ce projet représente notre première action concrète dans cette optique.
+Notre équipe est donc fière de vous proposer ses services, et nous espérons pouvoir satisfaire vos attentes tout au long de notre collaboration.
+Mais trêve de mondanités, nous vous proposons de découvrir un peu plus en profondeur les excellents membres constituants Sens’Us ! 
+</p>
         </div>
         <div>
             <div>

@@ -12,6 +12,8 @@ function modifierInfosPerso(nbrChamps) {
     i = 0;
     for (item of labelInfosPerso) {
         const inputInfosPerso = document.createElement("input");
+        const spanInfos = document.createElement("span");
+        
         valeurAttribut = item[1].getAttribute("for");
         if (i == 2) {
         inputInfosPerso.setAttribute("type", "email");
@@ -25,7 +27,8 @@ function modifierInfosPerso(nbrChamps) {
         inputInfosPerso.setAttribute("value", valeurInput[1]);
 
         titreInput = valeurInput[0] + " : ";
-        item[1].append(titreInput);
+        spanInfos.append(titreInput);
+        item[1].append(spanInfos);
         item[1].append(inputInfosPerso);
         i += 1;
     }
@@ -41,7 +44,10 @@ function modifierInfosGroupe(nbrChamps) {
     i = 0;
     for (item of labelInfosGroupe) {
         const inputInfosGroupe = document.createElement("input");
+        const spanInfos = document.createElement("span");
+
         valeurAttribut = item[1].getAttribute("for");
+
         
         inputInfosGroupe.setAttribute("type", "text");
         inputInfosGroupe.setAttribute("id", valeurAttribut);
@@ -51,7 +57,8 @@ function modifierInfosGroupe(nbrChamps) {
         inputInfosGroupe.setAttribute("value", valeurInput[1]);
 
         titreInput = valeurInput[0] + " : ";
-        item[1].append(titreInput);
+        spanInfos.append(titreInput);
+        item[1].append(spanInfos);
         item[1].append(inputInfosGroupe);
         i += 1;
     }

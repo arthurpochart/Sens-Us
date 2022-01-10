@@ -36,31 +36,30 @@ Mais trêve de mondanités, nous vous proposons de découvrir un peu plus en pro
                     <div class="container-one-person">
                         <img src="../Assets/Images/alban.jpg" alt="Alban de Bentzmann" />
                         <p>
-                            Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
+                            Alban de Bentzmann est le capital sympathie de notre équipe. Par delà son caractère hilare, il n'en rest pas moins un des pilliers de SensUs. Avec une expérience ainsi que de nombreux contacts partout en France, il connait tout des difficultés des entrepreneurs et pourra vous proposer une solution sur mesure. Il est également responsable de tout les problèmes nocturnes par son caractère noctambule.
                         </p>
                     </div>
                     <div class="container-one-person">
                         <img src="../Assets/Images/julienavatar.PNG" alt="Julien Dorffer" />
                         <p>
-                            Julien pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
-                        </p>
+                            Julien Dorffer, co-fondateur de SensUs et responsable du pôle capillaire de l'entreprise. Fort d'une expérience dans les plus prestigieux cabinets du monde. Julien mettra tout en oeuvre pour faciliter l'experience SensUs par un sourire ravageur et des surnoms absolument bluffant                        </p>
                     </div>
                     <div class="container-one-person">
                         <img src="../Assets/Images/gauthier.jpg" alt="Gauthier Itart-Longueville" />
                         <p>
-                            Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
+                            Gauthier Itart-Longueville aussi appelé guetguet est un ingénieur du numérique brillant. Entre relation client et blague ubuesque, il se chargera de résoudre le moindre de vos problèmes. Ne sortant jamais sans son sourire ravageur, il illuminera votre expérience par un professionalisme à toute épreuve saupoudré d'une folie toute particulière. Ce sérieux lui a permis d'intégrer les plus haute sphère d'amérique du sud où il est connu sous le nom de goatgoat el colombiano.
                         </p>
                     </div>
                     <div class="container-one-person">
                         <img src="../Assets/Images/aymen.jpg" alt="Antoine Monteil" />
                         <p>
-                            Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
+                            TITOUANOU.
                         </p>
                     </div>
                     <div class="container-one-person">
                         <img src="../Assets/Images/arthur.jpg" alt="Arthur Pochart" />
                         <p>
-                            Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
+                            Arthur Pochart est le responsable de la sécurité de vos données ainsi que de nos infrastructures. Aussi bien connu sur que sous terre, il saura sappé toute attaque vous garantissant une sérénité sans pareil. Il est aussi responsable de nos pôles internationaux via sa longue expérience dans le plat pays. Réactif et investit, il mettra un point d'honneur a vous rassurer autour d'une boisson régionale. 
                         </p>
                     </div>
                 </div>

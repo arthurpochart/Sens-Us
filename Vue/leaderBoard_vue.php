@@ -16,46 +16,36 @@
     include "../Controleur/nav_controleur.php";
     nav_controleur();
     ?>
-    <table>
-        <caption>LeaderBoard</caption>
-        <thead>
-            <tr>
-                <th>Classement</th>
-                <th>Id du groupe</th>
-                <th>Nom du groupe</th>
-                <th>SIRET</th>
-                <th>Secteur</th>
-                <th>Adresse</th>
-            </tr>
-        </thead>
+    <div>
+        <h2>LeaderBoard</h2>
 
-        <tfoot>
-            <tr>
-                <th>Classement</th>
-                <th>Id du groupe</th>
-                <th>Nom du groupe</th>
-                <th>SIRET</th>
-                <th>Secteur</th>
-                <th>Adresse</th>
-            </tr>
-        </tfoot>
-
-        <tbody>
-            <?php for ($i = 0; $i < count($resultatsGroupe); $i++) {
-
-            ?>
+        <table>
+            <thead>
                 <tr>
-                    <td><?= $resultatsGroupe[$i]['Classement'] ?></td>
-                    <td><?= $resultatsGroupe[$i]['GroupeId'] ?></td>
-                    <td><?= $resultatsGroupe[$i]['NomGroupe'] ?></td>
-                    <td><?= $resultatsGroupe[$i]['SIRET'] ?></td>
-                    <td><?= $resultatsGroupe[$i]['Secteur'] ?></td>
-                    <td><?= $resultatsGroupe[$i]['Adresse'] ?></td>
+                    <th>Classement</th>
+                    <th>Nom du groupe</th>
+                    <th>SIRET</th>
+                    <th>Secteur</th>
+                    <th>Adresse</th>
                 </tr>
-            <?php }
-            ?>
-        </tbody>
-    </table>
+            </thead>
+
+            <tbody>
+                <?php for ($i = 0; $i < count($resultatsGroupe); $i++) {
+
+                ?>
+                    <tr>
+                        <td><?= $resultatsGroupe[$i]['Classement'] ?></td>
+                        <td><?= $resultatsGroupe[$i]['NomGroupe'] ?></td>
+                        <td><?= $resultatsGroupe[$i]['SIRET'] ?></td>
+                        <td><?= $resultatsGroupe[$i]['Secteur'] ?></td>
+                        <td><?= $resultatsGroupe[$i]['Adresse'] ?></td>
+                    </tr>
+                <?php }
+                ?>
+            </tbody>
+        </table>
+    </div>
 </body>
 
 </html>

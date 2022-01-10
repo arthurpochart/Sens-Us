@@ -39,7 +39,7 @@
                     <div class="container-one-person">
                         <img src="../Assets/Images/julienavatar.PNG" alt="Julien Dorffer" />
                         <p>
-                            Julien Dorffer, co-fondateur de SensUs et responsable du pôle capillaire de l'netreprise. Fort d'une expérience dans les plus prestigieux cabinets du monde. Julien mettra tout en oeuvre pour faciliter l'experience SensUs par un sourire ravageur et des surnoms absolument bluffant                        </p>
+                            Julien Dorffer, co-fondateur de SensUs et responsable du pôle capillaire de l'entreprise. Fort d'une expérience dans les plus prestigieux cabinets du monde. Julien mettra tout en oeuvre pour faciliter l'experience SensUs par un sourire ravageur et des surnoms absolument bluffant                        </p>
                     </div>
                     <div class="container-one-person">
                         <img src="../Assets/Images/gauthier.jpg" alt="Gauthier Itart-Longueville" />

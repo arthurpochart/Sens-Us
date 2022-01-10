@@ -1,13 +1,39 @@
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: #04aa6d;
+}
+
 table {
-  margin-top: 50px;
-  margin-left: 20px;
   border-collapse: collapse;
-  width: 100%;
+  width: 80%;
+  background-color: rgb(230, 224, 224);
+}
+
+thead {
+  background-color: #04aa6d;
+  color: white;
 }
 
 td, th /* Mettre une bordure sur les td ET les th */ {
-  border: 1px solid black;
   text-align: center;
   width: 15%;
   padding: 15px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba(197, 197, 197, 0.219);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgba(233, 233, 233, 0.973);
 }

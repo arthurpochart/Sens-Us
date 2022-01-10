@@ -5,7 +5,6 @@ body {
 
 .container {
   border-radius: 5px;
-  background-color: white;
   padding: 20px;
   display: flex;
   flex-direction: column;

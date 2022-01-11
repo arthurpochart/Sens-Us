@@ -36,18 +36,20 @@ Mais trêve de mondanités, nous vous proposons de découvrir un peu plus en pro
                     <div class="container-one-person">
                         <img src="../Assets/Images/alban.jpg" alt="Alban de Bentzmann" />
                         <p>
-                            Alban de Bentzmann est le capital sympathie de notre équipe. Par delà son caractère hilare, il n'en rest pas moins un des pilliers de SensUs. Avec une expérience ainsi que de nombreux contacts partout en France, il connait tout des difficultés des entrepreneurs et pourra vous proposer une solution sur mesure. Il est également responsable de tout les problèmes nocturnes par son caractère noctambule.
+                        “ Alban de Bentzmann est le capital sympathie de notre équipe. Par-delà son caractère hilare, il n'en est pas moins un des piliers de SensUs. Avec une expérience ainsi que de nombreux contacts partout en France, il connaît tous des difficultés des entrepreneurs et pourra vous proposer une solution sur mesure. Il est également responsable de tous les problèmes nocturnes par son caractère noctambule.                                                                                         
+                                                                                                                                                                    ”
                         </p>
                     </div>
                     <div class="container-one-person">
                         <img src="../Assets/Images/julienavatar.PNG" alt="Julien Dorffer" />
                         <p>
-                            Julien Dorffer, co-fondateur de SensUs et responsable du pôle capillaire de l'entreprise. Fort d'une expérience dans les plus prestigieux cabinets du monde. Julien mettra tout en oeuvre pour faciliter l'experience SensUs par un sourire ravageur et des surnoms absolument bluffant                        </p>
+                        “Julien Dorffer, cofondateur de SensUs et responsable du pôle capillaire de l'entreprise. Fort d'une expérience dans les plus prestigieux cabinets du monde. Julien mettra tout en œuvre pour faciliter l'expérience SensUs par un sourire ravageur et des surnoms absolument bluffants. Il vous aiguillera vers une réussite sans nom qui fera passer toutes vos expériences de certification verte pour une vaste blague.
+                                                                                                                                                                    "                        </p>
                     </div>
                     <div class="container-one-person">
                         <img src="../Assets/Images/gauthier.jpg" alt="Gauthier Itart-Longueville" />
                         <p>
-                            Gauthier Itart-Longueville aussi appelé guetguet est un ingénieur du numérique brillant. Entre relation client et blague ubuesque, il se chargera de résoudre le moindre de vos problèmes. Ne sortant jamais sans son sourire ravageur, il illuminera votre expérience par un professionalisme à toute épreuve saupoudré d'une folie toute particulière. Ce sérieux lui a permis d'intégrer les plus haute sphère d'amérique du sud où il est connu sous le nom de goatgoat el colombiano.
+                        “Gauthier Itart-Longueville aussi appelé guetguet est un ingénieur du numérique brillant. Entre relation client et blague ubuesque, il se chargera de résoudre le moindre de vos problèmes. Ne sortant jamais sans son sourire ravageur, il illuminera votre expérience par un professionnalisme à toute épreuve saupoudré d'une folie toute particulière. Ce sérieux lui a permis d'intégrer les plus hautes sphères d'amérique du sud où il est connu sous le nom de goatgoat el colombiano.                                                                                                                        ”
                         </p>
                     </div>
                     <div class="container-one-person">
@@ -59,7 +61,8 @@ Mais trêve de mondanités, nous vous proposons de découvrir un peu plus en pro
                     <div class="container-one-person">
                         <img src="../Assets/Images/arthur.jpg" alt="Arthur Pochart" />
                         <p>
-                            Arthur Pochart est le responsable de la sécurité de vos données ainsi que de nos infrastructures. Aussi bien connu sur que sous terre, il saura sappé toute attaque vous garantissant une sérénité sans pareil. Il est aussi responsable de nos pôles internationaux via sa longue expérience dans le plat pays. Réactif et investit, il mettra un point d'honneur a vous rassurer autour d'une boisson régionale. 
+                        “Arthur Pochart est le responsable de la sécurité de vos données ainsi que de nos infrastructures. Aussi bien connu sur que sous terre, il saura sappé toute attaque vous garantissant une sérénité sans pareil. Il est aussi responsable de nos pôles internationaux via sa longue expérience dans le plat pays. Réactif et investi, il mettra un point d'honneur à vous rassurer autour d'une boisson régionale.
+                                                                                                                                                                    ”
                         </p>
                     </div>
                 </div>

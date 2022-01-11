@@ -63,7 +63,7 @@ body {
 }
 
 #thales {
-  width: 45%;
+  width: 40%;
 }
 
 .container-one-person {
@@ -71,6 +71,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: justify;
 }
 
 .container-one-person p {
@@ -80,4 +81,5 @@ body {
 h3 {
   font-size: 170%;
   color: #077459;
+  text-align:center;
 }

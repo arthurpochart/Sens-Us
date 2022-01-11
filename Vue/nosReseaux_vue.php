@@ -20,34 +20,43 @@
     nav_controleur();
     ?>
     <header class="header">
-        <h1>Nous contacter !</h1>
+        <h1>Nous contacter sur nos réseaux!</h1>
     </header>
     <div id="all-page">
         <div>
-            <h1>Nos réseaux</h1>
             <div id="container-all-person">
                 <div class="container-one-person">
-                    <a href="https://www.facebook.com/" target="_blank">
-                        <img src="../Assets/Images/logo-facebook.png" width="200" alt="Facebook" />
+                    <a href="https://www.facebook.com/SensUs-113391014559152" target="_blank">
+                        <img src="../Assets/Images/ICONCRAZE-COM-Facebook-Icon-PNG.png" width="200" alt="Facebook" />
                     </a>
-                    <p>
-                        Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
+                    <h1>
+                        Rejoignez-nous sur Facebook !    
+                    </h1>
+                    <p>Venez consulter et aimer notre page Sens’Us sur Facebook ! </br> 
+Vous y trouverez différentes informations sur notre, entreprise, des photos exclusives mais pourrez également prendre part aux différents événements proposés par Sens’Us !
                     </p>
                 </div>
                 <div class="container-one-person">
                     <a href="https://linkedin.com/" target="_blank">
-                        <img src="../Assets/Images/logo-linkedin.png" width="200" alt="Linkedin" />
+                        <img src="../Assets/Images/linkedin-icon2.png" width="200" alt="Linkedin" />
                     </a>
-                    <p>
-                        Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
+                    <h1>
+                        Rejoignez-nous sur Linkedin !
+                    </h1>
+                    <p>Suivez le profil Linkedin de Sens’Us ! </br>
+Afin de découvrir plus en profondeur notre identité, nos collaborateurs, nos employés, n’hésitez pas à consulter notre profil Linkedin ! Régulièrement alimenté, vous y trouverez des résumés de conférence, des informations sur nos projets en cours et à venir et tout une collection d’informations sur notre groupe !
+
                     </p>
                 </div>
                 <div class="container-one-person">
                     <a href="https://www.Instagram.com/" target="_blank">
-                        <img src="../Assets/Images/Instagram-Logo-PNG-Image.png" width="195" alt="Instagram" />
+                        <img src="../Assets/Images/insta-logo2.png" width="200" alt="Instagram" />
                     </a>
-                    <p>
-                        Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
+                    <h1>
+                        Rejoignez-nous sur Instagram ! 
+                    </h1>
+                    <p>Sens’Us arrive sur Instagram ! </br>
+Après Facebook et Linkedin, Sens’Us arrive finalement sur le réseau social le plus hype du moment ! Venez suivre notre profil, et bénéficiez de photos et de stories exceptionnelles. Vous pourrez constater le déroulement de nos événements, le développement de nos équipes et aurez accès de manière privilégiée à nos différents projets !
                     </p>
                 </div>
             </div>

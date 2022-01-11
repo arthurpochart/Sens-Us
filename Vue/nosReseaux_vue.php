@@ -27,7 +27,7 @@
             <div id="container-all-person">
                 <div class="container-one-person">
                     <a href="https://www.facebook.com/SensUs-113391014559152" target="_blank">
-                        <img src="../Assets/Images/logo-facebook.png" width="220" alt="Facebook" />
+                        <img src="../Assets/Images/ICONCRAZE-COM-Facebook-Icon-PNG.png" width="200" alt="Facebook" />
                     </a>
                     <h1>
                         Rejoignez-nous sur Facebook !    
@@ -35,7 +35,7 @@
                 </div>
                 <div class="container-one-person">
                     <a href="https://linkedin.com/" target="_blank">
-                        <img src="../Assets/Images/logo-linkedin.png" width="200" alt="Linkedin" />
+                        <img src="../Assets/Images/linkedin-icon2.png" width="200" alt="Linkedin" />
                     </a>
                     <h1>
                         Rejoignez-nous sur linkedin !
@@ -43,7 +43,7 @@
                 </div>
                 <div class="container-one-person">
                     <a href="https://www.Instagram.com/" target="_blank">
-                        <img src="../Assets/Images/Instagram-Logo-PNG-Image.png" width="180" alt="Instagram" />
+                        <img src="../Assets/Images/insta-logo2.png" width="200" alt="Instagram" />
                     </a>
                     <h1>
                         Rejoignez-nous sur Instagram ! 

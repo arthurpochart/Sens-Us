@@ -18,30 +18,7 @@ h2 {
   color: #04aa6d;
 }
 
-.gauge-container {
-  width: 200px;
-  height: 200px;
-  display: block;
-  float: left;
-  padding: 10px;
-  overflow: hidden;
-}
-.gauge-container.one > .gauge > .dial {
-  stroke: #334455;
-  stroke-width: 2;
-}
 
-.gauge-container.one > .gauge > .value {
-  stroke: rgb(47, 227, 255);
-  stroke-width: 2;
-}
-
-.gauge-container.one > .gauge > .value-text {
-  fill: rgb(47, 227, 255);
-  font-family: sans, 'sans-serif';
-  font-weight: bold;
-  font-size: 0.6em;
-}
 
 #modificationGroupe,
 #sauvegardeGroupe,
@@ -78,7 +55,7 @@ h2 {
 #sauvegardePerso:hover {
   background-color: #4caf50;
   color: aliceblue;
-  border: 0px;
+  border: 0;
 }
 
 span {

@@ -38,31 +38,31 @@ Notre objectif est d’assurer la validité de cette certification à tout momen
                     <div class="container-one-person">
                         <img src="../Assets/Images/evian.png" alt="Logo evian" />
                         <p>
-                            Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
+                            Un des plus grands fournisseurs d’eau minérale français nous a déjà fait confiance ! En effet, afin d’assainir et de garantir les bonnes conditions de travail dans leur usine d’embouteillage d’Amphion- les-Bains, l’entreprise nous a demandé d’installer trois capteurs à différents endroits stratégiques.
                         </p>
                     </div>
                     <div class="container-one-person">
                         <img src="../Assets/Images/poujoulat.png" alt="Logo poujoulat" />
                         <p>
-                            pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
+                            Leader européen des conduits de cheminées et des sorties de toit, le groupe Poujoulat s’est également muni de la Sens’Cert ! Sens’Us et Poujoulat ce sont neuf capteurs répartis dans trois usines de fabrication de conduits de cheminée, donc trois espaces de travail sains !
                         </p>
                     </div>
                     <div class="container-one-person">
                         <img src="../Assets/Images/PV.png" alt="Logo PV" id="PV" />
                         <p>
-                            Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
+                            Premier producteur français de carottes et valeur sûre du légume en France, Planète végétal constitue également l’un de nos nombreux collaborateurs ! Dans leur engagement pour le développement durable, ils ont donc logiquement opté pour la Sens’Cert au sein de leur production.
                         </p>
                     </div>
                     <div class="container-one-person">
                         <img src="../Assets/Images/Thales.svg.png" alt="Logo Thalès" id="thales" />
                         <p>
-                            Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
+                            Le célèbre groupe d’électronique français collabore également avec Sens’Us ! Installés dans différents espaces de travail, ce sont douze capteurs qui nous permettent de leur délivrer notre certification. Constituant notre client le plus important à ce jour, le groupe français porte un intérêt tout particulier au Leaderboard, allez donc voir leur classement !
                         </p>
                     </div>
                     <div class="container-one-person">
                         <img src="../Assets/Images/triballat.jpg" alt="Logo Triballat" />
                         <p>
-                            Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
+                            Présents dans différentes usines de transformation, nos capteurs ont permis une amélioration des conditions de travail du groupe agroalimentaire français. Récent acquisiteur de la Sens’Cert, Triballat Noyal peut maintenant garantir un lieu de travail sain à la majorité de ses employés !
                         </p>
                     </div>
                 </div>

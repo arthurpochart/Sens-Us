@@ -49,13 +49,13 @@ Mais trêve de mondanités, nous vous proposons de découvrir un peu plus en pro
                     <div class="container-one-person">
                         <img src="../Assets/Images/gauthier.jpg" alt="Gauthier Itart-Longueville" />
                         <p>
-                        “Gauthier Itart-Longueville aussi appelé guetguet est un ingénieur du numérique brillant. Entre relation client et blague ubuesque, il se chargera de résoudre le moindre de vos problèmes. Ne sortant jamais sans son sourire ravageur, il illuminera votre expérience par un professionnalisme à toute épreuve saupoudré d'une folie toute particulière. Ce sérieux lui a permis d'intégrer les plus hautes sphères d'amérique du sud où il est connu sous le nom de goatgoat el colombiano.                                                                                                                        ”
+                        “Gauthier Itart-Longueville, aussi appelé Guetguet est un ingénieur du numérique brillant. Entre relation client et blague ubuesque, il se chargera de résoudre le moindre de vos problèmes. Ne sortant jamais sans son sourire ravageur, il illuminera votre expérience par un professionnalisme à toute épreuve saupoudré d'une folie toute particulière. Ce sérieux lui a permis d'intégrer les plus hautes sphères d'amérique du sud où il est connu sous le nom de goatgoat el colombiano.                                                                                                                        ”
                         </p>
                     </div>
                     <div class="container-one-person">
                         <img src="../Assets/Images/aymen.jpg" alt="Antoine Monteil" />
                         <p>
-                            TITOUANOU.
+                        "Antoine Monteil, Titouanou pour les intimes, s’occupe chez Sens’Us de la communication, mais sa polyvalence à tout épreuve représente pour nous un roc solide sur lequel nous ne manquons pas de nous appuyer. Happiness manager à ses heures perdues, il saura à tout moment vous donner le smile à l’aide de ses blagues rodées et ses conseils auditifs folkloriques. "
                         </p>
                     </div>
                     <div class="container-one-person">

@@ -38,7 +38,7 @@ h2 {
 
 .gauge-container.one > .gauge > .value-text {
   fill: rgb(47, 227, 255);
-  font-family: sans, 'sans-serif';
+  font-family: sans, "sans-serif";
   font-weight: bold;
   font-size: 0.6em;
 }
@@ -84,4 +84,15 @@ h2 {
 span {
   font-size: 16px;
   font-weight: bold;
+}
+
+input {
+  padding: 0.7%;
+  width: 10%;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+label[for="email"] input {
+  width: 20%;
 }

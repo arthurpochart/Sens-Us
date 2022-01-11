@@ -18,30 +18,29 @@ h2 {
   color: #04aa6d;
 }
 
-.gauge-container {
-  width: 200px;
-  height: 200px;
-  display: block;
-  float: left;
-  padding: 10px;
-  overflow: hidden;
-}
-.gauge-container.one > .gauge > .dial {
+.gauge-container.particule > .gauge .dial {
   stroke: #334455;
-  stroke-width: 2;
+  stroke-width: 10;
+}
+.gauge-container.particule > .gauge .value {
+  stroke: #F32450;
+  stroke-dasharray: none;
+  stroke-width: 10;
+}
+.gauge-container.particule > .gauge .value-text {
+  fill: #F32450;
+  transform: translate3d(26%, 20%, 0);
+  display: inline-block;
+}
+.gauge-container.particule .value-text {
+  color: #F32450;
+  font-weight: 100;
+  position: absolute;
+  bottom: 18%;
+  right: 10%;
+  display: inline-block;
 }
 
-.gauge-container.one > .gauge > .value {
-  stroke: rgb(47, 227, 255);
-  stroke-width: 2;
-}
-
-.gauge-container.one > .gauge > .value-text {
-  fill: rgb(47, 227, 255);
-  font-family: sans, 'sans-serif';
-  font-weight: bold;
-  font-size: 0.6em;
-}
 
 #modificationGroupe,
 #sauvegardeGroupe,
@@ -78,7 +77,7 @@ h2 {
 #sauvegardePerso:hover {
   background-color: #4caf50;
   color: aliceblue;
-  border: 0px;
+  border: 0;
 }
 
 span {

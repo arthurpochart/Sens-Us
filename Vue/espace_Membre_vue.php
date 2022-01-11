@@ -18,11 +18,25 @@
     ?>
     <h1>Mon espace</h1>
     <h2>Taux en ppm de microparticules</h2>
-    <div id="gauge-particules" class="gauge-container"></div>
-    <script src="../node_modules/svg-gauge/dist/gauge.js"></script>
+    <div id="gauge-particules" class="gauge-container particule"></div>
+    <script src="../node_modules/svg-gauge/src/gauge.js"></script>
     <script>
-        var gauge_particules = Gauge(Document.getElementById('gauge-particules'))
+        var pad = function(tar) {}
+
+        var gauge1 = Gauge(
+            document.getElementById("gauge-particules"),
+            {
+                max: 100,
+                dialStartAngle: -90,
+                dialEndAngle: -90.001,
+                value: 50,
+                label: function(value) {
+                    return (Math.round(value * 100) / 100) + "/" + this.max;
+                }
+            }
+        );
     </script>
+
 
 </body>
 

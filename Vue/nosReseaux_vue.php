@@ -20,35 +20,34 @@
     nav_controleur();
     ?>
     <header class="header">
-        <h1>Nous contacter !</h1>
+        <h1>Nous contacter sur nos réseaux!</h1>
     </header>
     <div id="all-page">
         <div>
-            <h1>Nos réseaux</h1>
             <div id="container-all-person">
                 <div class="container-one-person">
                     <a href="https://www.facebook.com/SensUs-113391014559152" target="_blank">
-                        <img src="../Assets/Images/logo-facebook.png" width="200" alt="Facebook" />
+                        <img src="../Assets/Images/logo-facebook.png" width="220" alt="Facebook" />
                     </a>
-                    <p>
+                    <h1>
                         Rejoignez-nous sur Facebook !    
-                    </p>
+                    </h1>
                 </div>
                 <div class="container-one-person">
                     <a href="https://linkedin.com/" target="_blank">
                         <img src="../Assets/Images/logo-linkedin.png" width="200" alt="Linkedin" />
                     </a>
-                    <p>
+                    <h1>
                         Rejoignez-nous sur linkedin !
-                    </p>
+                    </h1>
                 </div>
                 <div class="container-one-person">
                     <a href="https://www.Instagram.com/" target="_blank">
-                        <img src="../Assets/Images/Instagram-Logo-PNG-Image.png" width="195" alt="Instagram" />
+                        <img src="../Assets/Images/Instagram-Logo-PNG-Image.png" width="180" alt="Instagram" />
                     </a>
-                    <p>
+                    <h1>
                         Rejoignez-nous sur Instagram ! 
-                    </p>
+                    </h1>
                 </div>
             </div>
         </div>

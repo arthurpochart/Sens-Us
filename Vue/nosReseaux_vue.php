@@ -27,11 +27,11 @@
             <h1>Nos réseaux</h1>
             <div id="container-all-person">
                 <div class="container-one-person">
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a href="https://www.facebook.com/SensUs-113391014559152" target="_blank">
                         <img src="../Assets/Images/logo-facebook.png" width="200" alt="Facebook" />
                     </a>
                     <p>
-                        Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
+                        Rejoignez-nous sur Facebook !    
                     </p>
                 </div>
                 <div class="container-one-person">
@@ -39,7 +39,7 @@
                         <img src="../Assets/Images/logo-linkedin.png" width="200" alt="Linkedin" />
                     </a>
                     <p>
-                        Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
+                        Rejoignez-nous sur linkedin !
                     </p>
                 </div>
                 <div class="container-one-person">
@@ -47,7 +47,7 @@
                         <img src="../Assets/Images/Instagram-Logo-PNG-Image.png" width="195" alt="Instagram" />
                     </a>
                     <p>
-                        Lorem pariatur enim culpa labore ea nostrud proident ea elit reprehenderit officia exercitation tempor cillum. Occaecat non ipsum laborum exercitation. Ullamco sit qui proident do aliquip est id cillum ullamco magna dolor irure laborum anim. Reprehenderit eu non do veniam est quis enim reprehenderit ea officia in dolor non.
+                        Rejoignez-nous sur Instagram ! 
                     </p>
                 </div>
             </div>

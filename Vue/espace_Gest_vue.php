@@ -99,12 +99,14 @@
         function sleep(ms) {
             return new Promise(resolve => setTimeout(resolve, ms));
         }
-        var i = 0;
-        while (i<100){
+
+        let i = 0;
+        let randvalue;
+        while (i < 100) {
             randvalue = Math.random() * 100;
-            gauge1.setValueAnimated(randvalue-20, 3);
+            gauge1.setValueAnimated(randvalue - 20, 3);
             i++;
-            sleep(3000)
+            await sleep(3000)
         }
 
 

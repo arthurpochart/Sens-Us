@@ -88,7 +88,7 @@
     <script>
         var pad = function(tar) {}
 
-        var gaugeParticule = Gauge(
+        var gauge1 = Gauge(
             document.getElementById("gauge-particules"), {
                 max: 80,
                 dialStartAngle: 90,
@@ -96,6 +96,18 @@
                 value: 12
             }
         );
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+        var i = 0;
+        while (i<100){
+            randvalue = Math.random() * 100;
+            gauge1.setValueAnimated(randvalue-20, 3);
+            i++;
+            sleep(3000)
+        }
+
+
     </script>
 
 

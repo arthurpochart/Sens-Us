@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/nav.css">
     <link rel="stylesheet" href="../CSS/background.css">
-    <link rel="stylesheet" href="../CSS/profil_Membre_vue.css">
+    <link rel="stylesheet" href="../CSS/profil_vue.css">
     <title>Document</title>
 </head>
 
@@ -19,10 +19,10 @@
 
     <h1>Profil membre</h1>
     <h2>Informations personnelles membre</h2>
-    <form action="#" method="post">
-        <p><label for="nom">Nom : <?= $resultatsMembre['Nom'] ?></label></p>
-        <p><label for="prenom">Prénom : <?= $resultatsMembre['Prenom'] ?></label></p>
-        <p><label for="email">Email : <?= $resultatsMembre['Email'] ?></label></p>
+    <form action="../Controleur/modif_Membre_post_controleur.php" method="post">
+        <p><label for="nom"><span>Nom</span> : <?= $resultatsMembre['Nom'] ?></label></p>
+        <p><label for="prenom"><span>Prénom</span> : <?= $resultatsMembre['Prenom'] ?></label></p>
+        <p><label for="email"><span>Email</span> : <?= $resultatsMembre['Email'] ?></label></p>
 
         <div id="bouton">
             <p><input type="button" value="Modifier vos informations" onclick="modifierInfosPerso(3)" id="modificationPerso"></p>
@@ -31,11 +31,11 @@
     </form>
 
     <h2>Informations du groupe</h2>
-    <p>Nom du groupe : <?= $resultatsGroupe['NomGroupe'] ?></p>
-    <p>SIRET : <?= $resultatsGroupe['SIRET'] ?></p>
-    <p>Secteur : <?= $resultatsGroupe['Secteur'] ?></p>
-    <p>Adresse : <?= $resultatsGroupe['Adresse'] ?></p>
-    <p>Code groupe : <?= $resultatsGroupe['Code'] ?></p>
+    <p><span>Nom du groupe</span> : <?= $resultatsGroupe['NomGroupe'] ?></p>
+    <p><span>SIRET</span> : <?= $resultatsGroupe['SIRET'] ?></p>
+    <p><span>Secteur</span> : <?= $resultatsGroupe['Secteur'] ?></p>
+    <p><span>Adresse</span> <?= $resultatsGroupe['Adresse'] ?></p>
+    <p><span>Code groupe</span> : <?= $resultatsGroupe['Code'] ?></p>
 
 
     <script src="../JS/profil.js"></script>

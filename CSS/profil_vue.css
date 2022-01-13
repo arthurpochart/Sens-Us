@@ -1,10 +1,11 @@
 p {
   margin: 30px;
 }
+
 h1 {
   margin: 20px;
   background-color: rgb(255, 255, 255);
-  width: 250px;
+  width: 300px;
   border: 2px solid rgb(0, 0, 0);
   padding: 5px;
   margin: 20px;
@@ -17,9 +18,18 @@ h2 {
   color: #04aa6d;
 }
 
+.gauge-container.one > .gauge > .value-text {
+  fill: rgb(47, 227, 255);
+  font-family: sans, "sans-serif";
+  font-weight: bold;
+  font-size: 0.6em;
+}
+
+#modificationGroupe,
+#sauvegardeGroupe,
 #modificationPerso,
 #sauvegardePerso {
-  background-color: alicblue;
+  background-color: aliceblue;
   border: none;
   color: white;
   padding: 10px 10px;
@@ -27,21 +37,44 @@ h2 {
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
-  margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 5px;
 }
 
+#modificationGroupe,
+#sauvegardeGroupe,
 #modificationPerso,
 #sauvegardePerso {
-  background-color: white;
+  background-color: rgb(242, 249, 255);
   color: black;
-  border: 2px solid #c3dbc44d;
+  border: 1px solid black;
+  width: 30%;
+  border-radius: 10px;
+  font-size: 16px;
 }
 
+#modificationGroupe:hover,
+#sauvegardeGroupe:hover,
 #modificationPerso:hover,
 #sauvegardePerso:hover {
   background-color: #4caf50;
   color: aliceblue;
+  border: 0;
+}
+
+span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input {
+  padding: 0.7%;
+  width: 10%;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+label[for="email"] input {
+  width: 20%;
 }

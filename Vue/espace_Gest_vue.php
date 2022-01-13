@@ -109,7 +109,6 @@
 
 
     </script>
-    <h1>Espace gestionnaire</h1>
 </body>
 
 </html>

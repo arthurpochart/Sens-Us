@@ -39,7 +39,7 @@ function modifierInfosPerso(nbrChamps) {
 function modifierInfosGroupe(nbrChamps) {
     let labelInfosGroupe = Object.entries(label);
     labelInfosGroupe.splice(0, nbrChamps);
-    labelInfosGroupe.splice(-1, 1);
+    // labelInfosGroupe.splice(-1, 1); Si on veut pas input le champ code Groupe
 
     i = 0;
     for (item of labelInfosGroupe) {
@@ -48,7 +48,6 @@ function modifierInfosGroupe(nbrChamps) {
 
         valeurAttribut = item[1].getAttribute("for");
 
-        
         inputInfosGroupe.setAttribute("type", "text");
         inputInfosGroupe.setAttribute("id", valeurAttribut);
         inputInfosGroupe.setAttribute("name", valeurAttribut);

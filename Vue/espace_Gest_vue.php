@@ -26,10 +26,10 @@
 
     <div class="wrapper">
         <div id="gauge-particules" class="gauge-container particule">
-            <span class="value-text">µg/m^3</span>
+            <span class="value-text">ppm10 µg/m^3</span>
         </div>
         <div id="gauge-co2" class="gauge-container particule">
-            <span class="value-text">µg/m^3</span>
+            <span class="value-text">Co2 µg/m^3</span>
         </div>
     </div>
 
@@ -58,12 +58,15 @@
 
         let i = 0;
         let randvalue;
-        while (i < 100) {
-            randvalue = Math.random() * 100;
-            gauge1.setValueAnimated(randvalue - 20, 3);
-            i++;
-            await sleep(3000)
+        async function loop(){
+            while (i < 100) {
+                randvalue = Math.random() * 100;
+                gauge1.setValueAnimated(randvalue - 20, 3);
+                i++;
+                await sleep(3000)
+            }
         }
+        loop()
 
 
     </script>

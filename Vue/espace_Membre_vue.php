@@ -19,9 +19,15 @@
     ?>
     <h1>Mon espace</h1>
     <h2>Vos capteurs</h2>
-    <div id="gauge-particules" class="gauge-container particule">
-        <span class="value-text">µg/m^3</span>
+    <div class="wrapper">
+        <div id="gauge-particules" class="gauge-container particule">
+            <span class="value-text">ppm10 µg/m^3</span>
+        </div>
+        <div id="gauge-co2" class="gauge-container co2">
+            <span class="value-text">CO2 µg/m^3</span>
+        </div>
     </div>
+
 
     <script src="../node_modules/svg-gauge/src/gauge.js"></script>
     <script>
@@ -47,13 +53,18 @@
         }
 
         let i = 0;
-        let randvalue;
-        while (i < 100) {
-            randvalue = Math.random() * 100;
-            gauge1.setValueAnimated(randvalue - 20, 3);
-            i++;
-            await sleep(3000)
+        let randvalue1, randvalue2;
+        async function loop(){
+            while (i < 100) {
+                randvalue1 = Math.random() * 100;
+                randvalue2 = Math.random() * 100;
+                gauge1.setValueAnimated(randvalue1 - 20, 3);
+                gauge2.setValueAnimated(randvalue2 - 20, 3);
+                i++;
+                await sleep(3000)
+            }
         }
+        loop()
 
     </script>
 

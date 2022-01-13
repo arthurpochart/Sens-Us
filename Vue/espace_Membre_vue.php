@@ -101,10 +101,10 @@
         }
         var i = 0;
         while (i<100){
-            value = Math.random() * 100;
-            gauge1.setValueAnimated(value-20, 3);
+            randvalue = Math.random() * 100;
+            gauge1.setValueAnimated(randvalue-20, 3);
             i++;
-            //sleep(value-50)
+            sleep(3000)
         }
 
 

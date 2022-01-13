@@ -1,32 +1,21 @@
-var Gauge = require("../node_modules/svg-gauge");
 
-// Standalone
-var Gauge = window.Gauge;
-
-// Create a new Gauge
-var particuleGauge = Gauge(document.getElementById("gauge-particules"), {
-    max: 100,
-    // custom label renderer
-    label: function(value) {
-        return Math.round(value) + "/" + this.max;
-    },
-    value: 50,
-    // Custom dial colors (Optional)
-    color: function(value) {
-        if(value < 20) {
-            return "#5ee432"; // green
-        }else if(value < 40) {
-            return "#fffa50"; // yellow
-        }else if(value < 60) {
-            return "#f7aa38"; // orange
-        }else {
-            return "#ef4655"; // red
-        }
+var gauge1 = Gauge(
+    document.getElementById("gauge-particules"), {
+        max: 80,
+        dialStartAngle: 90,
+        dialEndAngle: 0,
+        value: 12
     }
-});
+);
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
 
-// Set gauge value
-particuleGauge.setValue(75);
-
-// Set value and animate (value, animation duration in seconds)
-particuleGauge.setValueAnimated(90, 1);
+let i = 0;
+let randvalue;
+while (i < 100) {
+    randvalue = Math.random() * 100;
+    gauge1.setValueAnimated(randvalue - 20, 3);
+    i++;
+    await sleep(3000)
+}

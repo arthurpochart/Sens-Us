@@ -80,10 +80,11 @@
     nav_controleur();
     ?>
     <h1>Mon espace</h1>
-    <h2>Taux en ppm de microparticules</h2>
+    <h2>Vos capteurs</h2>
     <div id="gauge-particules" class="gauge-container particule">
         <span class="value-text">µg/m^3</span>
     </div>
+
     <script src="../node_modules/svg-gauge/src/gauge.js"></script>
     <script>
         var pad = function(tar) {}
@@ -99,18 +100,28 @@
         function sleep(ms) {
             return new Promise(resolve => setTimeout(resolve, ms));
         }
-        var i = 0;
-        while (i<100){
-            randvalue = Math.random() * 100;
-            gauge1.setValueAnimated(randvalue-20, 3);
-            i++;
-            sleep(3000)
+        let M = 4294967296, // a - 1 should be divisible by m's prime factors
+            A = 1664525, // c and m should be co-prime
+            C = 1,
+            seed = Math.floor(Math.random() * M);
+
+        function rand(){
+            seed = (A * seed + C) % M;
+            return seed / M;
+        }
+        async function loop(){
+            let randvalue;
+            let i = 0;
+            while (i<100){
+                randvalue = Math.random() * 100;
+                gauge1.setValueAnimated(randvalue-20, 3);
+                i++;
+                await sleep(3000);
+            }
         }
 
-
+        loop()
     </script>
 
-
 </body>
-
 </html>

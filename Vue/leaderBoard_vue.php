@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../CSS/leaderBoard.css">
     <link rel="stylesheet" href="../CSS/nav.css">
     <link rel="stylesheet" href="../CSS/background.css">
-    <title>Document</title>
+    <title>LeaderBoard</title>
 </head>
 
 <body class="background">
@@ -18,7 +18,7 @@
     ?>
     <div>
         <h2>LeaderBoard</h2>
-
+        <br>
         <table>
             <thead>
                 <tr>

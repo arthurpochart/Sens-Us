@@ -6,7 +6,7 @@ body {
 
 #all-page {
   width: 90%;
-  padding: 15px;
+  margin-top: 15px;
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -16,6 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 #presentation-generale img {
@@ -30,21 +31,23 @@ body {
 #container-all-person {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: baseline;
 }
 
 .container-one-person img {
   width: 35%;
   border: 1px solid black;
   border-radius: 70%;
+  margin-bottom: 5px;
 }
 
 .container-one-person {
+  width: 20%;
   padding: 1%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: justify;  
+  text-align: center;
 }
 
 .container-one-person p {
@@ -54,10 +57,10 @@ body {
 h3 {
   font-size: 170%;
   color: #077459;
-  text-align:center;
+  text-align: center;
 }
 
-.pres{
-  width:80%;
-  text-align:center;
+.pres {
+  width: 80%;
+  text-align: center;
 }

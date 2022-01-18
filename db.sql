@@ -1,4 +1,6 @@
-use db;
+CREATE DATABASE IF NOT EXISTS `sensus` DEFAULT CHARACTER SET utf8 COLLATE utf8mb4_general_ci;
+
+use sensus;
 
 create table administrateur
 (

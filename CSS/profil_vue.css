@@ -144,3 +144,18 @@ tbody tr:nth-child(odd) {
   margin-top: -10px;
   font-weight: bold;
 }
+
+.supprimer {
+  width: 10%;
+}
+
+input[type="submit"] {
+  width: 80%;
+  padding: 3%;
+  border: 1px solid #04aa6d;
+}
+
+input[type="submit"]:hover {
+  background-color: #04aa6d;
+  color: white;
+}

@@ -61,6 +61,7 @@
                         <th>Nom</th>
                         <th>Prénom</th>
                         <th>Adresse mail</th>
+                        <th class="supprimer">Suppression</th>
                     </tr>
                 </thead>
 
@@ -72,6 +73,12 @@
                             <td><?= $resultatsMembreGroupe[$i]['Nom'] ?></td>
                             <td><?= $resultatsMembreGroupe[$i]['Prenom'] ?></td>
                             <td><?= $resultatsMembreGroupe[$i]['Email'] ?></td>
+                            <td class="supprimer">
+                                <form action="../Controleur/supprimer_Membre_controleur.php" method="post">
+                                    <input type="hidden" name="email" value="<?= $resultatsMembreGroupe[$i]['Email'] ?>">
+                                    <input type="submit" value="Supprimer" />
+                                </form>
+                            </td>
                         </tr>
                     <?php }
                     ?>

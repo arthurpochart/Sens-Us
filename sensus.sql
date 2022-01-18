@@ -20,6 +20,12 @@ create table gestionnaire
     Mdp    varchar(255) not null
 );
 
+INSERT INTO `gestionnaire` (`GestId`, `RIB`, `Nom`, `Prenom`, `Email`, `Mdp`) VALUES
+(1, "0123456789", "Sens'Us", "Sens'Cert", "sensus@gmail.com", "9cf95dacd226dcf43da376cdb6cbba7035218921"),
+(2, "01234567891011", "Gammoudi", "Aymen", "aymen.gammoudi@gmail.com", "9cf95dacd226dcf43da376cdb6cbba7035218921"),
+(3, "53218921", "Test", "Test", "test@test.com", "9cf95dacd226dcf43da376cdb6cbba7035218921");
+
+
 create table groupe
 (
     GroupeId   int(45)      not null primary key AUTO_INCREMENT,
@@ -34,6 +40,10 @@ create table groupe
         foreign key (GestId) references gestionnaire (GestId)
             on update cascade on delete cascade
 );
+INSERT INTO `groupe` (`GroupeId`, `NomGroupe`, `SIRET`, `Secteur`, `Adresse`, `Classement`, `Code`, `GestId`) VALUES
+(1, "Sens'Us", "5678934567890", "Informatique", "10 rue de Vanves 92130 Issy-les-Moulineaux", "0", "BtbRvnl7", "1"),
+(2, "Nestle", "4278329923", "Chocolat", "92130 Issy-les-Moulineaux", "0", "Hjoe7zS2", "2"),
+(3, "Test", "456789098762", "Testeur", "La ville du test", "100", "yzeS62Ha", "3");
 
 create table membre
 (
@@ -51,12 +61,17 @@ create table membre
             on update cascade on delete cascade
 );
 
+INSERT INTO `membre` (`MembreId`, `Nom`, `Prenom`, `Email`, `Mdp`, `GroupeId`, `GestId`) VALUES
+(1, "Durant", "Kevin", "kevin.durant@gmail.com", "9cf95dacd226dcf43da376cdb6cbba7035218921", "1", "1"),
+(2, "Chabchoub", "Yousra", "yousra.chabchoub@gmail.com", "20 rue Notre Dame des Champs 75006 Paris", "1", "1"),
+(3, "Dupont", "Jean", "jean.dupont@gmail.com", "56100 Lorient", "2", "2");
+
 create index ForeignGroup
     on membre (GroupeId);
 
 create table faq 
 (
-  QuestionId int(11) NOT NULL,
+  QuestionId int(11) NOT NULL primary key AUTO_INCREMENT,
   Question varchar(255) NOT NULL,
   Reponse varchar(255) NOT NULL
 );
@@ -70,9 +85,3 @@ INSERT INTO `faq` (`QuestionId`, `Question`, `Reponse`) VALUES
 (6, "Mon capteur est inactif comment contacter un technicien ?", "Vous pouvez joindre un de nos responsables techniques au 181 712."),
 (7, "Qui est Aymen ?", "La légende raconte qu'il/elle vogue sur les 7 mers en compagnie de son fidèle dodo gabonais.");
 
-ALTER TABLE `faq`
-  ADD PRIMARY KEY (`QuestionId`);
-
-ALTER TABLE `faq`
-  MODIFY `QuestionId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
-COMMIT;

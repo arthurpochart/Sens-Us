@@ -1,12 +1,7 @@
 <?php
 
-function profil_Gest_modele()
+function profil_Gest_modele($db)
 {
-    include "connect_to_db.php";
-    $db = dbConnect();
-
-    session_start();
-
     $reponsesGest = $db->prepare('SELECT GestId, RIB, Nom, Prenom, Email FROM gestionnaire WHERE GestId = :gestid');
     $reponsesGest->bindParam('gestid', $_SESSION['GestId']);
 

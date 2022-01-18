@@ -16,27 +16,32 @@
     include "../Controleur/nav_controleur.php";
     nav_controleur();
     ?>
-
     <h1>Profil membre</h1>
-    <h2>Informations personnelles membre</h2>
-    <form action="../Controleur/modif_Membre_post_controleur.php" method="post">
-        <p><label for="nom"><span>Nom</span> : <?= $resultatsMembre['Nom'] ?></label></p>
-        <p><label for="prenom"><span>Prénom</span> : <?= $resultatsMembre['Prenom'] ?></label></p>
-        <p><label for="email"><span>Email</span> : <?= $resultatsMembre['Email'] ?></label></p>
 
-        <div id="bouton">
-            <p><input type="button" value="Modifier vos informations" onclick="modifierInfosPerso(3)" id="modificationPerso"></p>
-            <p><input type="submit" value="Sauvegarder vos informations" id="sauvegardePerso" disabled /></p>
+    <div id="infos">
+        <div id="infosPersos">
+            <h2>Informations personnelles membre</h2>
+            <form action="../Controleur/modif_Membre_post_controleur.php" method="post">
+                <p><label for="nom"><span>Nom</span> : <?= $resultatsMembre['Nom'] ?></label></p>
+                <p><label for="prenom"><span>Prénom</span> : <?= $resultatsMembre['Prenom'] ?></label></p>
+                <p><label for="email"><span>Email</span> : <?= $resultatsMembre['Email'] ?></label></p>
+
+                <div id="bouton">
+                    <p><input type="button" value="Modifier vos informations" onclick="modifierInfosPerso(3)" id="modificationPerso"></p>
+                    <p><input type="submit" value="Sauvegarder vos informations" id="sauvegardePerso" disabled /></p>
+                </div>
+            </form>
         </div>
-    </form>
 
-    <h2>Informations du groupe</h2>
-    <p><span>Nom du groupe</span> : <?= $resultatsGroupe['NomGroupe'] ?></p>
-    <p><span>SIRET</span> : <?= $resultatsGroupe['SIRET'] ?></p>
-    <p><span>Secteur</span> : <?= $resultatsGroupe['Secteur'] ?></p>
-    <p><span>Adresse</span> <?= $resultatsGroupe['Adresse'] ?></p>
-    <p><span>Code groupe</span> : <?= $resultatsGroupe['Code'] ?></p>
-
+        <div id="infosGroupe">
+            <h2>Informations du groupe</h2>
+            <p><span>Nom du groupe</span> : <?= $resultatsGroupe['NomGroupe'] ?></p>
+            <p><span>SIRET</span> : <?= $resultatsGroupe['SIRET'] ?></p>
+            <p><span>Secteur</span> : <?= $resultatsGroupe['Secteur'] ?></p>
+            <p><span>Adresse</span> <?= $resultatsGroupe['Adresse'] ?></p>
+            <p><span>Code groupe</span> : <?= $resultatsGroupe['Code'] ?></p>
+        </div>
+    </div>
 
     <script src="../JS/profil.js"></script>
 

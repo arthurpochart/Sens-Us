@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../CSS/register.css">
     <link rel="stylesheet" href="../CSS/nav.css">
     <link rel="stylesheet" href="../CSS/background.css">
-    <title>Register</title>
+    <title>Inscripition</title>
 </head>
 
 <body class="background">

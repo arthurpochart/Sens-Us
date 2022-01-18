@@ -33,34 +33,34 @@
                 <hr>
             </div>
             <div id="dropChef" class="dropContent">
-                <label for="C.nom"><b>Nom</b></label><br>
+                <label for="C.nom"><b>Nom</b></label>
                 <input type="text" placeholder="Votre Nom" name="nom" id="C.nom" required><br>
 
-                <label for="C.prenom"><b>Prénom</b></label><br>
+                <label for="C.prenom"><b>Prénom</b></label>
                 <input type="text" placeholder="Votre Prénom" name="prenom" id="C.prenom" required><br>
 
-                <label for="C.email"><b>Email</b></label><br>
+                <label for="C.email"><b>Email</b></label>
                 <input type="text" placeholder="Votre adresse mail" name="email" id="C.email" required><br>
 
-                <label for="C.mdp"><b>Mot de passe</b></label><br>
+                <label for="C.mdp" id="C.label-mdp"><b>Mot de passe</b></label>
                 <input type="password" placeholder="Enter Password" name="mdp" id="C.mdp" required><br>
 
-                <label for="C.mdp-confirm" id="C.label-mdp-confirm"><b>Confirmez mot de passe</b></label><br>
+                <label for="C.mdp-confirm" id="C.label-mdp-confirm"><b>Confirmez mot de passe</b></label>
                 <input type="password" placeholder="Confirmez" name="mdp-confirm" id="C.mdp-confirm" required disabled><br>
 
-                <label for="C.RIB"><b>Votre RIB</b></label><br>
+                <label for="C.RIB"><b>Votre RIB</b></label>
                 <input type="text" placeholder="Votre RIB" name="rib" id="C.RIB" required><br>
 
-                <label for="C.nom-groupe"><b>Nom de votre groupe</b></label><br>
+                <label for="C.nom-groupe"><b>Nom de votre groupe</b></label>
                 <input type="text" placeholder="Nom du groupe" name="nom-groupe" id="C.nom-groupe" required><br>
 
-                <label for="C.SIRET"><b>SIRET de votre groupe</b></label><br>
+                <label for="C.SIRET"><b>SIRET de votre groupe</b></label>
                 <input type="text" placeholder="Votre SIRET" name="siret" id="C.SIRET" required><br>
 
-                <label for="C.secteur"><b>Votre secteur d'entreprise</b></label><br>
+                <label for="C.secteur"><b>Votre secteur d'entreprise</b></label>
                 <input type="text" placeholder="Votre Secteur" name="secteur" id="C.secteur" required><br>
 
-                <label for="C.adresse"><b>Votre adresse d'entreprise</b></label><br>
+                <label for="C.adresse"><b>Votre adresse d'entreprise</b></label>
                 <input type="text" placeholder="Votre Adresse" name="adresse" id="C.adresse" required><br>
                 <hr>
 

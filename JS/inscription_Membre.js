@@ -1,6 +1,8 @@
 const mdpMembre = document.getElementById("M.mdp");
 const mdpConfirmMembre = document.getElementById("M.mdp-confirm");
 const inscriptionMembre = document.getElementsByClassName("registerbtn")[0];
+
+const labelMdpMembre = document.getElementById("M.label-mdp");
 const labelMdpConfirmMembre = document.getElementById("M.label-mdp-confirm");
 
 let p = document.createElement("p");
@@ -22,6 +24,10 @@ function longueur() {
       p.textAlign = "center";
     }
   } else {
+    p.textContent = "6 caractères minimum !";
+    labelMdpMembre.append(p);
+    p.style.color = "red";
+    p.textAlign = "center";
     mdpConfirmMembre.value = "";
     mdpConfirmMembre.disabled = true;
   }

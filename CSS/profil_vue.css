@@ -1,9 +1,26 @@
+#infos {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid #04aa6d;
+  border-top: 2px solid #04aa6d;
+}
+
+#infosPersos,
+#infosGroupe {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+#infosPersos {
+  border-right: 2px solid #04aa6d;
+}
+
 p {
-  margin: 30px;
+  margin: 20px;
 }
 
 h1 {
-  margin: 20px;
   background-color: rgb(255, 255, 255);
   width: 300px;
   border: 2px solid rgb(0, 0, 0);
@@ -14,7 +31,8 @@ h1 {
 }
 
 h2 {
-  margin: 20px;
+  margin-left: 20px;
+  margin-bottom: 3px;
   color: #04aa6d;
 }
 
@@ -49,7 +67,7 @@ h2 {
   background-color: rgb(242, 249, 255);
   color: black;
   border: 1px solid black;
-  width: 30%;
+  width: 60%;
   border-radius: 10px;
   font-size: 16px;
 }
@@ -70,13 +88,14 @@ span {
 
 input {
   padding: 0.7%;
-  width: 10%;
+  width: 25%;
   border-radius: 5px;
   border: 1px solid black;
 }
 
-label[for="email"] input {
-  width: 20%;
+label[for="email"] input,
+label[for="adresse"] input {
+  width: 40%;
 }
 
 #bouton input:disabled {
@@ -87,4 +106,41 @@ label[for="email"] input {
   background-color: rgb(158, 157, 157);
   color: black;
   border: 1px solid black;
+}
+
+#infosMembre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  background-color: rgb(230, 224, 224);
+}
+
+thead {
+  background-color: #04aa6d;
+  color: white;
+}
+
+td, th /* Mettre une bordure sur les td ET les th */ {
+  text-align: center;
+  width: 15%;
+  padding: 15px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba(197, 197, 197, 0.219);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgba(233, 233, 233, 0.973);
+}
+
+#pasdemembre {
+  margin-top: -10px;
+  font-weight: bold;
 }

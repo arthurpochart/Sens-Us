@@ -1,4 +1,6 @@
-use db;
+CREATE DATABASE IF NOT EXISTS `sensus` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+use sensus;
 
 create table administrateur
 (
@@ -51,3 +53,26 @@ create table membre
 
 create index ForeignGroup
     on membre (GroupeId);
+
+create table faq 
+(
+  QuestionId int(11) NOT NULL,
+  Question varchar(255) NOT NULL,
+  Reponse varchar(255) NOT NULL
+);
+
+INSERT INTO `faq` (`QuestionId`, `Question`, `Reponse`) VALUES
+(1, "Comment obtenir la Sens'Cert ?", "Contactez-nous à l'adresse contact.sens.us.2022@gmail.com, nous vous donnerons de plus ample informations."),
+(2, "Pourquoi la Sens'Cert?", "La Sens'Cert est un gage de bien être et de qualité d'environnement."),
+(3, "Quelles informations mettre en avant sur mon espace gestionnaire ?", "Nous vous conseillons de mettre en avant le niveau de micro-particules."),
+(4, "Comment changer le statut d'une personne ?", "Rendez-vous sur votre espace gestionnaire, vous pouvez modifier le statut d'un membre."),
+(5, "Etes-vous une association ?", "Non, nous sommes là pour l'argent avant tout."),
+(6, "Mon capteur est inactif comment contacter un technicien ?", "Vous pouvez joindre un de nos responsables techniques au 181 712."),
+(7, "Qui est Aymen ?", "La légende raconte qu'il/elle vogue sur les 7 mers en compagnie de son fidèle dodo gabonais.");
+
+ALTER TABLE `faq`
+  ADD PRIMARY KEY (`QuestionId`);
+
+ALTER TABLE `faq`
+  MODIFY `QuestionId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+COMMIT;

@@ -8,6 +8,6 @@ function FAQ_modele()
     $reponsesFAQ = $db->prepare('SELECT * FROM faq');
     $reponsesFAQ->execute();
 
-    $reponsesFAQ = $reponsesFAQ->fetchAll();
-    return $reponsesFAQ;
+    $resultatsFAQ = $reponsesFAQ->fetchAll();
+    return $resultatsFAQ;
 }

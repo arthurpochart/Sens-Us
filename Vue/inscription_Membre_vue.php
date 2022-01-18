@@ -33,23 +33,23 @@
                 <hr>
             </div>
             <div id="dropMembre" class="dropContent">
-                <label for="M.nom"><b>Nom</b></label>
-                <input type="text" placeholder="Votre Nom" name="nom" id="M.nom" required>
+                <label for="M.nom"><b>Nom</b></label><br>
+                <input type="text" placeholder="Votre Nom" name="nom" id="M.nom" required><br>
 
-                <label for="M.prenom"><b>Prénom</b></label>
-                <input type="text" placeholder="Votre Prénom" name="prenom" id="M.prenom" required>
+                <label for="M.prenom"><b>Prénom</b></label><br>
+                <input type="text" placeholder="Votre Prénom" name="prenom" id="M.prenom" required><br>
 
-                <label for="M.email"><b>Email</b></label>
-                <input type="text" placeholder="Votre adresse mail" name="email" id="M.email" required>
+                <label for="M.email"><b>Email</b></label><br>
+                <input type="text" placeholder="Votre adresse mail" name="email" id="M.email" required><br>
 
-                <label for="M.mdp"><b>Mot de passe</b></label>
-                <input type="password" placeholder="Enter Password" name="mdp" id="M.mdp" required>
+                <label for="M.mdp"><b>Mot de passe</b></label><br>
+                <input type="password" placeholder="Enter Password" name="mdp" id="M.mdp" required><br>
 
-                <label for="M.mdp-confirm" id="M.label-mdp-confirm"><b>Confirmez mot de passe</b></label>
-                <input type="password" placeholder="Confirmez" name="mdp-confirm" id="M.mdp-confirm" required disabled>
+                <label for="M.mdp-confirm" id="M.label-mdp-confirm"><b>Confirmez mot de passe</b></label><br>
+                <input type="password" placeholder="Confirmez" name="mdp-confirm" id="M.mdp-confirm" required disabled><br>
 
-                <label for="M.code"><b>Code de votre groupe</b></label>
-                <input type="text" placeholder="Entrer le code de votre groupe" name="code" id="M.code" required>
+                <label for="M.code"><b>Code de votre groupe</b></label><br>
+                <input type="text" placeholder="Entrer le code de votre groupe" name="code" id="M.code" required><br>
                 <hr>
 
                 <p>En créant un compte vous acceptez nos <a href="#">Termes et conditions</a>.</p>

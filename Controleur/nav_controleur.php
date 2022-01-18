@@ -2,6 +2,8 @@
 
 function nav_controleur($repertoire = "../Vue/")
 {
+    session_start();
+
     include("savoirsilogGest.php");
     include("savoirsilogMembre.php");
     $connecteGest = savoirsilogGest();

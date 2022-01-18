@@ -11,13 +11,14 @@ $content = "Message venant de ".$_POST['mail']."en ".$_POST['country']."\n".$_PO
 
 try {
     //Server settings
-    $mail->SMTPDebug = true;                      //Enable verbose debug output
+    $mail->SMTPDebug = 0;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host = 'smtp.mailtrap.io';
+    $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Port = 2525;
-    $mail->Username = '1c8b2d1c281c64';
-    $mail->Password = 'c79f6959603bdf';
+    $mail->SMTPSecure = 'tls';
+    $mail->Port = 587;
+    $mail->Username = 'contact.sens.us.2022@gmail.com';
+    $mail->Password = 'ekip1234';
     //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients

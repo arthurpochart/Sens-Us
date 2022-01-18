@@ -22,7 +22,7 @@ try {
     //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom($_POST['mail'], $_POST["firstname"]." ".$_POST['lastname']);
+    $mail->setFrom($_POST['mail'], $_POST["firstname"]." ".$_POST['lastname']." : ".$_POST['mail']);
     $mail->addAddress('contact@sens-us.com');     //Add a recipient
     #$mail->addCC('cc@example.com');
     #$mail->addBCC('bcc@example.com');

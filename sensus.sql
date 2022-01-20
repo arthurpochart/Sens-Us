@@ -2,14 +2,6 @@ CREATE DATABASE IF NOT EXISTS `sensus` DEFAULT CHARACTER SET utf8 COLLATE utf8_g
 
 use sensus;
 
-create table administrateur
-(
-    AdminId int          not null primary key AUTO_INCREMENT,
-    Nom     varchar(255) not null,
-    Email   varchar(255) not null,
-    Tel     varchar(255) not null
-);
-
 create table gestionnaire
 (
     GestId int(45)      not null primary key AUTO_INCREMENT,

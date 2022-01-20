@@ -17,13 +17,14 @@ create table gestionnaire
     Nom    varchar(255) not null,
     Prenom varchar(255) not null,
     Email  varchar(255) not null,
-    Mdp    varchar(255) not null
+    Mdp    varchar(255) not null,
+    isAdmin tinyint(1)  not null
 );
 
-INSERT INTO `gestionnaire` (`GestId`, `RIB`, `Nom`, `Prenom`, `Email`, `Mdp`) VALUES
-(1, "0123456789", "Sens'Us", "Sens'Cert", "sensus@gmail.com", "9cf95dacd226dcf43da376cdb6cbba7035218921"),
-(2, "01234567891011", "Gammoudi", "Aymen", "aymen.gammoudi@gmail.com", "9cf95dacd226dcf43da376cdb6cbba7035218921"),
-(3, "53218921", "Test", "Test", "test@test.com", "9cf95dacd226dcf43da376cdb6cbba7035218921");
+INSERT INTO `gestionnaire` (`GestId`, `RIB`, `Nom`, `Prenom`, `Email`, `Mdp`, `isAdmin`) VALUES
+(1, "0123456789", "Sens'Us", "Sens'Cert", "sensus@gmail.com", "9cf95dacd226dcf43da376cdb6cbba7035218921", 0),
+(2, "01234567891011", "Gammoudi", "Aymen", "aymen.gammoudi@gmail.com", "9cf95dacd226dcf43da376cdb6cbba7035218921", 0),
+(3, "53218921", "Test", "Test", "test@test.com", "9cf95dacd226dcf43da376cdb6cbba7035218921", 0);
 
 
 create table groupe

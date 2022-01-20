@@ -63,8 +63,8 @@ create table membre
 
 INSERT INTO `membre` (`MembreId`, `Nom`, `Prenom`, `Email`, `Mdp`, `GroupeId`, `GestId`) VALUES
 (1, "Durant", "Kevin", "kevin.durant@gmail.com", "9cf95dacd226dcf43da376cdb6cbba7035218921", "1", "1"),
-(2, "Chabchoub", "Yousra", "yousra.chabchoub@gmail.com", "20 rue Notre Dame des Champs 75006 Paris", "1", "1"),
-(3, "Dupont", "Jean", "jean.dupont@gmail.com", "56100 Lorient", "2", "2");
+(2, "Chabchoub", "Yousra", "yousra.chabchoub@gmail.com", "9cf95dacd226dcf43da376cdb6cbba7035218921", "1", "1"),
+(3, "Dupont", "Jean", "jean.dupont@gmail.com", "9cf95dacd226dcf43da376cdb6cbba7035218921", "2", "2");
 
 create index ForeignGroup
     on membre (GroupeId);

@@ -38,7 +38,7 @@
                 <input type="password" placeholder="Entrer le mot de passe" name="mdp" required>
 
                 <a href="../index.php">
-                    <button type="submit">Se connecter</button>
+                    <input type="submit" value="Se connecter" />
                     <!--pensez à changer "button" pour un "submit" vers le php-->
                 </a>
                 <label id="coche">

@@ -2,6 +2,13 @@ CREATE DATABASE IF NOT EXISTS `sensus` DEFAULT CHARACTER SET utf8 COLLATE utf8_g
 
 use sensus;
 
+create table capteur
+(
+    CaptId int(45)      not null primary key AUTO_INCREMENT,
+    Nom    varchar(255) not null,
+    GroupId int(45)
+);
+
 create table gestionnaire
 (
     GestId int(45)      not null primary key AUTO_INCREMENT,

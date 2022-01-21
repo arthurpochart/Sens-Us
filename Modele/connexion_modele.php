@@ -2,7 +2,7 @@
 
 function connexion_modele($db, $mdp_hache)
 {
-    $reponsesGest = $db->prepare('SELECT GestId FROM gestionnaire WHERE Email = :email AND Mdp = :mdp');
+    $reponsesGest = $db->prepare('SELECT GestId, isAdmin FROM gestionnaire WHERE Email = :email AND Mdp = :mdp');
     $reponsesGest->bindParam(':email', $_POST['email']);
     $reponsesGest->bindParam(':mdp', $mdp_hache);
     $reponsesGest->execute();

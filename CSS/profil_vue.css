@@ -153,9 +153,11 @@ input[type="submit"] {
   width: 80%;
   padding: 3%;
   border: 1px solid #04aa6d;
+  border-radius: 10px;
 }
 
 input[type="submit"]:hover {
-  background-color: #04aa6d;
+  background-color: red;
+  border: 1px solid red;
   color: white;
 }

@@ -10,6 +10,6 @@ function sanitizeEmail($email){
 ##Obsolete avec php 8.... PDO fonctionne
 function sanitizeSQL($query)
 {
-    $sanitzed = mysql_escape_string(string $query);
+   ## $sanitzed = mysql_escape_string(string $query);
 }
 

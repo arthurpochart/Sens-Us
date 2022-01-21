@@ -8,7 +8,6 @@ create table capteur
     Nom    varchar(255) not null,
     GroupId int(45)
 );
-
 create table gestionnaire
 (
     GestId int(45)      not null primary key AUTO_INCREMENT,
@@ -18,10 +17,9 @@ create table gestionnaire
     Email  varchar(255) not null,
     Mdp    varchar(255) not null,
     isAdmin tinyint(1)  not null,
-    GroupeId int(45) not null,
-    constraint gestionnaire_groupe_GroupId_fk
-        foreign key (GroupeId) references groupe(GroupeId)
-            on update cascade on delete cascade
+    GroupeId int(45) not null
+
+
 );
 
 INSERT INTO `gestionnaire` (`GestId`, `RIB`, `Nom`, `Prenom`, `Email`, `Mdp`, `isAdmin`) VALUES

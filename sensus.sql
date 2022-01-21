@@ -25,9 +25,10 @@ create table gestionnaire
 );
 
 INSERT INTO `gestionnaire` (`GestId`, `RIB`, `Nom`, `Prenom`, `Email`, `Mdp`, `isAdmin`) VALUES
-(1, "0123456789", "Sens'Us", "Sens'Cert", "sensus@gmail.com", "9cf95dacd226dcf43da376cdb6cbba7035218921", 0),
+(1, "0123456789", "Sens'Us", "Sens'Cert", "admin@sensus.com", "9cf95dacd226dcf43da376cdb6cbba7035218921", 1),
 (2, "01234567891011", "Gammoudi", "Aymen", "aymen.gammoudi@gmail.com", "9cf95dacd226dcf43da376cdb6cbba7035218921", 0),
 (3, "53218921", "Test", "Test", "test@test.com", "9cf95dacd226dcf43da376cdb6cbba7035218921", 0);
+
 
 
 create table groupe
@@ -66,9 +67,9 @@ create table membre
 );
 
 INSERT INTO `membre` (`MembreId`, `Nom`, `Prenom`, `Email`, `Mdp`, `GroupeId`, `GestId`) VALUES
-(1, "Durant", "Kevin", "kevin.durant@gmail.com", "9cf95dacd226dcf43da376cdb6cbba7035218921", "1", "1"),
-(2, "Chabchoub", "Yousra", "yousra.chabchoub@gmail.com", "9cf95dacd226dcf43da376cdb6cbba7035218921", "1", "1"),
-(3, "Dupont", "Jean", "jean.dupont@gmail.com", "9cf95dacd226dcf43da376cdb6cbba7035218921", "2", "2");
+(1, "Durant", "Kevin", "kevin.durant@gmail.com", "9cf95dacd226dcf43da376cdb6cbba7035218921", "2", "2"),
+(2, "Chabchoub", "Yousra", "yousra.chabchoub@gmail.com", "9cf95dacd226dcf43da376cdb6cbba7035218921", "2", "2"),
+(3, "Dupont", "Jean", "jean.dupont@gmail.com", "9cf95dacd226dcf43da376cdb6cbba7035218921", "3", "3");
 
 create index ForeignGroup
     on membre (GroupeId);

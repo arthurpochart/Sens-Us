@@ -24,5 +24,5 @@ if (!empty($_POST['email']) && !empty($_POST['mdp'])) {
         header('Location: ../index.php');
     }
 } else {
-    echo "Vos champs sont vides.";
+    phpAlert("Vos champs sont vides.");
 }

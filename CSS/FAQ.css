@@ -43,10 +43,6 @@
   background: #e6caca;
 }
 
-.space {
-  margin-bottom: 20px;
-}
-
 /* Flèche du label par défaut */
 .faq-section label::before {
   content: "";
@@ -74,4 +70,8 @@
 }
 section p {
   text-align: center;
+}
+
+#formFAQ {
+  border: none;
 }

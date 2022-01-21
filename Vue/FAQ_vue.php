@@ -16,9 +16,11 @@
     include "../Controleur/nav_controleur.php";
     nav_controleur();
     ?>
-    <div class="space">
-        <hr>
-    </div>
+    <?php
+    if ($_SESSION['isAdmin'] == 1) {
+        require "FAQ_ajout_vue.php";
+    }
+    ?>
 
     <?php
     for ($i = 0; $i < count($resultatsFAQ); $i++) {

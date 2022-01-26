@@ -2,7 +2,9 @@
 
 function nav_controleur($repertoire = "../Vue/")
 {
-    session_start();
+    if (!isset($_SESSION)) {
+        session_start();
+    }
 
     include("savoirsilogGest.php");
     include("savoirsilogMembre.php");

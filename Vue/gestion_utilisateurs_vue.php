@@ -44,8 +44,8 @@
                             Classement : <?= $resultatsGroupeGest[$i]['Classement'] ?>
                         </p>
                         <p>
-                        <form action="../Controleur/supprimer_Groupe_controleur.php" method="post">
-                            <input type="hidden" name="code" value="<?= $resultatsGroupeGest[$i]['Code'] ?>">
+                        <form action="../Controleur/supprimer_Gest_controleur.php" method="post">
+                            <input type="hidden" name="gestid" value="<?= $resultatsGroupeGest[$i]['GestId'] ?>">
                             <input type="submit" value="Supprimer" />
                         </form>
                         </p>
@@ -69,7 +69,7 @@
                             </p>
                             <p>
                             <form action="../Controleur/supprimer_Gest_controleur.php" method="post">
-                                <input type="hidden" name="email" value="<?= $resultatsGest[$i]['Email'] ?>">
+                                <input type="hidden" name="gestid" value="<?= $resultatsGest[$i]['GestId'] ?>">
                                 <input type="submit" value="Supprimer" />
                             </form>
                             </p>

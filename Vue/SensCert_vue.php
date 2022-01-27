@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../CSS/SensCert.css">
     <link rel="stylesheet" href="../CSS/nav.css">
     <link rel="stylesheet" href="../CSS/background.css">
-    <title>Document</title>
+    <title>La certification</title>
 </head>
 
 <body class="background">

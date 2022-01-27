@@ -39,14 +39,17 @@
                 <label for="M.prenom"><b>Prénom</b></label>
                 <input type="text" placeholder="Votre Prénom" name="prenom" id="M.prenom" required><br>
 
-                <label for="M.email"><b>Email</b></label>
+                <label for="M.email" id="M.label-email"><b>Email</b></label>
                 <input type="text" placeholder="Votre adresse mail" name="email" id="M.email" required><br>
 
+                <label for="M.email-confirm" id="M.label-email-confirm"><b>Confirmer votre email</b></label>
+                <input type="text" placeholder="Confirmez votre adresse mail" name="email-confirm" id="M.email-confirm" required><br>
+
                 <label for="M.mdp" id="M.label-mdp"><b>Mot de passe</b></label>
-                <input type="password" placeholder="Enter Password" name="mdp" id="M.mdp" required><br>
+                <input type="password" placeholder="Votre mot de passe" name="mdp" id="M.mdp" required><br>
 
                 <label for="M.mdp-confirm" id="M.label-mdp-confirm"><b>Confirmez mot de passe</b></label>
-                <input type="password" placeholder="Confirmez" name="mdp-confirm" id="M.mdp-confirm" required disabled><br>
+                <input type="password" placeholder="Confirmez votre mot de passe" name="mdp-confirm" id="M.mdp-confirm" required disabled><br>
 
                 <label for="M.code"><b>Code de votre groupe</b></label>
                 <input type="text" placeholder="Entrer le code de votre groupe" name="code" id="M.code" required><br>

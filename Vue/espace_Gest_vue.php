@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../CSS/nav.css">
     <link rel="stylesheet" href="../CSS/background.css">
 
-    <title>Document</title>
+    <title>Espace Gestionnaire</title>
     <style>
 
 

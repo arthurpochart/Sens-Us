@@ -41,10 +41,6 @@
                     <input type="submit" value="Se connecter" />
                     <!--pensez à changer "button" pour un "submit" vers le php-->
                 </a>
-                <label id="coche">
-                    <input type="checkbox" checked="checked" name="remember">
-                    <b1>Se souvenir de moi</b1>
-                </label>
             </div>
 
             <div class="container">

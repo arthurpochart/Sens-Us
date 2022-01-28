@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../CSS/nav.css">
     <link rel="stylesheet" href="../CSS/background.css">
     <link rel="stylesheet" href="../CSS/gauges.css">
-    <title>Document</title>
+    <title>Espace membre</title>
 
 </head>
 

@@ -43,10 +43,6 @@
   background: #e6caca;
 }
 
-.space {
-  margin-bottom: 20px;
-}
-
 /* Flèche du label par défaut */
 .faq-section label::before {
   content: "";
@@ -74,4 +70,73 @@
 }
 section p {
   text-align: center;
+}
+
+#formFAQ {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#titre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30px;
+}
+
+h2 {
+  color: #077459;
+  font-size: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+form div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+label[for="question"],
+label[for="reponse"] {
+  width: 25%;
+  margin-right: 2%;
+}
+
+/* Full-width inputs */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5%;
+  display: inline-block;
+  border: 1px solid #04aa6d;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+/* Set a style for all buttons */
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 25%;
+  height: 45px;
+  font-size: 15px;
+  margin-top: 0.5%;
+  margin-bottom: 2%;
+}
+
+/* Add a hover effect for buttons */
+input[type="submit"]:hover {
+  background-color: rgb(7, 116, 105);
 }

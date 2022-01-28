@@ -18,10 +18,11 @@ if (!empty($_POST['email']) && !empty($_POST['mdp'])) {
     } else {
         session_start();
         $_SESSION['GestId'] = $resultatsGest['GestId'];
+        $_SESSION['isAdmin'] = $resultatsGest['isAdmin'];
         $_SESSION['MembreId'] = $resultatsMembre['MembreId'];
         $_SESSION['email'] = $_POST['email'];
         header('Location: ../index.php');
     }
 } else {
-    echo "Vos champs sont vides.";
+    phpAlert("Vos champs sont vides.");
 }

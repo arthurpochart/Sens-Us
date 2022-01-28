@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../CSS/NosReseaux.css">
     <link rel="stylesheet" href="../CSS/nav.css">
     <link rel="stylesheet" href="../CSS/background.css">
-    <title>Sens'Us</title>
+    <title>Réseaux</title>
 </head>
 
 <body class="background">

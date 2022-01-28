@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../CSS/nav.css">
     <link rel="stylesheet" href="../CSS/background.css">
 
-    <title>Document</title>
+    <title>Espace Gestionnaire</title>
     <style>
 
 
@@ -28,7 +28,7 @@
         <div id="gauge-particules" class="gauge-container particule">
             <span class="value-text">ppm10 µg/m^3</span>
         </div>
-        <div id="gauge-co2" class="gauge-container particule">
+        <div id="gauge-co2" class="gauge-container co2">
             <span class="value-text">Co2 µg/m^3</span>
         </div>
     </div>
@@ -57,11 +57,13 @@
         }
 
         let i = 0;
-        let randvalue;
+        let randvalue1, randvalue2;
         async function loop(){
             while (i < 100) {
-                randvalue = Math.random() * 100;
-                gauge1.setValueAnimated(randvalue - 20, 3);
+                randvalue1 = Math.random() * 100;
+                randvalue2 = Math.random() * 100;
+                gauge1.setValueAnimated(randvalue1 - 20, 3);
+                gauge2.setValueAnimated(randvalue2 - 20, 3);
                 i++;
                 await sleep(3000)
             }

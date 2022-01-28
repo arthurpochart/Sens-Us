@@ -28,6 +28,7 @@ h1 {
   margin: 20px;
   border-radius: 12px;
   text-align: center;
+  margin-top: 5%;
 }
 
 h2 {
@@ -153,9 +154,11 @@ input[type="submit"] {
   width: 80%;
   padding: 3%;
   border: 1px solid #04aa6d;
+  border-radius: 10px;
 }
 
 input[type="submit"]:hover {
-  background-color: #04aa6d;
+  background-color: red;
+  border: 1px solid red;
   color: white;
 }

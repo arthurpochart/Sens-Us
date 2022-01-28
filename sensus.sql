@@ -6,7 +6,7 @@ create table capteur
 (
     CaptId int(45)      not null primary key AUTO_INCREMENT,
     Nom    varchar(255) not null,
-    GroupId int(45)
+    GroupeId int(45)
 );
 create table gestionnaire
 (
@@ -16,10 +16,14 @@ create table gestionnaire
     Prenom varchar(255) not null,
     Email  varchar(255) not null,
     Mdp    varchar(255) not null,
+<<<<<<< HEAD
     isAdmin tinyint(1)  not null,
     GroupeId int(45) not null
 
 
+=======
+    isAdmin tinyint(1)  not null
+>>>>>>> b44f70edf901972e3e3fd333eeae90e7dddf75fd
 );
 
 INSERT INTO `gestionnaire` (`GestId`, `RIB`, `Nom`, `Prenom`, `Email`, `Mdp`, `isAdmin`) VALUES

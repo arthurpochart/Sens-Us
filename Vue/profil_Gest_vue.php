@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../CSS/nav.css">
     <link rel="stylesheet" href="../CSS/background.css">
     <link rel="stylesheet" href="../CSS/profil_vue.css">
-    <title>Document</title>
+    <title>Profil gestionnaire</title>
 </head>
 
 <body class="background">

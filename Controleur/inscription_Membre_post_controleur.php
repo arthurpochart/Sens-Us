@@ -16,24 +16,28 @@ if (
 ) {
     if (!$resultatsMembre) {
         if (preg_match('#^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$#', $_POST['email'])) {
-            if ($_POST['mdp'] == $_POST['mdp-confirm']) {
-                $resultatsGroupe = recherche_groupe_modele($db);
-                if ($resultatsGroupe != false) {
-                    $groupeid = intval($resultatsGroupe['GroupeId']);
-                    $gestid = intval($resultatsGroupe['GestId']);
+            if ($_POST['email'] == $_POST['email-confirm']) {
+                if ($_POST['mdp'] == $_POST['mdp-confirm']) {
+                    $resultatsGroupe = recherche_groupe_modele($db);
+                    if ($resultatsGroupe != false) {
+                        $groupeid = intval($resultatsGroupe['GroupeId']);
+                        $gestid = intval($resultatsGroupe['GestId']);
 
-                    $pass_hache = sha1($_POST['mdp']);
+                        $pass_hache = sha1($_POST['mdp']);
 
-                    inserer_Membre_modele($db, $pass_hache, $groupeid, $gestid);
+                        inserer_Membre_modele($db, $pass_hache, $groupeid, $gestid);
 
-                    $resultatsMembre = recherche_user_modele($db, "membre");
+                        $resultatsMembre = recherche_user_modele($db, "membre");
 
-                    header('Location: ../Vue/login_vue.php');
+                        header('Location: ../Vue/login_vue.php');
+                    } else {
+                        phpAlert("Le code de groupe est incorrect");
+                    }
                 } else {
-                    phpAlert("Erreur de creation de groupe");
+                    phpAlert("Les mots de passe sont différents.");
                 }
             } else {
-                phpAlert("Les mots de passe sont différents.");
+                phpAlert("Les adresses mails sont différentes.");
             }
         } else {
             phpAlert("L'adresse email n'est pas valide");

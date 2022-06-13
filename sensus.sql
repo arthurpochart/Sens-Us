@@ -83,3 +83,14 @@ INSERT INTO `faq` (`QuestionId`, `Question`, `Reponse`) VALUES
 (6, "Mon capteur est inactif comment contacter un technicien ?", "Vous pouvez joindre un de nos responsables techniques au 181 712."),
 (7, "Qui est Aymen ?", "La légende raconte qu'il/elle vogue sur les 7 mers en compagnie de son fidèle dodo gabonais.");
 
+CREATE TABLE `donnee` (
+  `TypeTrame` int NOT NULL,
+  `NumeroObjet` varchar(4) NOT NULL,
+  `TypeRequete` int NOT NULL,
+  `TypeCapteur` int NOT NULL,
+  `NumeroCapteur` int NOT NULL,
+  `Valeur` int NOT NULL,
+  `NumeroTrame` int NOT NULL,
+  `Chcksum` int NOT NULL,
+  `Horodatage` datetime NOT NULL
+);

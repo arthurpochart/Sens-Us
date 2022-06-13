@@ -43,7 +43,8 @@ input[type="password"] {
 }
 
 input[type="password"]:disabled,
-input[type="submit"]:disabled {
+input[type="submit"]:disabled,
+input[name="email-confirm"]:disabled {
   background-color: rgb(228, 224, 224);
 }
 

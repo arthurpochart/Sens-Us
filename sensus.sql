@@ -1,6 +1,4 @@
-CREATE DATABASE IF NOT EXISTS `sensus` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-
-use sensus;
+use 00p4tnpaKt_sensus;
 
 create table capteur
 (
@@ -16,14 +14,7 @@ create table gestionnaire
     Prenom varchar(255) not null,
     Email  varchar(255) not null,
     Mdp    varchar(255) not null,
-<<<<<<< HEAD
-    isAdmin tinyint(1)  not null,
-    GroupeId int(45) not null
-
-
-=======
     isAdmin tinyint(1)  not null
->>>>>>> b44f70edf901972e3e3fd333eeae90e7dddf75fd
 );
 
 INSERT INTO `gestionnaire` (`GestId`, `RIB`, `Nom`, `Prenom`, `Email`, `Mdp`, `isAdmin`) VALUES

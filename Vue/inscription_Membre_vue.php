@@ -43,7 +43,7 @@
                 <input type="text" placeholder="Votre adresse mail" name="email" id="M.email" required><br>
 
                 <label for="M.email-confirm" id="M.label-email-confirm"><b>Confirmer votre email</b></label>
-                <input type="text" placeholder="Confirmez votre adresse mail" name="email-confirm" id="M.email-confirm" required><br>
+                <input type="text" placeholder="Confirmez votre adresse mail" name="email-confirm" id="M.email-confirm" required disabled><br>
 
                 <label for="M.mdp" id="M.label-mdp"><b>Mot de passe</b></label>
                 <input type="password" placeholder="Votre mot de passe" name="mdp" id="M.mdp" required><br>

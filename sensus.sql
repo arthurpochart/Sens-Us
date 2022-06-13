@@ -91,6 +91,6 @@ CREATE TABLE `donnee` (
   `NumeroCapteur` int NOT NULL,
   `Valeur` int NOT NULL,
   `NumeroTrame` int NOT NULL,
-  `Chcksum` int NOT NULL,
+  `Chcksum` varchar(4) NOT NULL,
   `Horodatage` datetime NOT NULL
 );

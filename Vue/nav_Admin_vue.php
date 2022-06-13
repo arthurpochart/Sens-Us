@@ -1,13 +1,13 @@
 <header class="nav">
     <ul>
-        <li><a class="active" href="/Sens-Us/index.php">Accueil</a></li>
-        <li><a href="/Sens-Us/Vue/SensUs_vue.php">Qui sommes-nous ?</a></li>
-        <li><a href="/Sens-Us/Vue/SensCert_vue.php">La Sens'Cert</a></li>
-        <li><a href="/Sens-Us/Vue/contact_vue.php">Contact'Us</a></li>
-        <li><a href="/Sens-Us/Controleur/FAQ_controleur.php">FAQ</a></li>
-        <li><a href="/Sens-Us/Controleur/leaderBoard_controleur.php">LeaderBoard</a></li>
-        <li><a href="/Sens-Us/Controleur/gestion_utilisateurs_controleur.php">Gérer vos utilisateurs</a></li>
-        <li><a href="/Sens-Us/Controleur/profil_Gest_controleur.php">Mon profil</a></li>
-        <li><a href="/Sens-Us/Controleur/deconnexion_controleur.php">Se déconnecter</a></li>
+        <li><a class="active" href="/index.php">Accueil</a></li>
+        <li><a href="/Vue/SensUs_vue.php">Qui sommes-nous ?</a></li>
+        <li><a href="/Vue/SensCert_vue.php">La Sens'Cert</a></li>
+        <li><a href="/Vue/contact_vue.php">Contact'Us</a></li>
+        <li><a href="/Controleur/FAQ_controleur.php">FAQ</a></li>
+        <li><a href="/Controleur/leaderBoard_controleur.php">LeaderBoard</a></li>
+        <li><a href="/Controleur/gestion_utilisateurs_controleur.php">Gérer vos utilisateurs</a></li>
+        <li><a href="/Controleur/profil_Gest_controleur.php">Mon profil</a></li>
+        <li><a href="/Controleur/deconnexion_controleur.php">Se déconnecter</a></li>
     </ul>
 </header>

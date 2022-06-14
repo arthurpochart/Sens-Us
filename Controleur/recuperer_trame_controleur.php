@@ -2,8 +2,11 @@
 
 include "phpAlert.php";
 
-require "../Modele/connect_to_db.php";
+require "Modele/connect_to_db.php";
+var_dump("yo");
+
 $db = dbConnect();
+require "Modele/inserer_trame_modele.php";
 
 $ch = curl_init();
 curl_setopt(
@@ -24,6 +27,7 @@ for ($i = 0, $size = count($data_tab); $i < $size; $i++) {
     $verifHorodatage->bindParam(':horodatage', $horodatage);
     $verifHorodatage->execute();
     $resultatHorodatage = $verifHorodatage->fetch();
+    var_dump($resultatHorodatage);
     if ($resultatHorodatage == false) {
         inserer_trame_modele($db, $t, $o, $r, $c, $n, $v, $a, $x, $horodatage);
     } else {

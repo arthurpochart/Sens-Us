@@ -27,8 +27,7 @@ for ($i = 0, $size = count($data_tab); $i < $size - 1; $i++) {
     $horodatage = date("Y-m-d H:i:s", strtotime($year . "-" . $month . "-" . $day . " " . $hour . ":" . $min . ":" . $sec));
 
     $resultatHorodatage = rechercher_trame_modele($db, $horodatage);
-
-    if ($resultatHorodatage == true) {
+    if ($resultatHorodatage == false) {
         inserer_trame_modele($db, $t, $o, $r, $c, $n, $v, $a, $x, $horodatage);
     }
 }

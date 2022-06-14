@@ -19,7 +19,7 @@
     <?php
     include "Controleur/nav_controleur.php";
     include "Controleur/recuperer_trame_controleur.php";
-    // nav_controleur("Vue/");
+    nav_controleur("Vue/");
     ?>
 
     <header class="header">

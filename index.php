@@ -18,51 +18,8 @@
 
     <?php
     include "Controleur/nav_controleur.php";
-    include "Controleur/phpAlert.php";
-
-    require "Modele/connect_to_db.php";
-    // nav_controleur("Vue/");  
-    $ch = curl_init();
-    curl_setopt(
-        $ch,
-        CURLOPT_URL,
-        "http://projets-tomcat.isep.fr:8080/appService/?ACTION=GETLOG&TEAM=G6-D"
-    );
-    curl_setopt($ch, CURLOPT_HEADER, FALSE);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
-    $data = curl_exec($ch);
-    curl_close($ch);
-    $data_tab = str_split($data, 33);
-    echo "Tabular Data:<br />";
-    for ($i = 0, $size = count($data_tab); $i < $size; $i++) {
-        echo "Trame $i: $data_tab[$i]<br />";
-    }
-    $trame = $data_tab[1];
-    // décodage avec des substring
-    $t = substr($trame, 0, 1);
-    $o = substr($trame, 1, 4);
-    // …
-    // décodage avec sscanf
-    list($t, $o, $r, $c, $n, $v, $a, $x, $year, $month, $day, $hour, $min, $sec) =
-        sscanf($trame, "%1s%4s%1s%1s%2s%4s%4s%2s%4s%2s%2s%2s%2s%2s");
-    $horodatage = date("Y-m-d H:i:s", strtotime($year . "-" . $month . "-" . $day . " " . $hour . ":" . $min . ":" . $sec));
-    echo ("<br />$t,$o,$r,$c,$n,$v,$a,$x,$year,$month,$day,$hour,$min,$sec<br />");
-
-
-    $db = dbConnect();
-    $insererTrame = $db->prepare('INSERT INTO donnee(TypeTrame, NumeroObjet, TypeRequete, TypeCapteur, NumeroCapteur, Valeur, NumeroTrame, Chcksum, Horodatage) VALUES(:typetrame, :numeroobjet, :typerequete, :typecapteur, :numerocapteur, :valeur, :numerotrame, :chcksum, :horodatage)');
-    $insererTrame->bindParam("typetrame", $t);
-    $insererTrame->bindParam("numeroobjet", $o);
-    $insererTrame->bindParam("typerequete", $r);
-    $insererTrame->bindParam("typecapteur", $c);
-    $insererTrame->bindParam("numerocapteur", $n);
-    $insererTrame->bindParam("valeur", $v);
-    $insererTrame->bindParam("numerotrame", $a);
-    $insererTrame->bindParam("chcksum", $x);
-    $insererTrame->bindParam("horodatage", $horodatage);
-    $insererTrame->execute();
-    $insererTrame->closeCursor();
-
+    include "Controleur/recuperer_trame_controleur.php";
+    // nav_controleur("Vue/");
     ?>
 
     <header class="header">

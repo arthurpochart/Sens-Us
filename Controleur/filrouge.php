@@ -15,12 +15,11 @@
 </head>
 
 <body class="background">
-
-
-<?php
+    <?php
     include "Controleur/recuperer_trame_controleur.php";
     ?>
 
 
 </body>
+
 </html>

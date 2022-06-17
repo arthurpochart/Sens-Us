@@ -2,11 +2,11 @@
 
 include "phpAlert.php";
 
-require "/Modele/connect_to_db.php";
+require "Modele/connect_to_db.php";
 
 $db = dbConnect();
-require "/Modele/inserer_trame_modele.php";
-require "/Modele/rechercher_trame_modele.php";
+require "Modele/inserer_trame_modele.php";
+require "Modele/rechercher_trame_modele.php";
 
 
 

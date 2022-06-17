@@ -8,7 +8,6 @@ $db = dbConnect();
 require "Modele/inserer_trame_modele.php";
 require "Modele/rechercher_trame_modele.php";
 
-echo '<script type="text/JavaScript"> location.reload(); </script>';
 
 
 $ch = curl_init();
@@ -34,3 +33,5 @@ for ($i = 0, $size = count($data_tab); $i < $size - 1; $i++) {
         inserer_trame_modele($db, $t, $o, $r, $c, $n, $v, $a, $x, $horodatage);
     }
 }
+
+echo '<script type="text/JavaScript"> location.reload(); </script>';

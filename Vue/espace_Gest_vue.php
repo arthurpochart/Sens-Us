@@ -71,14 +71,14 @@
         let i = 0;
         let randvalue1, randvalue2;
         async function loop(){
-            while (i < 100) {
+            while (i < 1000) {
                 randvalue1 = Math.random() * 100;
                 randvalue2 = Math.random() * 100;
-                gauge1.setValueAnimated(randvalue1 - 20, 3);
+
                 gauge2.setValueAnimated(randvalue2 - 20, 3);
                 i++;
                 getData(1);
-                await sleep(3000);
+                await sleep(1000);
 
             }
         }

@@ -41,7 +41,7 @@
             xhttp.onload = function() {
                 document.getElementById("test").innerHTML = this.responseText;
             }
-            xhttp.open("GET", "getPotData.php?q="+str);
+            xhttp.open("GET", "Modele/getPotData.php?q="+str);
             xhttp.send();
         }
 

@@ -13,7 +13,7 @@
 
 <body class="background">
     <?php
-    include "Controleur/recuperer_trame_controleur.php";
+    include "/Controleur/recuperer_trame_controleur.php";
     ?>
 </body>
 

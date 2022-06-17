@@ -8,12 +8,6 @@ $db = dbConnect();
 require "Modele/inserer_trame_modele.php";
 require "Modele/rechercher_trame_modele.php";
 
-set_time_limit(60);
-for ($i = 0; $i < 59; ++$i) {
-    doMyThings($db);
-    sleep(1);
-}
-
 function doMyThings($db)
 {
     $ch = curl_init();

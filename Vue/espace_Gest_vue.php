@@ -39,7 +39,7 @@
         function getData(str){
             const xhttp = new XMLHttpRequest();
             xhttp.onload = function() {
-                document.getElementById("test").innerHTML = this.responseText;
+                document.getElementById("gauge-particues").setValueAnimated(this.responseText);
             }
             xhttp.open("GET", "getPotData.php?q="+str);
             xhttp.send();
@@ -77,8 +77,9 @@
                 gauge1.setValueAnimated(randvalue1 - 20, 3);
                 gauge2.setValueAnimated(randvalue2 - 20, 3);
                 i++;
-                await sleep(3000);
                 getData(1);
+                await sleep(3000);
+
             }
         }
         loop();

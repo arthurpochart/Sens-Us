@@ -22,6 +22,7 @@
     nav_controleur();
     ?>
     <h1>Mon espace</h1>
+    <h2 id="test"></h2>
     <h2>Taux en ppm de microparticules</h2>
 
     <div class="wrapper">
@@ -35,6 +36,17 @@
 
     <script src="../node_modules/svg-gauge/src/gauge.js"></script>
     <script>
+        function getData(str){
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function() {
+                document.getElementById("test").innerHTML = this.responseText;
+            }
+            xhttp.open("GET", "getcustomer.php?q="+str);
+            xhttp.send();
+        }
+
+
+
         var pad = function(tar) {}
         var gauge1 = Gauge(
             document.getElementById("gauge-particules"), {
@@ -65,10 +77,11 @@
                 gauge1.setValueAnimated(randvalue1 - 20, 3);
                 gauge2.setValueAnimated(randvalue2 - 20, 3);
                 i++;
-                await sleep(3000)
+                await sleep(3000);
+                getData(1);
             }
         }
-        loop()
+        loop();
 
 
     </script>

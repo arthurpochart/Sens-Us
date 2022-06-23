@@ -15,7 +15,6 @@
 <body class="background">
     <?php
     include "../Controleur/nav_controleur.php";
-    nav_controleur();
     ?>
     <h1>Mon espace</h1>
     <h2>Vos capteurs</h2>

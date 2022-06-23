@@ -17,7 +17,7 @@
     nav_controleur();
     ?>
     <div>
-        <h2>LeaderBoard</h2>
+        <h2>Caca</h2>
         <br>
         <table>
             <thead>

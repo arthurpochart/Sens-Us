@@ -67,7 +67,32 @@
         loop()
     </script>
 
+    <table>
+        <thead>
+            <tr>
+                <th>Id de la trame</th>
+                <th>Type du capteur du groupe</th>
+                <th>Numero du capteur</th>
+                <th>Valeur renvoyé</th>
+                <th>Horodatage</th>
+            </tr>
+        </thead>
 
+        <tbody>
+            <?php for ($i = 0; $i < count($resultatsGroupe); $i++) {
+
+            ?>
+                <tr>
+                    <td><?= $resultatsGroupe[$i]['TrameId'] ?></td>
+                    <td><?= $resultatsGroupe[$i]['TypeCapteur'] ?></td>
+                    <td><?= $resultatsGroupe[$i]['NumeroCapteur'] ?></td>
+                    <td><?= $resultatsGroupe[$i]['Valeur'] ?></td>
+                    <td><?= $resultatsGroupe[$i]['Horodatage'] ?></td>
+                </tr>
+            <?php }
+            ?>
+        </tbody>
+    </table>
 </body>
 
 </html>

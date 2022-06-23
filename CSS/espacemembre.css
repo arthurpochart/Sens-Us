@@ -2,6 +2,32 @@ p {
     margin: 30px;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input[type="button"] {
+    padding: 20%;
+    border-radius: 5%;
+    background-color: white;
+    font-size: 17px;
+}
+
+input[type="button"]:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.tableau {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
+  }
+
 h1 {
     margin: 20px;
     background-color: rgb(255, 255, 255);
@@ -12,7 +38,34 @@ h1 {
     text-align: center;
 }
 
+
 h2 {
     margin: 20px;
     color: #04aa6d;
 }
+
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    background-color: rgb(230, 224, 224);
+  }
+  
+  thead {
+    background-color: #04aa6d;
+    color: white;
+  }
+  
+  td, th /* Mettre une bordure sur les td ET les th */ {
+    text-align: center;
+    width: 15%;
+    padding: 15px;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: rgba(197, 197, 197, 0.219);
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: rgba(233, 233, 233, 0.973);
+  }

@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="../CSS/nav.css">
     <link rel="stylesheet" href="../CSS/background.css">
     <link rel="stylesheet" href="../CSS/gauges.css">
+    <link rel="stylesheet" href="../CSS/espacemembre.css">
+
+
     <title>Espace membre</title>
 
 </head>
@@ -25,10 +28,15 @@
         <div id="gauge-co2" class="gauge-container co2">
             <span class="value-text">CO2 µg/m^3</span>
         </div>
+        <div>
+            <form>
+                <input type="button" value="Allumer la LED" onclick="window.location.href = 'allumer_LED.php'" />
+            </form>
+        </div>
     </div>
 
 
-    <script src="../node_modules/svg-gauge/src/gauge.js"></script>
+    <script src=" ../node_modules/svg-gauge/src/gauge.js"></script>
     <script>
         var pad = function(tar) {}
         var gauge1 = Gauge(
@@ -66,33 +74,37 @@
         }
         loop()
     </script>
+    <div>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Id de la trame</th>
-                <th>Type du capteur du groupe</th>
-                <th>Numero du capteur</th>
-                <th>Valeur renvoyé</th>
-                <th>Horodatage</th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <?php for ($i = 0; $i < count($resultatsGroupe); $i++) {
-
-            ?>
+    </div>
+    <div class="tableau">
+        <table>
+            <thead>
                 <tr>
-                    <td><?= $resultatsGroupe[$i]['TrameId'] ?></td>
-                    <td><?= $resultatsGroupe[$i]['TypeCapteur'] ?></td>
-                    <td><?= $resultatsGroupe[$i]['NumeroCapteur'] ?></td>
-                    <td><?= $resultatsGroupe[$i]['Valeur'] ?></td>
-                    <td><?= $resultatsGroupe[$i]['Horodatage'] ?></td>
+                    <th>Id de la trame</th>
+                    <th>Type du capteur</th>
+                    <th>Numero du capteur</th>
+                    <th>Valeur renvoyée</th>
+                    <th>Horodatage</th>
                 </tr>
-            <?php }
-            ?>
-        </tbody>
-    </table>
+            </thead>
+
+            <tbody>
+                <?php for ($i = 0; $i < count($resultatTrame); $i++) {
+
+                ?>
+                    <tr>
+                        <td><?= $resultatTrame[$i]['TrameId'] ?></td>
+                        <td><?= $resultatTrame[$i]['TypeCapteur'] ?></td>
+                        <td><?= $resultatTrame[$i]['NumeroCapteur'] ?></td>
+                        <td><?= $resultatTrame[$i]['Valeur'] ?></td>
+                        <td><?= $resultatTrame[$i]['Horodatage'] ?></td>
+                    </tr>
+                <?php }
+                ?>
+            </tbody>
+        </table>
+    </div>
 </body>
 
 </html>

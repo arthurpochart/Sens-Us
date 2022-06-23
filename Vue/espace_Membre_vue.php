@@ -48,13 +48,14 @@
                 value: 12
             }
         );
+
         function sleep(ms) {
             return new Promise(resolve => setTimeout(resolve, ms));
         }
 
         let i = 0;
         let randvalue1, randvalue2;
-        async function loop(){
+        async function loop() {
             while (i < 100) {
                 randvalue1 = Math.random() * 100;
                 randvalue2 = Math.random() * 100;
@@ -65,9 +66,9 @@
             }
         }
         loop()
-
     </script>
 
 
 </body>
+
 </html>

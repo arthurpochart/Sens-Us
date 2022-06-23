@@ -10,10 +10,11 @@ p {
 }
 
 input[type="button"] {
-    padding: 20%;
+    padding: 10%;
     border-radius: 5%;
     background-color: white;
     font-size: 17px;
+    margin-bottom: 5%;
 }
 
 input[type="button"]:hover {

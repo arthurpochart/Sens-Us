@@ -36,6 +36,7 @@
         <div>
             <form>
                 <input type="button" value="Allumer la LED" onclick="window.location.href = 'allumer_LED_Gest.php'" />
+                <input type="button" value="Eteindre la LED" onclick="window.location.href = 'eteindre_LED_Gest.php'" />
             </form>
         </div>
     </div>

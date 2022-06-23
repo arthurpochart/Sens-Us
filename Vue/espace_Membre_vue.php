@@ -18,6 +18,7 @@
 <body class="background">
     <?php
     include "../Controleur/nav_controleur.php";
+    nav_controleur();
     ?>
     <h1>Mon espace</h1>
     <h2>Vos capteurs</h2>
@@ -30,7 +31,7 @@
         </div>
         <div>
             <form>
-                <input type="button" value="Allumer la LED" onclick="window.location.href = 'allumer_LED.php'" />
+                <input type="button" value="Allumer la LED" onclick="window.location.href = 'allumer_LED_Membre.php'" />
             </form>
         </div>
     </div>
@@ -74,9 +75,6 @@
         }
         loop()
     </script>
-    <div>
-
-    </div>
     <div class="tableau">
         <table>
             <thead>

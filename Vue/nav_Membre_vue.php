@@ -7,7 +7,7 @@
         <li><a href="/Controleur/FAQ_controleur.php">FAQ</a></li>
         <li><a href="/Controleur/leaderBoard_controleur.php">LeaderBoard</a></li>
         <li><a href="/Vue/nosReseaux_vue.php">Nos réseaux</a></li>
-        <li><a href="/Vue/espace_Membre_vue.php">Mon espace</a></li>
+        <li><a href="/Controleur/espace_Membre_controleur.php">Mon espace</a></li>
         <li><a href="/Controleur/profil_Membre_controleur.php">Mon profil</a></li>
         <li><a href="/Controleur/deconnexion_controleur.php">Se déconnecter</a></li>
     </ul>

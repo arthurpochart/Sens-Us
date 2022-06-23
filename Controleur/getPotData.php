@@ -16,7 +16,3 @@ $stmt->fetch();
 $stmt->close();
 
 echo $valeur;
-
-?>
-
-
